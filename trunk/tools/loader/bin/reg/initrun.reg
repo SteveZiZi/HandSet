@@ -1,0 +1,4 @@
+REGEDIT5
+
+[HKEY_LOCAL_MACHINE\init]
+"Launch50"="\FlashDisk2\loader\ProcessLoadingTool.exe"

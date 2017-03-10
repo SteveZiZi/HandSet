@@ -1,0 +1,188 @@
+﻿<!-- 
+    id即为程序中使用的资源
+    val为对应的资源路径
+    
+    资源路径有多国语言的之别
+    例如：
+    <bmp id="" val="logo.bmp" />                ==> logo.bmp
+    <bmp id="" val="usb.bmp" lan="0" />         ==> usb.bmp
+    <bmp id="" val="splash_%d.bmp" lan="1"/>    ==> splash_2052.bmp
+    
+    其中lan属性在不需要多国语言时可以没有
+    即默认lan属性是0
+    
+    有关资源的宏需要自定义在响应的头文件中
+    然后再自行更新此xml
+-->
+
+<?xml version="1.0" encoding="utf-8" ?>
+<bmps>
+    <!-- 预加载图标资源 --->
+    <preload val="true" />
+    
+    <!-- 该标签只是一个虚拟分组功能
+         程序内部逻辑对此标签的任何属性都将忽略
+    -->
+    <group val="LeftMenu" >
+        <bmp id="1002" val="LeftMenu\1002_LeftMenu_Seleted.bmp"/>
+		<bmp id="2980" val="LeftMenu\2980_LeftMenu_TimeWay_Sel.bmp"/>
+		<bmp id="2981" val="LeftMenu\2981_LeftMenu_TimeWay_Unsel.bmp"/> 
+		<bmp id="2982" val="LeftMenu\2982_LeftMenu_InportScl_Sel.bmp"/> 
+		<bmp id="2983" val="LeftMenu\2983_LeftMenu_InportScl_Unsel.bmp"/> 
+		<bmp id="2984" val="LeftMenu\2984_LeftMenu_BaseParam_Sel.bmp"/> 
+		<bmp id="2985" val="LeftMenu\2985_LeftMenu_BaseParam_Unsel.bmp"/> 
+		<bmp id="2986" val="LeftMenu\2986_LeftMenu_WaveOver_Sel.bmp"/> 
+		<bmp id="2987" val="LeftMenu\2987_LeftMenu_WaveOver_Unsel.bmp"/> 
+		<bmp id="2988" val="LeftMenu\2988_LeftMenu_SvMapList_Sel.bmp"/> 
+		<bmp id="2989" val="LeftMenu\2989_LeftMenu_SvMapList_Unsel.bmp"/> 
+		<bmp id="2990" val="LeftMenu\2990_LeftMenu_OutValiable_Sel.bmp"/> 
+		<bmp id="2991" val="LeftMenu\2991_LeftMenu_OutValiable_Unsel.bmp"/> 
+		<bmp id="2992" val="LeftMenu\2992_LeftMenu_Sample_Sel.bmp"/> 
+		<bmp id="2993" val="LeftMenu\2993_LeftMenu_Sample_Unsel.bmp"/> 
+		<bmp id="2994" val="LeftMenu\2994_LeftMenu_ShortCal_Sel.bmp"/> 
+		<bmp id="2995" val="LeftMenu\2995_LeftMenu_ShortCal_Unsel.bmp"/> 
+		<bmp id="2996" val="LeftMenu\2996_LeftMenu_Menubk_Unsel.bmp"/> 
+		<bmp id="2997" val="LeftMenu\2997_LeftMenu_Menubk_Sel.bmp"/> 
+		<bmp id="2998" val="LeftMenu\2998_LeftMenu_ScanArgs_Unsel.bmp"/> 
+		<bmp id="2999" val="LeftMenu\2999_LeftMenu_ScanArgs_Sel.bmp"/> 
+		<bmp id="3000" val="LeftMenu\3000_LeftMenu_Scan9x_Unsel.bmp"/>
+		<bmp id="3001" val="LeftMenu\3001_LeftMenu_Scan9x_Sel.bmp"/>
+		<bmp id="3002" val="LeftMenu\3002_LeftMenu_ScanFt3_Unsel.bmp"/>
+		<bmp id="3003" val="LeftMenu\3003_LeftMenu_ScanFt3_Sel.bmp"/>
+		<bmp id="3004" val="LeftMenu\3004_LeftMenu_ScanGoose_Unsel.bmp"/>
+		<bmp id="3005" val="LeftMenu\3005_LeftMenu_ScanGoose_Sel.bmp"/>
+		<bmp id="3008" val="LeftMenu\3008_LeftMenu_Absrela_Abs.bmp"/>
+		<bmp id="3009" val="LeftMenu\3009_LeftMenu_Absrela_Rela.bmp"/>
+		<bmp id="3060" val="LeftMenu\3060_LeftMenu_Contrul_Unsel.bmp"/>
+		<bmp id="3061" val="LeftMenu\3061_LeftMenu_Contrul_Sel.bmp"/>
+		<bmp id="3062" val="LeftMenu\3062_LeftMenu_Channel_Unsel.bmp"/>
+		<bmp id="3063" val="LeftMenu\3063_LeftMenu_Channel_Sel.bmp"/>
+		<bmp id="3070" val="LeftMenu\3070_LeftMenu_All_Sel.bmp"/>
+		<bmp id="3071" val="LeftMenu\3071_LeftMenu_Change_Sel.bmp"/>
+		<bmp id="3072" val="LeftMenu\3072_LeftMenu_PacketList_sel.bmp"/>
+		<bmp id="3073" val="LeftMenu\3073_LeftMenu_PacketList_Unsel.bmp"/>
+		<bmp id="3074" val="LeftMenu\3074_LeftMenu_AbnorStat_Sel.bmp"/>
+		<bmp id="3075" val="LeftMenu\3075_LeftMenu_AbnorStat_Unsel.bmp"/>
+		<bmp id="3076" val="LeftMenu\3076_LeftMenu_WaveDisplay_Sel.bmp"/>
+		<bmp id="3077" val="LeftMenu\3077_LeftMenu_WaveDisplay_Unsel.bmp"/>
+		<bmp id="3078" val="LeftMenu\3078_LeftMenu_Dispersion_Sel.bmp"/>
+		<bmp id="3079" val="LeftMenu\3079_LeftMenu_Dispersion_Unsel.bmp"/>
+		<bmp id="3084" val="LeftMenu\3084_LeftMenu_Select_Sel.bmp"/>
+		<bmp id="3085" val="LeftMenu\3085_LeftMenu_Stretch_Sel.bmp"/>
+		<bmp id="3086" val="LeftMenu\3086_LeftMenu_Rate_Sel.bmp"/>
+		<bmp id="3087" val="LeftMenu\3087_LeftMenu_Effect_Sel.bmp"/>
+		<bmp id="3088" val="LeftMenu\3088_LeftMenu_RateEffect_Unsel.bmp"/>
+		<bmp id="3089" val="LeftMenu\3089_LeftMenu_Harmonic_Unsel.bmp"/>
+		<bmp id="3090" val="LeftMenu\3090_LeftMenu_Harmonic_sel.bmp"/>
+		<bmp id="3091" val="LeftMenu\3091_LeftMenu_Graphpic_Sel.bmp"/>
+		<bmp id="3092" val="LeftMenu\3092_LeftMenu_Report_Sel.bmp"/>
+		<bmp id="3093" val="LeftMenu\3093_LeftMenu_Phase_Sel.bmp"/>
+		<bmp id="3094" val="LeftMenu\3094_LeftMenu_Alternate_Sel.bmp"/>
+		<bmp id="3095" val="LeftMenu\3095_LeftMenu_First_Sel.bmp"/>
+		<bmp id="3096" val="LeftMenu\3096_LeftMenu_Second_Sel.bmp"/>
+		<bmp id="3097" val="LeftMenu\3097_LeftMenu_Smv1_Sel.bmp"/>
+		<bmp id="3098" val="LeftMenu\3098_LeftMenu_Smv2_Sel.bmp"/>
+		<bmp id="3099" val="LeftMenu\3099_LetfMenu_BaseSet_Sel.bmp"/>
+		<bmp id="3100" val="LeftMenu\3100_LeftMenu_BaseSet_Unsel.bmp"/>
+		<bmp id="3101" val="LeftMenu\3101_LeftMenu_ChannelSet_Sel.bmp"/>
+		<bmp id="3102" val="LeftMenu\3102_LeftMenu_ChannelSet_Unsel.bmp"/>
+		<bmp id="3103" val="LeftMenu\3103_LeftMenu_Monitor_Sel.bmp"/>
+		<bmp id="3104" val="LeftMenu\3104_LeftMenu_Monitor_Unsel.bmp"/>
+		<bmp id="3105" val="LeftMenu\3105_LeftMenu_Dispersion_Sel.bmp"/>
+		<bmp id="3106" val="LeftMenu\3106_LeftMenu_Dispersion_Unsel.bmp"/>
+		<bmp id="3107" val="LeftMenu\3107_LeftMenu_Statistics_Sel.bmp"/>
+		<bmp id="3108" val="LeftMenu\3108_LeftMenu_Statistics_Unsel.bmp"/>
+		<bmp id="3109" val="LeftMenu\3109_LeftMenu_LightPower_Sel.bmp"/>
+		<bmp id="3110" val="LeftMenu\3110_LeftMenu_LightPower_Unsel.bmp"/>
+		<bmp id="3111" val="LeftMenu\3111_LeftMenu_TimeB_Sel.bmp"/>
+		<bmp id="3112" val="LeftMenu\3112_LeftMenu_TimeB_Unsel.bmp"/>
+		<bmp id="3113" val="LeftMenu\3113_LeftMenu_Time1588_Sel.bmp"/>
+		<bmp id="3114" val="LeftMenu\3114_LeftMenu_Time1588_Unsel.bmp"/>
+		<bmp id="3115" val="LeftMenu\3115_LeftMenu_SvList_Sel.bmp"/>
+		<bmp id="3116" val="LeftMenu\3116_LeftMenu_SvList_Unse.bmp"/>
+		<bmp id="3117" val="LeftMenu\3117_LeftMenu_GooseList_Sel.bmp"/>
+		<bmp id="3118" val="LeftMenu\3118_LeftMenu_GooseList_Unsel.bmp"/>
+		<bmp id="3119" val="LeftMenu\3119_LeftMenu_Smv_Sel.bmp"/>
+		<bmp id="3120" val="LeftMenu\3120_LeftMenu_Goose_Sel.bmp"/>
+		<bmp id="12000" val="LeftMenu\12000_LeftMenu_About_Sel.bmp"/>
+		<bmp id="12001" val="LeftMenu\12001_LeftMenu_About_Unsel.bmp"/>
+		<bmp id="12002" val="LeftMenu\12002_LeftMenu_Help_Sel.bmp"/>
+		<bmp id="12003" val="LeftMenu\12003_LeftMenu_Help_Unsel.bmp"/>
+    </group>
+    
+    <group val="MainMenu" >
+        <bmp id="1003" val="MainMenu\1003_MainMenu_Backgroud.bmp"/>
+    </group>
+
+    <group val="MiddleDisplay">
+		<bmp id="2260" val="MiddleDisplay\2260_MiddleDisplay_Shutdown_Icon.bmp" />
+		<bmp id="1004" val="MiddleDisplay\1004_MiddleDisplay_Manual_Send_Welcome.bmp" />
+        <bmp id="2082" val="MiddleDisplay\2082_MiddleDisplay_Check_Sel.bmp" />
+        <bmp id="2083" val="MiddleDisplay\2083_MiddleDisplay_Check_Unsel.bmp" />
+        <bmp id="2084" val="MiddleDisplay\2084_MiddleDisplay_CheckFocus_Sel.bmp" />
+        <bmp id="2085" val="MiddleDisplay\2085_MiddleDisplay_CheckFocus_Unsel.bmp" />
+		<bmp id="2300" val="MiddleDisplay\2300_MiddleDisplay_Locked.bmp" />
+        <bmp id="2301" val="MiddleDisplay\2301_MiddleDisplay_Unlock.bmp" />
+        <bmp id="2500" val="MiddleDisplay\2500_MiddleDisplay_Loading_1.bmp" />
+        <bmp id="2501" val="MiddleDisplay\2501_MiddleDisplay_Loading_2.bmp" />
+		<bmp id="2502" val="MiddleDisplay\2502_MiddleDisplay_Loading_3.bmp" />
+        <bmp id="2503" val="MiddleDisplay\2503_MiddleDisplay_Loading_4.bmp" />
+		<bmp id="2504" val="MiddleDisplay\2504_MiddleDisplay_Loading_5.bmp" />
+        <bmp id="2505" val="MiddleDisplay\2505_MiddleDisplay_Loading_6.bmp" />
+		<bmp id="2506" val="MiddleDisplay\2506_MiddleDisplay_Loading_7.bmp" />
+        <bmp id="2507" val="MiddleDisplay\2507_MiddleDisplay_Loading_8.bmp" />
+		<bmp id="2508" val="MiddleDisplay\2508_MiddleDisplay_Loading_9.bmp" />
+        <bmp id="2509" val="MiddleDisplay\2509_MiddleDisplay_Loading_10.bmp"/>
+		<bmp id="2510" val="MiddleDisplay\2510_MiddleDisplay_Loading_11.bmp" />
+        <bmp id="2511" val="MiddleDisplay\2511_MiddleDisplay_Loading_12.bmp" />
+		<bmp id="2520" val="MiddleDisplay\2520_MiddleDisplay_Recording_1.bmp" />
+        <bmp id="2521" val="MiddleDisplay\2521_MiddleDisplay_Recording_2.bmp" />
+		<bmp id="2522" val="MiddleDisplay\2522_MiddleDisplay_Recording_3.bmp" />
+		<bmp id="2523" val="MiddleDisplay\2523_MiddleDisplay_Recording_4.bmp" />
+        <bmp id="2524" val="MiddleDisplay\2524_MiddleDisplay_Recording_5.bmp" />
+		<bmp id="2525" val="MiddleDisplay\2525_MiddleDisplay_Recording_6.bmp" />
+        <bmp id="4000" val="MiddleDisplay\4000_MiddleDisplay_PolarityDial.bmp" />
+		<bmp id="4001" val="MiddleDisplay\4001_MiddleDisplay_PolarityPoint.bmp" />
+        <bmp id="11001" val="MiddleDisplay\11001_MiddleDisplay_Init.bmp" />
+		<bmp id="11002" val="MiddleDisplay\11002_MiddleDisplay_Off.bmp" />
+		<bmp id="11003" val="MiddleDisplay\11003_MiddleDisplay_On.bmp" />
+		<bmp id="11004" val="MiddleDisplay\11004_MiddleDisplay_Bad.bmp" />
+		<bmp id="11005" val="MiddleDisplay\11005_MiddleDisplay_Disable.bmp" />
+		<bmp id="11210" val="MiddleDisplay\11210_MiddleDisplay_Btn_Cancel_Unsel.bmp" />
+		<bmp id="11211" val="MiddleDisplay\11211_MiddleDisplay_Btn_Cancel_Sel.bmp" />
+		<bmp id="11212" val="MiddleDisplay\11212_MiddleDisplay_Btn_Ok_Unsel.bmp" />
+		<bmp id="11213" val="MiddleDisplay\11213_MiddleDisplay_Btn_Ok_Sel.bmp" />
+		<bmp id="11214" val="MiddleDisplay\11214_MiddleDisplay_Warning_Icon.bmp" />
+    </group>
+    
+    <group val="PopWindow">
+        <bmp id="2979" val="PopWindow\2979_PopWindow_Warning.bmp" />
+    </group>
+    
+    <group val="TopBar">
+        <bmp id="10000" val="TopBar\10000_TopBar_ConUsb.bmp" />
+        <bmp id="10001" val="TopBar\10001_TopBar_DconUsb.bmp" />
+		<bmp id="10002" val="TopBar\10002_TopBar_ConSD.bmp" />
+        <bmp id="10003" val="TopBar\10003_TopBar_DconSd.bmp" />
+		<bmp id="10004" val="TopBar\10004_TopBar_Lock.bmp" />
+		<bmp id="10006" val="TopBar\10006_TopBar_Num.bmp" />
+        <bmp id="10007" val="TopBar\10007_TopBar_Letter.bmp" />
+		<bmp id="10008" val="TopBar\10008_TopBar_1588.bmp" />
+        <bmp id="10009" val="TopBar\10009_TopBar_IrigB.bmp" />
+		<bmp id="10010" val="TopBar\10010_TopBar_Irig-B.bmp" />
+        <bmp id="10100" val="TopBar\10100_TopBar_Battery0.bmp" />
+		<bmp id="10101" val="TopBar\10101_TopBar_Battery1.bmp" />
+        <bmp id="10102" val="TopBar\10102_TopBar_Battery2.bmp" />
+		<bmp id="10103" val="TopBar\10103_TopBar_Battery3.bmp" />
+		<bmp id="10104" val="TopBar\10104_TopBar_Battery4.bmp" />
+		<bmp id="10105" val="TopBar\10105_TopBar_Battery5.bmp" />
+        <bmp id="10150" val="TopBar\10150_TopBar_Charging0.bmp" />
+		<bmp id="10151" val="TopBar\10151_TopBar_Charging1.bmp" />
+        <bmp id="10152" val="TopBar\10152_TopBar_Charging2.bmp" />
+		<bmp id="10153" val="TopBar\10153_TopBar_Charging3.bmp" />
+		<bmp id="10154" val="TopBar\10154_TopBar_Charging4.bmp" />
+		<bmp id="10155" val="TopBar\10155_TopBar_Charging5.bmp" />
+		<bmp id="10200" val="TopBar\10200_TopBar_Topbar.bmp" />
+    </group>
+   
+</bmps>

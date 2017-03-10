@@ -1,0 +1,38 @@
+主要目录结构
+
+FlashDisk/-------------------------------------------实用小工具
+
+FlashDisk2/
+  DSTester/------------------------------------------主程序目录
+    DeviceUpdater/-----------------------------------固件升级管理程序
+    loader/------------------------------------------二级loader
+  dsm_usercfg/---------------------------------------用户配置文件目录
+  loader/--------------------------------------------一级loader启动加载器
+    DSM_BAK/-----------------------------------------备用紧急恢复用
+
+Storage Card/
+  PCAP/
+    GOOSE/-------------------------------------------GOOSE录波报文存放目录
+    SMV/---------------------------------------------SMV录波报文存放目录
+  SCL/-----------------------------------------------SCL配置文件存放目录
+  Snapshot/------------------------------------------截图文件存放目录
+
+
+
+
+启动流程:
+由注册表的init的launch50指向开机启动的程序, 目前是 \FlashDisk2\loader\ProcessLoadingTool.exe
+
+0. ProcessLoadingTool.exe(ProcessLoad.xml) --> 运行键盘程序 --> 运行紧急恢复程序, 检测F3按键是否同时按下 --> 杀死键盘程序
+
+1. --> 拷贝二级loader本身到内存中运行
+
+2. --> 内存ProcessLoadingTool.exe运行(ProcessMemoryLoad.xml) --> 显示logo
+
+3. --> 拷贝DeviceUpdater到内存 --> 解压升级文件UpdateAll.zip到sd卡根目录(zip要包含所有的升级文件以及相关的标记文件 fpgaBoot+FpgaBootFlag.cfg, AppUpgradePack.zip+AppUpgradeFlag.cfg, SystemUpgradePack.zip+SystemUpgradeFlag.cfg)
+
+4. --> 拷贝键盘程序KeyboardAux到内存 --> 执行内存键盘程序 
+
+5. --> 执行FpgaUpdate, DeviceUpdater进行升级固件流程
+
+6. --> DeviceUpdater退出后, 执行DSTester主程序 --> DSTester主程序退出后, 执行explorer

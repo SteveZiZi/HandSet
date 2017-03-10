@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParamConfigTest", "..\..\..\testing\ParamConfigTest\ParamConfigTest.vcproj", "{C66A4636-8E3A-4FB7-AEBB-FD9C6B92FFF5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B782DAA9-F04B-4DA9-84FF-E21D880CD6B9} = {B782DAA9-F04B-4DA9-84FF-E21D880CD6B9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sclanalysis", "..\..\..\testing\SclAnalysisDemo\sclanalysislib_32\sclanalysisdll.vcproj", "{B782DAA9-F04B-4DA9-84FF-E21D880CD6B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug_unicode|Win32 = debug_unicode|Win32
+		release_unicode|Win32 = release_unicode|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C66A4636-8E3A-4FB7-AEBB-FD9C6B92FFF5}.debug_unicode|Win32.ActiveCfg = debug_unicode|Win32
+		{C66A4636-8E3A-4FB7-AEBB-FD9C6B92FFF5}.debug_unicode|Win32.Build.0 = debug_unicode|Win32
+		{C66A4636-8E3A-4FB7-AEBB-FD9C6B92FFF5}.release_unicode|Win32.ActiveCfg = release_unicode|Win32
+		{C66A4636-8E3A-4FB7-AEBB-FD9C6B92FFF5}.release_unicode|Win32.Build.0 = release_unicode|Win32
+		{B782DAA9-F04B-4DA9-84FF-E21D880CD6B9}.debug_unicode|Win32.ActiveCfg = Debug_unicode|Win32
+		{B782DAA9-F04B-4DA9-84FF-E21D880CD6B9}.debug_unicode|Win32.Build.0 = Debug_unicode|Win32
+		{B782DAA9-F04B-4DA9-84FF-E21D880CD6B9}.release_unicode|Win32.ActiveCfg = Release_unicode|Win32
+		{B782DAA9-F04B-4DA9-84FF-E21D880CD6B9}.release_unicode|Win32.Build.0 = Release_unicode|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

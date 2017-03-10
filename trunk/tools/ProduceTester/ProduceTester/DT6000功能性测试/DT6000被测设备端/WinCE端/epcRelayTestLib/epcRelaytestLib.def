@@ -1,0 +1,5 @@
+EXPORTS
+        epcRelayInit @1
+        epcRelayOn @2
+        epcRelayOff @3
+        epcGetOpenInputState @4

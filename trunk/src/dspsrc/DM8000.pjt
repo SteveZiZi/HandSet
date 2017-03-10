@@ -1,0 +1,56 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="D:\MyDocuments\Visual Studio 2005\Projects\DM8000\trunk\dspsrc\"
+ProjectType=Executable
+CPUFamily=TMS320C64XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="DSM800\src\calc\ad2\ad2.c"
+Source="DSM800\src\calc\dispRate\dispRate.c"
+Source="DSM800\src\calc\effValue\effValue.c"
+Source="DSM800\src\calc\fft\fft.c"
+Source="DSM800\src\calc\filter\filter.c"
+Source="DSM800\src\calc\freq\freq.c"
+Source="DSM800\src\calc\harm\harm.c"
+Source="DSM800\src\calc\harm\perTab.c"
+Source="DSM800\src\calc\phaseCheck\phaseCheck.c"
+Source="DSM800\src\calc\phaseSeq\phaseSeq.c"
+Source="DSM800\src\calc\polar\polar.c"
+Source="DSM800\src\calc\power\power.c"
+Source="DSM800\src\calc\sampleCreate\sampleCreate.c"
+Source="DSM800\src\dspCalc.c"
+Source="DSM800\src\main.c"
+Source="dsploop.lib"
+Source="fastrts64x.lib"
+Source="loop.tcf"
+Source="loopcfg.cmd"
+
+[Generated Files]
+Source="loopcfg.s62"
+Source="loopcfg_c.c"
+
+["Compiler" Settings: "Debug"]
+Options=-o3 -fr"$(Proj_dir)\..\build\intermediate\Debug" -i"$(Proj_dir)\export\INCLUDE\DspBios\OMAP3530" -i"$(Proj_dir)\DSM800\src" -i"$(Proj_dir)\..\inc" -i"$(Proj_dir)\DSM800\src\C_fastRTS" -i"$(Proj_dir)\DSM800\src\inc" -d"_DEBUG" -d"TSK_MODE" -d"_DSP" -mv6400+
+
+["Compiler" Settings: "Release"]
+Options=-o3 -fr"$(Proj_dir)\..\build\intermediate\Release" -i"$(Proj_dir)\export\INCLUDE\DspBios\OMAP3530" -i"$(Proj_dir)\DSM800\src" -i"$(Proj_dir)\..\inc" -i"$(Proj_dir)\DSM800\src\C_fastRTS" -i"$(Proj_dir)\DSM800\src\inc" -d"_RELEASE" -d"TSK_MODE" -d"_DSP" -mv6400+
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-Dconfig.importPath="$(Proj_dir)\tci"
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-Dconfig.importPath="$(Proj_dir)\tci"
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\loop.map" -o".\Debug\loop.out" -w -x -l"fastrts64x.lib"
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\loop.map" -o".\Release\loop.out" -w -x -l"fastrts64x.lib"
+

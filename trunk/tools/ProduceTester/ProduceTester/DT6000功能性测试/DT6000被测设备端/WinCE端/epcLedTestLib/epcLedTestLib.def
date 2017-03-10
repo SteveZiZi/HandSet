@@ -1,0 +1,4 @@
+
+EXPORTS
+        epcSetLedMask @1
+        epcGetLedMask @2

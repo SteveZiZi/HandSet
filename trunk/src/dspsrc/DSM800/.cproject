@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule configRelations="2" moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.ti.ccstudio.buildDefinitions.C6000.Debug.367275470">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.ti.ccstudio.buildDefinitions.C6000.Debug.367275470" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.ti.ccstudio.binaryparser.CoffParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.ti.ccstudio.errorparser.LinkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.CoffErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="out" artifactName="${EXT_ROOT__E6000}/Debug/E6000" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" id="com.ti.ccstudio.buildDefinitions.C6000.Debug.367275470" name="Debug" parent="com.ti.ccstudio.buildDefinitions.C6000.Debug">
+					<folderInfo id="com.ti.ccstudio.buildDefinitions.C6000.Debug.367275470." name="/" resourcePath="">
+						<toolChain id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.DebugToolchain.1340864169" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerDebug.968228498">
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1820695839" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+								<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=TMS320C64XX"/>
+								<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=none"/>
+								<listOptionValue builtIn="false" value="OUTPUT_FORMAT=COFF"/>
+								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=5.0.3"/>
+								<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY="/>
+								<listOptionValue builtIn="false" value="OUTPUT_TYPE=executable"/>
+								<listOptionValue builtIn="false" value="DSPBIOS_VERSION=5.41.10.36"/>
+								<listOptionValue builtIn="false" value="RTSC_PRODUCTS=com.ti.rtsc.XDAIS:latest;"/>
+								<listOptionValue builtIn="false" value="LINK_ORDER="/>
+							</option>
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.107437795" name="Code Generation tools version" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="7.2.1" valueType="string"/>
+							<targetPlatform id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.targetPlatformDebug.791137171" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.targetPlatformDebug"/>
+							<builder buildPath="${workspace_loc:/E6000/Debug}" id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.builderDebug.158453006" keepEnvironmentInBuildfile="false" name="GNU Make" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.builderDebug"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug">
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIAG_WARNING.189996964" name="Treat diagnostic &lt;id&gt; as warning (--diag_warning, -pdsw)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIAG_WARNING" valueType="stringList">
+									<listOptionValue builtIn="false" value="225"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.INCLUDE_PATH.1003045241" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.INCLUDE_PATH" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PROJECT_BUILD_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BIOS_INCLUDE_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${RTDX_INCLUDE_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${XDAIS_CG_ROOT}/packages/ti/xdais&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${C6000_CSL_CG_ROOT}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/export/INCLUDE/DspBios/OMAP3530&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:/CCStudio_v3.3/c6400/C_fastRTS/include&quot;"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI.1373927941" name="Application binary interface (coffabi, eabi) (--abi)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI" value="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI.coffabi" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIRECTORY_MODE.851753751" name="Mode" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIRECTORY_MODE" value="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIRECTORY_MODE.manual" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OBJ_DIRECTORY.77461334" name="Object file directory (default is .) (--obj_directory, -fr)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OBJ_DIRECTORY" value="&quot;${EXT_ROOT__E6000}/Debug&quot;" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DEFINE.832973070" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DEFINE" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="&quot;_DEBUG&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;TSK_MODE&quot;"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.SILICON_VERSION.1813973403" name="Target processor version (--silicon_version, -mv)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.SILICON_VERSION" value="6400+" valueType="string"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.2074393297" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.1120392998" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.59301369" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.1508932860" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerDebug.968228498" name="C6000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerDebug">
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.OUTPUT_FILE.344526709" name="Specify output file name (--output_file, -o)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.OUTPUT_FILE" value="&quot;${EXT_ROOT__E6000}/Debug/E6000.out&quot;" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.MAP_FILE.2082908285" name="Input and output sections listed into &lt;file&gt; (--map_file, -m)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.MAP_FILE" value="&quot;${EXT_ROOT__E6000}/Debug/E6000.map&quot;" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.SEARCH_PATH.864272306" name="Add &lt;dir&gt; to library search path (--search_path, -i)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.SEARCH_PATH" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${RTDX_LIB_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BIOS_LIB_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PROJECT_ROOT}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${C6000_CSL_CG_ROOT}/lib&quot;"/>
+								</option>
+							</tool>
+							<tool id="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.309984845" name="TConf Script Compiler" superClass="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool">
+								<option id="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.CONFIG_IMPORT_PATH.1292014664" name="Configuration import path" superClass="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.CONFIG_IMPORT_PATH" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${BIOS_CG_ROOT}/packages&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/tci&quot;"/>
+								</option>
+								<inputType id="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.inputType__TCF.1600934731" name="TConf Scripts" superClass="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.inputType__TCF"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Debug.367275470.dsploop.lib" name="dsploop.lib" rcbsApplicability="disable" resourcePath="dsploop.lib" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerDebug.968228498.70452510">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerDebug.968228498.70452510" name="C6000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerDebug.968228498"/>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Debug.367275470.src/main.c" name="main.c" rcbsApplicability="disable" resourcePath="src/main.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838.900481138">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838.900481138" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.1036819874" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.1079995033" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.283594089" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.2027023144" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Debug.367275470.src/Vector/Vector.c" name="Vector.c" rcbsApplicability="disable" resourcePath="src/Vector/Vector.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838.1438210611">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838.1438210611" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.374046452" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.1552744373" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.237628806" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.1068569141" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Debug.367275470.src/harm/harm.c" name="harm.c" rcbsApplicability="disable" resourcePath="src/harm/harm.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838.875961972">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838.875961972" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.429611647" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.2054422746" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.225014968" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.29023790" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Debug.367275470.src/effVale/effVale.c" name="effVale.c" rcbsApplicability="disable" resourcePath="src/effVale/effVale.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838.1765748624">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838.1765748624" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.1384026081" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.302122765" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.1886673111" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.862083322" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Debug.367275470.src/FFT/fft.c" name="fft.c" rcbsApplicability="disable" resourcePath="src/FFT/fft.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838.1331443578">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838.1331443578" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1166612838">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.1321107261" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.2052328514" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.107818424" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.945640252" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+			<storageModule moduleId="scannerConfiguration"/>
+		</cconfiguration>
+		<cconfiguration id="com.ti.ccstudio.buildDefinitions.C6000.Release.199872539">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.ti.ccstudio.buildDefinitions.C6000.Release.199872539" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.ti.ccstudio.binaryparser.CoffParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.ti.ccstudio.errorparser.LinkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.CoffErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="out" artifactName="${EXT_ROOT__E6000}/Release/E6000" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" id="com.ti.ccstudio.buildDefinitions.C6000.Release.199872539" name="Release" parent="com.ti.ccstudio.buildDefinitions.C6000.Release">
+					<folderInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.199872539." name="/" resourcePath="">
+						<toolChain id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.ReleaseToolchain.325825940" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.ReleaseToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease.1076459798">
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.40003121" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+								<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=com.ti.ccstudio.deviceModel.C6000.GenericC64xPlusDevice"/>
+								<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=little"/>
+								<listOptionValue builtIn="false" value="OUTPUT_FORMAT=COFF"/>
+								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=5.0.3"/>
+								<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=libc.a"/>
+								<listOptionValue builtIn="false" value="DSPBIOS_VERSION=5.41.10.36"/>
+								<listOptionValue builtIn="false" value="RTSC_PRODUCTS=com.ti.rtsc.XDAIS:latest;"/>
+								<listOptionValue builtIn="false" value="OUTPUT_TYPE=bios5Application:rtscApplication:executable"/>
+								<listOptionValue builtIn="false" value="LINK_ORDER="/>
+							</option>
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.291845291" name="Code Generation tools version" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="7.2.1" valueType="string"/>
+							<targetPlatform id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.targetPlatformRelease.1761838640" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.targetPlatformRelease"/>
+							<builder buildPath="${workspace_loc:/E6000/Release}" id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.builderRelease.934324064" keepEnvironmentInBuildfile="false" name="GNU Make" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.builderRelease"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease">
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.SILICON_VERSION.1976302135" name="Target processor version (--silicon_version, -mv)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.SILICON_VERSION" value="64+" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OPT_LEVEL.release.1030553943" name="Optimization level (--opt_level, -O)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OPT_LEVEL.release" value="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OPT_LEVEL.3" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DEFINE.596540558" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DEFINE" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="&quot;_RELEASE&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;TSK_MODE&quot;"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.INCLUDE_PATH.716068990" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.INCLUDE_PATH" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/E6000/src/flicker&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/E6000/src/fluct&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PROJECT_BUILD_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BIOS_INCLUDE_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${RTDX_INCLUDE_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${XDAIS_CG_ROOT}/packages/ti/xdais&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${C6000_CSL_CG_ROOT}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/export/INCLUDE/DspBios/OMAP3530&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/E6000/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/E6000/src/C_fastRTS&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/E6000/src/effVale&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/E6000/src/FFT&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/E6000/src/harm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/E6000/src/Vector&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/E6000/src/Statistics&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/E6000/src/utils&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/E6000/src/PhaseSeq&quot;"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIAG_WARNING.49138214" name="Treat diagnostic &lt;id&gt; as warning (--diag_warning, -pdsw)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIAG_WARNING" valueType="stringList">
+									<listOptionValue builtIn="false" value="225"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI.252656294" name="Application binary interface (coffabi, eabi) (--abi)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI" value="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI.coffabi" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIRECTORY_MODE.2012810188" name="Mode" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIRECTORY_MODE" value="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIRECTORY_MODE.manual" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OBJ_DIRECTORY.150661846" name="Object file directory (default is .) (--obj_directory, -fr)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OBJ_DIRECTORY" value="&quot;${EXT_ROOT__E6000}/Release&quot;" valueType="string"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.1548528724" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.641459777" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.1289468889" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.1347970950" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease.1076459798" name="C6000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease">
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.OUTPUT_FILE.1140618712" name="Specify output file name (--output_file, -o)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.OUTPUT_FILE" value="&quot;${EXT_ROOT__E6000}/Release/E6000.out&quot;" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.MAP_FILE.2076986960" name="Input and output sections listed into &lt;file&gt; (--map_file, -m)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.MAP_FILE" value="&quot;${EXT_ROOT__E6000}/Release/E6000.map&quot;" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.SEARCH_PATH.436820703" name="Add &lt;dir&gt; to library search path (--search_path, -i)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.SEARCH_PATH" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${RTDX_LIB_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BIOS_LIB_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PROJECT_ROOT}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${C6000_CSL_CG_ROOT}/lib&quot;"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.LIBRARY.1422374201" name="Include library file or command file as input (--library, -l)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.LIBRARY" valueType="libs">
+									<listOptionValue builtIn="false" value="&quot;libc.a&quot;"/>
+								</option>
+							</tool>
+							<tool id="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.1542278168" name="TConf Script Compiler" superClass="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool">
+								<option id="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.CONFIG_IMPORT_PATH.738336279" name="Configuration import path" superClass="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.CONFIG_IMPORT_PATH" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${BIOS_CG_ROOT}/packages&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/tci&quot;"/>
+								</option>
+								<inputType id="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.inputType__TCF.396348314" name="TConf Scripts" superClass="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.inputType__TCF"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.199872539.dsploop.lib" name="dsploop.lib" rcbsApplicability="disable" resourcePath="dsploop.lib" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease.1076459798.265485873">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease.1076459798.265485873" name="C6000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease.1076459798"/>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.199872539.src/main.c" name="main.c" rcbsApplicability="disable" resourcePath="src/main.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747.1842237656">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747.1842237656" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.1152941151" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.369617045" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.1830068774" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.1448864283" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.199872539.src/Vector/Vector.c" name="Vector.c" rcbsApplicability="disable" resourcePath="src/Vector/Vector.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747.1976103567">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747.1976103567" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.1452410862" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.1454998508" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.494496668" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.71995218" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.199872539.src/harm/harm.c" name="harm.c" rcbsApplicability="disable" resourcePath="src/harm/harm.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747.151953866">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747.151953866" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.742924754" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.1033759516" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.929039618" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.1924647770" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.199872539.src/effVale/effVale.c" name="effVale.c" rcbsApplicability="disable" resourcePath="src/effVale/effVale.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747.1020749363">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747.1020749363" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.1121068313" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.1464276585" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.1457561495" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.681921953" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.199872539.src/FFT/fft.c" name="fft.c" rcbsApplicability="disable" resourcePath="src/FFT/fft.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747.137281046">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747.137281046" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1247495747">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.1038470286" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.1717914807" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.2118016094" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.102112238" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+			<storageModule moduleId="scannerConfiguration"/>
+		</cconfiguration>
+		<cconfiguration id="com.ti.ccstudio.buildDefinitions.C6000.Release.1665187992">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.ti.ccstudio.buildDefinitions.C6000.Release.1665187992" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.ti.ccstudio.binaryparser.CoffParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.ti.ccstudio.errorparser.LinkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.CoffErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="out" artifactName="${EXT_ROOT__E6000}/Release/E6000" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" id="com.ti.ccstudio.buildDefinitions.C6000.Release.1665187992" name="Release" parent="com.ti.ccstudio.buildDefinitions.C6000.Release">
+					<folderInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.1665187992." name="/" resourcePath="">
+						<toolChain id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.ReleaseToolchain.1589936065" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.ReleaseToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease.1279146322">
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1892587302" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+								<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=TMS320C64XX"/>
+								<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=none"/>
+								<listOptionValue builtIn="false" value="OUTPUT_FORMAT=COFF"/>
+								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=5.0.3"/>
+								<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY="/>
+								<listOptionValue builtIn="false" value="OUTPUT_TYPE=executable"/>
+								<listOptionValue builtIn="false" value="DSPBIOS_VERSION=5.41.10.36"/>
+								<listOptionValue builtIn="false" value="RTSC_PRODUCTS=com.ti.rtsc.XDAIS:latest;"/>
+								<listOptionValue builtIn="false" value="LINK_ORDER="/>
+							</option>
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.1941639667" name="Code Generation tools version" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="7.2.1" valueType="string"/>
+							<targetPlatform id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.targetPlatformRelease.720005085" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.targetPlatformRelease"/>
+							<builder buildPath="${workspace_loc:/E6000/Release}" id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.builderRelease.1091878565" keepEnvironmentInBuildfile="false" name="GNU Make" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.builderRelease"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.893620550" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease">
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIAG_WARNING.577886012" name="Treat diagnostic &lt;id&gt; as warning (--diag_warning, -pdsw)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIAG_WARNING" valueType="stringList">
+									<listOptionValue builtIn="false" value="225"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.INCLUDE_PATH.979953637" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.INCLUDE_PATH" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PROJECT_BUILD_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BIOS_INCLUDE_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${RTDX_INCLUDE_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${XDAIS_CG_ROOT}/packages/ti/xdais&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${C6000_CSL_CG_ROOT}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/export/INCLUDE/DspBios/OMAP3530&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/src/C_fastRTS&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/src/effVale&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/src/FFT&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/src/harm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/src/Vector&quot;"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI.1981052855" name="Application binary interface (coffabi, eabi) (--abi)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI" value="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI.coffabi" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OPT_LEVEL.release.178095217" name="Optimization level (--opt_level, -O)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OPT_LEVEL.release" value="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OPT_LEVEL.3" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIRECTORY_MODE.1733918889" name="Mode" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIRECTORY_MODE" value="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIRECTORY_MODE.manual" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OBJ_DIRECTORY.264495492" name="Object file directory (default is .) (--obj_directory, -fr)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OBJ_DIRECTORY" value="&quot;${EXT_ROOT__E6000}/Release&quot;" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DEFINE.2009403412" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DEFINE" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="&quot;_RELEASE&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;TSK_MODE&quot;"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.SILICON_VERSION.336437607" name="Target processor version (--silicon_version, -mv)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.SILICON_VERSION" value="6400+" valueType="string"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.1952569452" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.995555807" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.474596599" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.1271404838" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease.623921519" name="C6000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease">
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.OUTPUT_FILE.99097896" name="Specify output file name (--output_file, -o)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.OUTPUT_FILE" value="&quot;${EXT_ROOT__E6000}/Release/E6000.out&quot;" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.MAP_FILE.1516959619" name="Input and output sections listed into &lt;file&gt; (--map_file, -m)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.MAP_FILE" value="&quot;${EXT_ROOT__E6000}/Release/E6000.map&quot;" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.SEARCH_PATH.660674342" name="Add &lt;dir&gt; to library search path (--search_path, -i)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.SEARCH_PATH" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${RTDX_LIB_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${BIOS_LIB_DIR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PROJECT_ROOT}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${C6000_CSL_CG_ROOT}/lib&quot;"/>
+								</option>
+							</tool>
+							<tool id="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.1119688503" name="TConf Script Compiler" superClass="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool">
+								<option id="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.CONFIG_IMPORT_PATH.1220819723" name="Configuration import path" superClass="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.CONFIG_IMPORT_PATH" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${BIOS_CG_ROOT}/packages&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__E6000}/tci&quot;"/>
+								</option>
+								<inputType id="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.inputType__TCF.1498965152" name="TConf Scripts" superClass="com.ti.rtsc.buildDefinitions.DSPBIOS_5.40.tool.inputType__TCF"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.1665187992.dsploop.lib" name="dsploop.lib" rcbsApplicability="disable" resourcePath="dsploop.lib" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease.1220591556">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease.1220591556" name="C6000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease.623921519"/>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.1665187992.src/main.c" name="main.c" rcbsApplicability="disable" resourcePath="src/main.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1010358583">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1010358583" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.893620550">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.2080639622" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.876099354" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.822818860" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.858198258" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.1665187992.src/Vector/Vector.c" name="Vector.c" rcbsApplicability="disable" resourcePath="src/Vector/Vector.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1314143563">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1314143563" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.893620550">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.1935729313" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.819591394" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.2110591216" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.595104482" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.1665187992.src/harm/harm.c" name="harm.c" rcbsApplicability="disable" resourcePath="src/harm/harm.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1370654842">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1370654842" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.893620550">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.1831068980" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.1987461929" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.67195895" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.410852973" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.1665187992.src/effVale/effVale.c" name="effVale.c" rcbsApplicability="disable" resourcePath="src/effVale/effVale.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1748384269">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1748384269" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.893620550">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.248927427" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.137234986" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.964059655" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.19929709" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.1665187992.src/FFT/fft.c" name="fft.c" rcbsApplicability="disable" resourcePath="src/FFT/fft.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.646157355">
+						<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.646157355" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.893620550">
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS.2040930494" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS.1758485409" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS.1335728242" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS.1487985049" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="scannerConfiguration"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="E6000.com.ti.ccstudio.buildDefinitions.C6000.ProjectType.555642527" name="C6000" projectType="com.ti.ccstudio.buildDefinitions.C6000.ProjectType"/>
+	</storageModule>
+</cproject>

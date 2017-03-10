@@ -1,0 +1,200 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\DspDemo.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DspDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DspDemo_DIALOG DIALOG  0, 0, 455, 379
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW | 0x80000000L
+CAPTION "DspDemo"
+FONT 9, "MS Shell Dlg"
+BEGIN
+    LTEXT           "CPU信息：",IDC_STATIC,13,19,34,8
+    LTEXT           "DSP Rate：",IDC_STATIC,13,37,39,8
+    LTEXT           "MHz",IDC_STATIC,115,37,14,8
+    EDITTEXT        IDC_EDIT1,52,16,77,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT2,52,34,60,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT5,144,17,57,352,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "DSP RUN",IDC_BUTTON1,15,67,50,15
+    GROUPBOX        "获取系统信息",IDC_STATIC,7,7,129,48
+    EDITTEXT        IDC_EDIT6,203,17,220,353,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+    GROUPBOX        "DSP返回数据",IDC_STATIC,143,7,298,364
+    PUSHBUTTON      "DSP STOP",IDC_BUTTON2,80,67,50,15
+    PUSHBUTTON      "停止刷新",IDC_BUTTON3,15,93,50,15
+    PUSHBUTTON      "开始刷新",IDC_BUTTON4,80,93,50,15
+    LTEXT           "DspConfig：",IDC_STATIC,15,152,39,8
+    LTEXT           "ms",IDC_STATIC,123,153,10,8
+    EDITTEXT        IDC_EDIT_DSPCONFIG,58,149,60,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,58,129,60,14,ES_AUTOHSCROLL
+    LTEXT           "Smv10Calc：",IDC_STATIC,15,212,41,8
+    LTEXT           "ms",IDC_STATIC,123,213,10,8
+    EDITTEXT        IDC_EDIT_SMV10CALC,58,209,60,14,ES_AUTOHSCROLL
+    LTEXT           "SmvGen：",IDC_STATIC,15,232,34,8
+    LTEXT           "ms",IDC_STATIC,123,233,10,8
+    EDITTEXT        IDC_EDIT_SMVGEN,58,229,60,14,ES_AUTOHSCROLL
+    LTEXT           "MsgDisp：",IDC_STATIC,15,252,32,8
+    LTEXT           "ms",IDC_STATIC,123,253,10,8
+    EDITTEXT        IDC_EDIT_MSGDISP,58,249,60,14,ES_AUTOHSCROLL
+    LTEXT           "Smv1Calc：",IDC_STATIC,15,192,37,8
+    LTEXT           "ms",IDC_STATIC,123,193,10,8
+    EDITTEXT        IDC_EDIT_SMV1CALC,58,189,60,14,ES_AUTOHSCROLL
+    LTEXT           "DspInfo：",IDC_STATIC,15,172,32,8
+    LTEXT           "ms",IDC_STATIC,123,173,10,8
+    EDITTEXT        IDC_EDIT_DSPINFO,58,169,60,14,ES_AUTOHSCROLL
+    LTEXT           "TotalTime：",IDC_STATIC,15,272,39,8
+    LTEXT           "ms",IDC_STATIC,123,273,10,8
+    EDITTEXT        IDC_EDIT_TOTALTIME,58,269,60,14,ES_AUTOHSCROLL
+    LTEXT           "Data：",IDC_STATIC,15,132,22,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "DspDemo.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "DspDemo.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DspDemo_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 441
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 371
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\DspDemo.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

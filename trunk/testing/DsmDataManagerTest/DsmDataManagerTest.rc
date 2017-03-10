@@ -1,0 +1,395 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\DsmDataManagerTest.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DsmDataManagerTest.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DSMDATAMANAGERTEST_DIALOG DIALOG  0, 0, 319, 214
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE | WS_EX_APPWINDOW | 0x80000000L
+CAPTION "DsmDataManagerTest"
+FONT 9, "MS Shell Dlg"
+BEGIN
+    EDITTEXT        IDC_EDIT_TEST_RESULT,10,8,130,177,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "开始探测",IDC_BUTTON_BEGIN_DETECT,150,23,39,14
+    PUSHBUTTON      "获取探测结果",IDC_BUTTON_GET_DETECT_RESULT,195,23,47,14
+    PUSHBUTTON      "加载scl文件",IDC_BUTTON_LOAD_SCL,143,144,39,14
+    PUSHBUTTON      "停止接收",IDC_BUTTON_STOP_RECV,247,23,39,14
+    COMBOBOX        IDC_COMBO_DETECT_ITEM,154,6,91,81,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "设置网络控制块",IDC_BUTTON_SET_CUR_CB,150,56,63,14
+    PUSHBUTTON      "设置接收数据",IDC_BUTTON_SET_RECV,230,91,55,14
+    PUSHBUTTON      "参数配置",IDC_BUTTON_PARAM_CONFIG_BASIC,143,159,39,15
+    PUSHBUTTON      "接收配置",IDC_BUTTON_RECV_CONFIG_PUB,143,176,39,15
+    COMBOBOX        IDC_COMBO_DSM_MODE,150,74,165,126,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "设置模式",IDC_BUTTON_SET_MODE,150,91,60,14
+    PUSHBUTTON      "设置FT3控制块",IDC_BUTTON_SET_FT3_CUR_BLK,225,57,63,14
+    PUSHBUTTON      "添加过滤控制块",IDC_BUTTON_ADD_FILTER,150,40,63,14
+    EDITTEXT        IDC_EDIT_RECORD_WAVE_PATH,151,112,160,11,ES_AUTOHSCROLL
+    PUSHBUTTON      "开始录波",IDC_BUTTON_BEGAIN_RECORD,151,123,58,19
+    PUSHBUTTON      "停止录波",IDC_BUTTON_STOP_RECORD,231,123,58,19
+    PUSHBUTTON      "DataLayerInit",IDC_BUTTON_RECV_INIT,271,145,46,17
+    PUSHBUTTON      "DataLayerUnInit",IDC_BUTTON_RECV_UNINIT,270,166,46,17
+    LTEXT           "系统时间:",IDC_STATIC,174,195,39,8
+    LTEXT           "FPGA时间:",IDC_STATIC,173,204,39,8
+    EDITTEXT        IDC_EDIT_TIME,1,200,107,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "SetTime",IDC_BUTTON_SET_TIME,115,201,43,11
+    CONTROL         "设置FPGA时间",IDC_CHECK_SET_FPGA_TIME,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,114,191,60,10
+    LTEXT           "systime",IDC_STATIC_SYS_TIME,220,193,92,8
+    LTEXT           "fpgatime",IDC_STATIC_FPGA_TIME,220,202,92,8
+END
+
+IDD_DIALOG_PARAM_CONFIG DIALOG  0, 0, 273, 201
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,216,163,50,14
+    PUSHBUTTON      "取消",IDCANCEL,216,180,50,14
+    EDITTEXT        IDC_EDIT_FREQ,52,18,50,13,ES_AUTOHSCROLL
+    LTEXT           "频率",IDC_STATIC,17,21,16,9
+    LTEXT           "电压一次",IDC_STATIC,13,42,35,9
+    LTEXT           "电压二次",IDC_STATIC,129,39,39,9
+    LTEXT           "SCL文件",IDC_STATIC,17,131,43,9
+    LTEXT           "电流一次",IDC_STATIC,14,68,33,9
+    LTEXT           "电流二次",IDC_STATIC,128,67,38,9
+    LTEXT           "数据帧数据类型",IDC_STATIC,122,18,57,9
+    COMBOBOX        IDC_COMBO_VALUE_TYPE,191,15,59,38,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_VOL1,52,39,50,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_VOL2,175,38,50,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CUR1,51,66,50,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CUR2,175,65,50,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SCL_FILE,63,129,161,13,ES_AUTOHSCROLL
+    LTEXT           "MU延时",IDC_STATIC,16,96,28,9
+    EDITTEXT        IDC_EDIT_MU_DELAY,50,94,50,13,ES_AUTOHSCROLL
+    LTEXT           "对时方案",IDC_STATIC,127,97,40,9
+    COMBOBOX        IDC_COMBO_TIME_SYNC_MODE,191,95,50,40,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "读",IDC_BUTTON_READ,29,163,55,17
+    PUSHBUTTON      "写",IDC_BUTTON_WRITE,107,163,55,17
+END
+
+IDD_DIALOG_RECV_CONFIG_PUB DIALOG  0, 0, 273, 201
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "接收配置"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,216,161,50,14
+    PUSHBUTTON      "取消",IDCANCEL,216,180,50,14
+    LTEXT           "显示类型",IDC_STATIC,17,21,42,9
+    LTEXT           "采样率",IDC_STATIC,18,43,38,9
+    LTEXT           "核相对齐方式",IDC_STATIC,17,68,49,9
+    COMBOBOX        IDC_COMBO_DISP_TYPE,76,18,71,41,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SAMPLE_RATE,76,41,71,41,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_PHASE_CHECK_ALIGN,76,65,71,41,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "THD",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,92,41,12
+    CONTROL         "DC",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,106,41,12
+    CONTROL         "1",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,120,31,12
+    CONTROL         "2",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,134,31,12
+    CONTROL         "3",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,148,31,12
+    CONTROL         "4",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,162,31,12
+    CONTROL         "5",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,73,92,41,12
+    CONTROL         "6",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,73,105,41,12
+    CONTROL         "7",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,72,120,31,12
+    CONTROL         "8",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,72,134,31,12
+    CONTROL         "9",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,72,148,31,12
+    CONTROL         "10",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,72,161,31,12
+    CONTROL         "11",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,124,92,41,12
+    CONTROL         "12",IDC_CHECK14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,124,106,41,12
+    CONTROL         "13",IDC_CHECK15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,123,120,31,12
+    CONTROL         "14",IDC_CHECK16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,123,134,31,12
+    CONTROL         "15",IDC_CHECK17,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,123,148,31,12
+    CONTROL         "16",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,123,162,31,12
+    CONTROL         "17",IDC_CHECK19,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,166,91,41,12
+    CONTROL         "18",IDC_CHECK20,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,166,105,41,12
+    CONTROL         "19",IDC_CHECK21,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,165,119,31,12
+    CONTROL         "20",IDC_CHECK22,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,165,133,31,12
+    CONTROL         "21",IDC_CHECK23,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,165,147,31,12
+    PUSHBUTTON      "读",IDC_BUTTON_READ,222,27,44,14
+    PUSHBUTTON      "写",IDC_BUTTON_WRITE_SMV_CONFIG,222,43,44,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "DsmDataManagerTest.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "DsmDataManagerTest.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DSMDATAMANAGERTEST_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_DETECT_ITEM, 0x403, 8, 0
+0x454e, 0x5f54, 0x4d53, 0x0056, 
+    IDC_COMBO_DETECT_ITEM, 0x403, 6, 0
+0x4f47, 0x534f, 0x0045, 
+    IDC_COMBO_DETECT_ITEM, 0x403, 5, 0
+0x3531, 0x3838, "\000" 
+    IDC_COMBO_DETECT_ITEM, 0x403, 4, 0
+0x5446, 0x0033, 
+    IDC_COMBO_DSM_MODE, 0x403, 16, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x555f, 0x4b4e, 0x574f, 0x004e, 
+    IDC_COMBO_DSM_MODE, 0x403, 19, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x4d5f, 0x4941, 0x5f4e, 0x4150, 0x4547, 
+"\000" 
+    IDC_COMBO_DSM_MODE, 0x403, 27, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x515f, 0x4955, 0x5f54, 0x5543, 0x5252, 
+0x4e45, 0x5f54, 0x4150, 0x4547, "\000" 
+    IDC_COMBO_DSM_MODE, 0x403, 16, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x445f, 0x5445, 0x4345, 0x0054, 
+    IDC_COMBO_DSM_MODE, 0x403, 16, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x465f, 0x4c49, 0x4554, 0x0052, 
+    IDC_COMBO_DSM_MODE, 0x403, 30, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x534f, 0x4943, 0x4c4c, 0x474f, 0x4152, 0x004d, 
+    IDC_COMBO_DSM_MODE, 0x403, 34, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x4645, 0x4546, 0x5443, 0x5649, 0x5f45, 0x4156, 0x554c, 0x0045, 
+    IDC_COMBO_DSM_MODE, 0x403, 25, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x4850, 0x5341, 0x524f, "\000" 
+    IDC_COMBO_DSM_MODE, 0x403, 27, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x5558, 0x4c5f, 0x4149, 0x474e, "\000" 
+    IDC_COMBO_DSM_MODE, 0x403, 24, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x4f50, 0x4557, 0x0052, 
+    IDC_COMBO_DSM_MODE, 0x403, 27, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x4148, 0x4d52, 0x4e4f, 0x4349, "\000" 
+    IDC_COMBO_DSM_MODE, 0x403, 28, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x4f44, 0x4255, 0x454c, 0x415f, 0x0044, 
+    IDC_COMBO_DSM_MODE, 0x403, 30, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x4850, 0x5341, 0x5f45, 0x4843, 0x4345, 0x004b, 
+    IDC_COMBO_DSM_MODE, 0x403, 27, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x4f50, 0x414c, 0x4952, 0x5954, "\000" 
+    IDC_COMBO_DSM_MODE, 0x403, 31, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x5453, 0x5441, 0x5355, 0x575f, 0x5441, 0x4843, "\000" 
+    IDC_COMBO_DSM_MODE, 0x403, 29, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x4944, 0x5053, 0x5245, 0x4953, 0x4e4f, "\000" 
+    IDC_COMBO_DSM_MODE, 0x403, 31, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x5246, 0x4d41, 0x5f45, 0x5453, 0x5441, 0x4349, "\000" 
+    IDC_COMBO_DSM_MODE, 0x403, 32, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x5246, 0x4d41, 0x5f45, 0x4f4d, 0x494e, 0x4f54, 0x0052, 
+    IDC_COMBO_DSM_MODE, 0x403, 30, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x4552, 0x4f43, 0x4452, 0x575f, 0x5641, 0x0045, 
+    IDC_COMBO_DSM_MODE, 0x403, 32, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x535f, 0x564d, 0x525f, 0x4345, 0x5f56, 
+0x4552, 0x4c41, 0x545f, 0x4d49, 0x5f45, 0x534d, 0x0047, 
+    IDC_COMBO_DSM_MODE, 0x403, 33, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x475f, 0x4f4f, 0x4553, 0x525f, 0x4345, 
+0x5f56, 0x4552, 0x4c41, 0x4954, 0x454d, 0x565f, 0x4c41, "\000" 
+    IDC_COMBO_DSM_MODE, 0x403, 32, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x475f, 0x4f4f, 0x4553, 0x525f, 0x4345, 
+0x5f56, 0x4843, 0x4e41, 0x4547, 0x4c5f, 0x5349, 0x0054, 
+    IDC_COMBO_DSM_MODE, 0x403, 33, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x475f, 0x4f4f, 0x4553, 0x525f, 0x4345, 
+0x5f56, 0x5246, 0x4d41, 0x5f45, 0x5453, 0x5441, 0x4349, "\000" 
+    IDC_COMBO_DSM_MODE, 0x403, 34, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x475f, 0x4f4f, 0x4553, 0x525f, 0x4345, 
+0x5f56, 0x5246, 0x4d41, 0x5f45, 0x4f4d, 0x494e, 0x4f54, 0x0052, 
+    IDC_COMBO_DSM_MODE, 0x403, 34, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x475f, 0x4f4f, 0x4553, 0x525f, 0x4345, 
+0x5f56, 0x4552, 0x4c41, 0x545f, 0x4d49, 0x5f45, 0x534d, 0x0047, 
+    IDC_COMBO_DSM_MODE, 0x403, 32, 0
+0x5344, 0x5f4d, 0x4f4d, 0x4544, 0x475f, 0x4f4f, 0x4553, 0x525f, 0x4345, 
+0x5f56, 0x4552, 0x4f43, 0x4452, 0x575f, 0x5641, 0x0045, 
+    0
+END
+
+IDD_DIALOG_PARAM_CONFIG DLGINIT
+BEGIN
+    IDC_COMBO_VALUE_TYPE, 0x403, 7, 0
+0xbbd2, 0xceb4, 0xb5d6, "\000" 
+    IDC_COMBO_VALUE_TYPE, 0x403, 7, 0
+0xfeb6, 0xceb4, 0xb5d6, "\000" 
+    IDC_COMBO_TIME_SYNC_MODE, 0x403, 8, 0
+0xfdd5, 0xf2cf, 0xc242, 0x00eb, 
+    IDC_COMBO_TIME_SYNC_MODE, 0x403, 8, 0
+0xb4b7, 0xf2cf, 0xc242, 0x00eb, 
+    IDC_COMBO_TIME_SYNC_MODE, 0x403, 5, 0
+0x3531, 0x3838, "\000" 
+    0
+END
+
+IDD_DIALOG_RECV_CONFIG_PUB DLGINIT
+BEGIN
+    IDC_COMBO_DISP_TYPE, 0x403, 7, 0
+0xbbd2, 0xceb4, 0xb5d6, "\000" 
+    IDC_COMBO_DISP_TYPE, 0x403, 7, 0
+0xfeb6, 0xceb4, 0xb5d6, "\000" 
+    IDC_COMBO_DISP_TYPE, 0x403, 7, 0
+0xa8b1, 0xc4ce, 0xb5d6, "\000" 
+    IDC_COMBO_SAMPLE_RATE, 0x403, 3, 0
+0x4b34, "\000" 
+    IDC_COMBO_SAMPLE_RATE, 0x403, 6, 0
+0x3231, 0x382e, 0x004b, 
+    IDC_COMBO_PHASE_CHECK_ALIGN, 0x403, 9, 0
+0xf2d0, 0xc5ba, 0xd4b6, 0xebc6, "\000" 
+    IDC_COMBO_PHASE_CHECK_ALIGN, 0x403, 9, 0
+0xb1ca, 0xeab1, 0xd4b6, 0xebc6, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_PARAM_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_DIALOG_RECV_CONFIG_PUB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\DsmDataManagerTest.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

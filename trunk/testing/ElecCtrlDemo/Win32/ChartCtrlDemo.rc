@@ -1,0 +1,354 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ChartCtrlDemo.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ChartCtrlDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CHARTCTRLDEMO_DIALOG DIALOGEX 0, 0, 383, 238
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ChartCtrlDemo"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "开关状态",IDC_ONOFF_CREATE,315,154,50,16
+    PUSHBUTTON      "柱状图",IDC_HISTOGRAM_CREATE,315,40,50,16
+    PUSHBUTTON      "波形图",IDC_WAVE_CREATE,315,59,50,16
+    PUSHBUTTON      "相量图",IDC_PHASOR_CREATE,315,78,50,16
+    PUSHBUTTON      "极性表盘",IDC_POLARITY_CREATE,315,97,50,16
+    PUSHBUTTON      "报文离散",IDC_HORHISTO_CREATE,315,116,50,16
+    PUSHBUTTON      "对时时钟",IDC_CLOCK_CREATE,315,135,50,16
+END
+
+IDD_HISTOGRAM_DLG DIALOGEX 0, 0, 383, 238
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ChartCtrlDemo"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDC_EXIT,315,205,50,16
+    PUSHBUTTON      "重置",IDC_RESET,315,185,50,16
+    EDITTEXT        IDC_INIT_TIME,314,29,40,14,ES_AUTOHSCROLL
+    LTEXT           "初始化：",IDC_STATIC,315,17,33,8
+    LTEXT           "ms",IDC_STATIC,357,31,9,8
+    EDITTEXT        IDC_DRAW_TIME,314,59,40,14,ES_AUTOHSCROLL
+    LTEXT           "绘制：",IDC_STATIC,315,47,25,8
+    LTEXT           "ms",IDC_STATIC,357,61,9,8
+END
+
+IDD_CLOCK_DLG DIALOGEX 0, 0, 383, 238
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ChartCtrlDemo"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDC_EXIT,315,205,50,16
+    PUSHBUTTON      "重置",IDC_RESET,315,185,50,16
+    EDITTEXT        IDC_INIT_TIME,314,29,40,14,ES_AUTOHSCROLL
+    LTEXT           "初始化：",IDC_STATIC,315,17,33,8
+    LTEXT           "ms",IDC_STATIC,357,31,9,8
+    EDITTEXT        IDC_DRAW_TIME,314,59,40,14,ES_AUTOHSCROLL
+    LTEXT           "绘制：",IDC_STATIC,315,47,25,8
+    LTEXT           "ms",IDC_STATIC,357,61,9,8
+END
+
+IDD_HOR_HISTO_DLG DIALOGEX 0, 0, 383, 238
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ChartCtrlDemo"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDC_EXIT,315,205,50,16
+    PUSHBUTTON      "重置",IDC_RESET,315,185,50,16
+    EDITTEXT        IDC_INIT_TIME,314,29,40,14,ES_AUTOHSCROLL
+    LTEXT           "初始化：",IDC_STATIC,315,17,33,8
+    LTEXT           "ms",IDC_STATIC,357,31,9,8
+    EDITTEXT        IDC_DRAW_TIME,314,59,40,14,ES_AUTOHSCROLL
+    LTEXT           "绘制：",IDC_STATIC,315,47,25,8
+    LTEXT           "ms",IDC_STATIC,357,61,9,8
+END
+
+IDD_ON_OFF_STATE_DLG DIALOGEX 0, 0, 383, 238
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ChartCtrlDemo"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDC_EXIT,315,205,50,16
+    PUSHBUTTON      "重置",IDC_RESET,315,185,50,16
+    EDITTEXT        IDC_INIT_TIME,314,29,40,14,ES_AUTOHSCROLL
+    LTEXT           "初始化：",IDC_STATIC,315,17,33,8
+    LTEXT           "ms",IDC_STATIC,357,31,9,8
+    EDITTEXT        IDC_DRAW_TIME,314,59,40,14,ES_AUTOHSCROLL
+    LTEXT           "绘制：",IDC_STATIC,315,47,25,8
+    LTEXT           "ms",IDC_STATIC,357,61,9,8
+END
+
+IDD_PHASOR_GRAM_DLG DIALOGEX 0, 0, 383, 238
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ChartCtrlDemo"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDC_EXIT,315,205,50,16
+    PUSHBUTTON      "重置",IDC_RESET,315,185,50,16
+    EDITTEXT        IDC_INIT_TIME,314,29,40,14,ES_AUTOHSCROLL
+    LTEXT           "初始化：",IDC_STATIC,315,17,33,8
+    LTEXT           "ms",IDC_STATIC,357,31,9,8
+    EDITTEXT        IDC_DRAW_TIME,314,59,40,14,ES_AUTOHSCROLL
+    LTEXT           "绘制：",IDC_STATIC,315,47,25,8
+    LTEXT           "ms",IDC_STATIC,357,61,9,8
+END
+
+IDD_POLARITY_DIAL_DLG DIALOGEX 0, 0, 383, 238
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ChartCtrlDemo"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDC_EXIT,315,205,50,16
+    PUSHBUTTON      "重置",IDC_RESET,315,185,50,16
+    EDITTEXT        IDC_INIT_TIME,314,29,40,14,ES_AUTOHSCROLL
+    LTEXT           "初始化：",IDC_STATIC,315,17,33,8
+    LTEXT           "ms",IDC_STATIC,357,31,9,8
+    EDITTEXT        IDC_DRAW_TIME,314,59,40,14,ES_AUTOHSCROLL
+    LTEXT           "绘制：",IDC_STATIC,315,47,25,8
+    LTEXT           "ms",IDC_STATIC,357,61,9,8
+END
+
+IDD_WAVE_FORM_DLG DIALOGEX 0, 0, 383, 238
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ChartCtrlDemo"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDC_EXIT,315,205,50,16
+    PUSHBUTTON      "重置",IDC_RESET,315,185,50,16
+    EDITTEXT        IDC_INIT_TIME,314,29,40,14,ES_AUTOHSCROLL
+    LTEXT           "初始化：",IDC_STATIC,315,17,33,8
+    LTEXT           "ms",IDC_STATIC,357,31,9,8
+    EDITTEXT        IDC_DRAW_TIME,314,59,40,14,ES_AUTOHSCROLL
+    LTEXT           "绘制：",IDC_STATIC,315,47,25,8
+    LTEXT           "ms",IDC_STATIC,357,61,9,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ChartCtrlDemo.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "ChartCtrlDemo.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CHARTCTRLDEMO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_HISTOGRAM_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_CLOCK_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_HOR_HISTO_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_ON_OFF_STATE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_PHASOR_GRAM_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_POLARITY_DIAL_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_WAVE_FORM_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_POLARITY_DIAL       BITMAP                  "res\\PolarityDial.bmp"
+IDB_SEC_HAND            BITMAP                  "res\\sechand.bmp"
+IDB_CLOCK               BITMAP                  "res\\clock2.bmp"
+IDB_HOUR_HAND           BITMAP                  "res\\hourhand.bmp"
+IDB_MIN_HAND            BITMAP                  "res\\minhand.bmp"
+IDB_OFF_STATE           BITMAP                  "res\\offstate.bmp"
+IDB_ON_STATE            BITMAP                  "res\\onstate.bmp"
+IDB_PILLAR_1            BITMAP                  "res\\pillar1.bmp"
+IDB_HAND                BITMAP                  "res\\min_hand.bmp"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ChartCtrlDemo.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

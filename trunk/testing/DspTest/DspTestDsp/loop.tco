@@ -1,0 +1,6 @@
+# GENERATED FILE -- DO NOT EDIT!
+# This file contains tconf options for file "loop.tcf",
+# for use by the Gconf graphical configuration tool.
+# The options are exported from the following CCS project: 
+# D:\MyDocuments\Visual Studio 2005\Projects\DM8000\trunk\testing\DspTest\DspTestDsp\loop.pjt, "Release" configuration.
+-Dconfig.importPath="D:\MyDocuments\Visual Studio 2005\Projects\DM8000\trunk\testing\DspTest\DspTestDsp\..\..\..\dspsrc\tci"

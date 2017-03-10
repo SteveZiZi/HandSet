@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>  
+    <sclfile value="" />
+    <ratedfreq value="50" />
+    <ratedframevaluetype value="1" />
+    <ratedvolprimary value="110.000" />
+    <ratedvolsecondary value="100" />
+    <ratedcurprimary value="3000" />
+    <ratedcursecondary value="5" />
+    <ratedmudelay value="750" />
+    <ratedtimesyncmode value="1" />
+    <selfclockid value="000000FFFE000001" />
+    <selfclockportid value="0001" />
+    <selfclockmac value="00005e00FACE" />
+    <mainclockid value="001E4CFFFE00447C" />
+    <mainclockportid value="0001" />
+    <ieee1588clocksyncport value="0" /> 
+</config>

@@ -1,0 +1,218 @@
+#include "stdafx.h"
+
+#include "InplaceEditCtrl.h"
+
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+
+IMPLEMENT_DYNAMIC(CListBoxInplaceEditCtrl, CEdit)
+
+///
+/// @brief
+///     确认用户输入修改, 通知Listbox的父窗口
+///
+void  CListBoxInplaceEditCtrl::ApplyInput ()
+{
+    // 用户完成修改, 把控制权交回父listbox窗口
+    HideWindow();
+
+    //
+    // 给ListBox的父窗口发送消息, 确认修改
+    //
+    CWnd*  pContainerWnd = GetParent()->GetParent();
+    ASSERT(pContainerWnd);
+
+    NM_LB_EDITLABELMSG  nmh;
+    nmh.hdr.hwndFrom    = GetParent()->GetSafeHwnd();
+    nmh.hdr.idFrom      = GetParent()->GetDlgCtrlID();
+    nmh.hdr.code        = NM_LB_ENDLABELEDIT;
+    nmh.nEditIndex      = m_nEditIndex;
+    this->GetWindowText(nmh.cstrNewLabel);
+
+    pContainerWnd->SendMessage(WM_NOTIFY, nmh.hdr.idFrom, (LPARAM)&nmh);
+}
+
+
+///
+/// @brief
+///     用户取消修改
+///
+void  CListBoxInplaceEditCtrl::CancelInput ()
+{
+    // 用户完成修改, 把控制权交回父listbox窗口
+    HideWindow();
+}
+
+
+CListBoxInplaceEditCtrl::CListBoxInplaceEditCtrl (): m_bCancel(false), m_nEditIndex(-1)
+{
+
+}
+
+CListBoxInplaceEditCtrl::~CListBoxInplaceEditCtrl ()
+{
+}
+
+
+BEGIN_MESSAGE_MAP(CListBoxInplaceEditCtrl, CEdit)
+	ON_WM_MOUSEACTIVATE()
+	ON_CONTROL_REFLECT(EN_KILLFOCUS, OnEnKillfocus)
+	ON_CONTROL_REFLECT(EN_CHANGE, OnEnChange)
+	ON_WM_KEYDOWN()
+	ON_WM_SYSKEYDOWN()
+	ON_WM_GETDLGCODE()
+	ON_WM_CHAR()
+END_MESSAGE_MAP()
+
+///
+/// @brief
+///     隐藏Inplace编辑窗口
+///
+void  CListBoxInplaceEditCtrl::HideWindow ()
+{
+    if (m_hWnd)
+    {
+        this->EnableWindow(FALSE);
+        this->ShowWindow(SW_HIDE);
+    }
+}
+
+///
+/// @brief
+///     创建并重新显示Inplace编辑窗口
+///
+void  CListBoxInplaceEditCtrl::Create (CWnd* pParent, const CRect& rect, 
+        int nEditIndex, const CString& str)
+{
+    ASSERT(pParent);
+
+    //
+    // 如果窗口还没有创建, 则先创建窗口
+    //
+    if (!m_hWnd)
+    {
+        DWORD  dwEditStyle = WS_CHILD | WS_VISIBLE | WS_BORDER | ES_LEFT | 
+            ES_AUTOHSCROLL | ES_MULTILINE;
+        CEdit::Create(dwEditStyle, rect, pParent, 0);
+    }
+
+    //
+    // 显示窗口并调整窗口位置
+    //
+    this->EnableWindow(TRUE);
+
+    this->SetFocus();
+    this->SetFont(pParent->GetFont());
+    this->SetWindowText(str);
+    this->SetWindowPos(0, rect.left, rect.top, rect.Width(), rect.Height(), 
+        SWP_NOZORDER | SWP_SHOWWINDOW);
+    this->SetMargins(0, 0);
+
+    // 使文本被全部选中
+    this->SetSel(0, -1);
+
+    //
+    // 使得文本垂直居中, 注意: 必须ES_MULTILINE 样式
+    //
+    CRect  rcWnd;
+    this->GetClientRect(&rcWnd);
+    CDC*  pDC = this->GetDC();
+    TEXTMETRIC  tm;
+    pDC->GetTextMetrics(&tm);
+    this->ReleaseDC(pDC);                                               // 记得释放
+
+    int nFontHeight = tm.tmHeight + tm.tmExternalLeading;
+    int nMargin = (rcWnd.Height() - nFontHeight) / 2;
+    rcWnd.DeflateRect(0, nMargin);
+    this->SetRectNP(&rcWnd);
+
+    
+    m_nEditIndex    = nEditIndex;
+    m_bCancel       = false;                                            // 复位标志
+}
+
+///
+/// @brief
+///     当Inplace窗口丢失焦点时, 确认用户已经完成修改
+///
+void  CListBoxInplaceEditCtrl::OnEnKillfocus ()
+{
+    if (m_bCancel)
+    {
+        CancelInput();
+    }
+    else
+    {
+        ApplyInput();
+    }
+}
+
+void  CListBoxInplaceEditCtrl::OnEnChange ()
+{
+
+}
+
+int  CListBoxInplaceEditCtrl::OnMouseActivate (CWnd* , UINT , UINT )
+{
+	return MA_NOACTIVATE;
+}
+
+UINT  CListBoxInplaceEditCtrl::OnGetDlgCode ()
+{
+	return DLGC_WANTALLKEYS;
+}
+
+///
+/// @brief
+///     截获ESC, 回车等键, 确认用户修改完成
+///
+void  CListBoxInplaceEditCtrl::OnChar (UINT nChar, UINT nRepCnt, UINT nFlags)
+{
+    switch (nChar)
+    {
+    case VK_TAB:
+        return;
+        break;
+    case VK_ESCAPE:
+        m_bCancel = true;                                               // 用户取消修改
+        GetParent()->SetFocus();                                        // 使得edit控件丢失焦点, 触发Killfocus, 回到父窗口
+        return;
+        break;
+    case VK_RETURN:
+        GetParent()->SetFocus();                                        // 使得edit控件丢失焦点, 触发Killfocus, 回到父窗口
+        return;
+        break;
+    default:
+        break;
+    }
+
+	CEdit::OnChar(nChar, nRepCnt, nFlags);
+}
+
+void  CListBoxInplaceEditCtrl::OnKeyDown (UINT nChar, UINT nRepCnt, UINT nFlags)
+{
+
+	CEdit::OnKeyDown(nChar, nRepCnt, nFlags);
+}
+
+void  CListBoxInplaceEditCtrl::OnSysKeyDown (UINT nChar, UINT nRepCnt, UINT nFlags)
+{
+	CEdit::OnSysKeyDown(nChar, nRepCnt, nFlags);
+}
+
+BOOL  CListBoxInplaceEditCtrl::PreTranslateMessage (MSG* pMsg)
+{
+    if (pMsg->message == WM_KEYDOWN && IsDialogMessage(pMsg))
+    {
+        return TRUE;
+    }
+
+	return CEdit::PreTranslateMessage(pMsg);
+}
+
+

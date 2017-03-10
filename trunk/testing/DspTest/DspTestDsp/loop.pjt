@@ -1,0 +1,48 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="D:\MyDocuments\Visual Studio 2005\Projects\DM8000\trunk\testing\DspTest\DspTestDsp\"
+ProjectType=Executable
+CPUFamily=TMS320C64XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\..\..\dspsrc\dsploop.lib"
+Source="..\..\..\dspsrc\fastrts64x.lib"
+Source="loop.tcf"
+Source="src\main.c"
+Source="loopcfg.cmd"
+
+[Generated Files]
+Source="loopcfg.s62"
+Source="loopcfg_c.c"
+
+["Compiler" Settings: "Debug"]
+Options=-g -pdsw225 -fr"$(Proj_dir)\Debug" -i"$(Proj_dir)\export\INCLUDE\DspBios\OMAP3530" -i"$(Proj_dir)\src" -i"$(Proj_dir)\..\..\..\dspsrc\" -i"C:\CCStudio_v3.3\c6400\C_fastRTS\include" -d"_DEBUG" -d"TSK_MODE" -mv6400+
+
+["Compiler" Settings: "Release"]
+Options=-o3 -fr"$(Proj_dir)\Release" -i"$(Proj_dir)\..\..\..\dspsrc\export\INCLUDE\DspBios\OMAP3530" -i"$(Proj_dir)\src" -i"$(Proj_dir)\..\..\..\inc" -d"_RELEASE" -d"TSK_MODE" -mv6400+
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-Dconfig.importPath="$(Proj_dir)\tci"
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-Dconfig.importPath="$(Proj_dir)\..\..\..\dspsrc\tci"
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\loop.map" -o".\Debug\loop.out" -w -x -i"$(Proj_dir)\..\..\..\dspsrc\" -l"fastrts64x.lib"
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\loop.map" -o".\Release\loop.out" -w -x -i"$(Proj_dir)\..\..\..\dspsrc" -l"dsploop.lib" -l"fastrts64x.lib"
+
+["loopcfg.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["loopcfg.cmd" Settings: "Release"]
+LinkOrder=1
+

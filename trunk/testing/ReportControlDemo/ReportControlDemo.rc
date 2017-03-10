@@ -1,0 +1,280 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ReportControlDemo.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ReportControlDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_REPORTCONTROLDEMO_DIALOG DIALOG  0, 0, 290, 188
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW | 0x80000000L
+CAPTION "ReportControlDemo"
+FONT 9, "MS Shell Dlg"
+BEGIN
+    PUSHBUTTON      "测试Cl",IDC_BTN_TEST1,229,165,52,14
+    PUSHBUTTON      "测试EL",IDC_BTN_TEST2,175,165,50,14
+    EDITTEXT        IDC_EDIT1,165,132,116,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "插入",IDC_BUTTON1,7,165,50,14
+    PUSHBUTTON      "删除",IDC_BUTTON2,63,165,50,14
+    PUSHBUTTON      "测试EL2",IDC_BUTTON3,120,165,50,14
+END
+
+IDD_DIALOG_EXLV DIALOG  0, 0, 279, 209
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,222,188,50,14
+    PUSHBUTTON      "取消",IDCANCEL,154,188,50,14
+    CONTROL         "",IDC_LIST_EXLV,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,265,168
+END
+
+IDD_ELTEST_DLG DIALOG  0, 0, 419, 330
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,362,309,50,14
+    PUSHBUTTON      "取消",IDCANCEL,285,309,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON1,205,309,50,14
+    PUSHBUTTON      "Button2",IDC_BUTTON2,55,309,50,14
+    PUSHBUTTON      "Button3",IDC_BUTTON3,123,309,50,14
+    EDITTEXT        IDC_EDIT1,7,309,40,14,ES_AUTOHSCROLL
+END
+
+IDD_ELTEST2_DLG DIALOG  0, 0, 424, 302
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,284,280,50,14
+    PUSHBUTTON      "取消",IDCANCEL,367,280,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ReportControlDemo.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "ReportControlDemo.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_REPORTCONTROLDEMO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 281
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_DIALOG_EXLV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_ELTEST_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 412
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 323
+    END
+
+    IDD_ELTEST2_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 417
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 294
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "文件"
+    BEGIN
+        MENUITEM "示波器",                         ID_BTN_SCOPE
+        MENUITEM "谐波",                          ID_BTN_FFT
+        MENUITEM "相量",                          ID_32785, CHECKED
+        MENUITEM "报文统计实统计",                     ID_32786
+        MENUITEM "序量",                          ID_32800
+        MENUITEM "双AD",                         ID_32801
+        MENUITEM "极性",                          ID_32802
+        MENUITEM "录波",                          ID_32803
+        MENUITEM "有效值",                         ID_32804
+    END
+    MENUITEM "编辑",                          ID_MENU_F2
+    MENUITEM "重新开始",                        ID_BTN_SCOPE
+    MENUITEM "状态监视",                        ID_BTN_SCOPE
+    MENUITEM "窗口",                          ID_MENU_F5
+    MENUITEM "工具",                          ID_MENU_F6
+    MENUITEM "帮助",                          ID_MENU_F7
+END
+
+IDR_MENU2 MENU 
+BEGIN
+    MENUITEM "重新扫描",                        ID_F1
+    MENUITEM "下一控制块",                       ID_F2
+END
+
+IDR_MENU_LIST MENU 
+BEGIN
+    MENUITEM " ",                           ID_
+    MENUITEM " ",                           ID_32794
+    MENUITEM " ",                           ID_32795
+    MENUITEM " ",                           ID_32796
+    MENUITEM " ",                           ID_32797
+    MENUITEM " ",                           ID_32798
+END
+
+IDR_MENU_EDIT MENU 
+BEGIN
+    MENUITEM " ",                           ID_
+    MENUITEM " ",                           ID_32794
+    MENUITEM " ",                           ID_32795
+    MENUITEM " ",                           ID_32796
+    MENUITEM " ",                           ID_32797
+    MENUITEM "删除",                          ID_INPLACE_DEL
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ReportControlDemo.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<config>
+    <systeminited val="0" />
+    <localid val="2052" />
+    <brightness val="80" />
+    <brighttime val="300" />
+    <timesync val="1" />
+    <password val="123456" />
+</config>

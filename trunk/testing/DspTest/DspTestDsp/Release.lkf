@@ -1,0 +1,7 @@
+-z -c -m"./Release/loop.map" -o"./Release/loop.out" -w -x -i"D:/MyDocuments/Visual Studio 2005/Projects/DM8000/trunk/testing/DspTest/DspTestDsp/../../../dspsrc" -i"D:/CCStudio_v3.3/C6000/csl/lib" -i"D:/CCStudio_v3.3/C6000/xdais/lib" -i"D:/CCStudio_v3.3/bios_5_33_06/packages/ti/bios/lib" -i"D:/CCStudio_v3.3/bios_5_33_06/packages/ti/rtdx/lib/c6000" -i"D:/CCStudio_v3.3/C6000/cgtools/lib" -l"dsploop.lib" -l"fastrts64x.lib"
+"D:\MyDocuments\Visual Studio 2005\Projects\DM8000\trunk\testing\DspTest\DspTestDsp\loopcfg.cmd"
+"D:\MyDocuments\Visual Studio 2005\Projects\DM8000\trunk\testing\DspTest\DspTestDsp\Release\loopcfg.obj"
+"D:\MyDocuments\Visual Studio 2005\Projects\DM8000\trunk\testing\DspTest\DspTestDsp\Release\loopcfg_c.obj"
+"D:\MyDocuments\Visual Studio 2005\Projects\DM8000\trunk\testing\DspTest\DspTestDsp\Release\main.obj"
+"D:\MyDocuments\Visual Studio 2005\Projects\DM8000\trunk\dspsrc\dsploop.lib"
+"D:\MyDocuments\Visual Studio 2005\Projects\DM8000\trunk\dspsrc\fastrts64x.lib"

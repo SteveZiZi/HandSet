@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemInfo", "..\..\..\tools\MemInfo\MemInfo.vcproj", "{B5122622-F288-4008-8333-F05F5CF1E506}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|EPCS-9000 (ARMV4I) = Debug|EPCS-9000 (ARMV4I)
+		Release|EPCS-9000 (ARMV4I) = Release|EPCS-9000 (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5122622-F288-4008-8333-F05F5CF1E506}.Debug|EPCS-9000 (ARMV4I).ActiveCfg = Debug|EPCS-9000 (ARMV4I)
+		{B5122622-F288-4008-8333-F05F5CF1E506}.Debug|EPCS-9000 (ARMV4I).Build.0 = Debug|EPCS-9000 (ARMV4I)
+		{B5122622-F288-4008-8333-F05F5CF1E506}.Debug|EPCS-9000 (ARMV4I).Deploy.0 = Debug|EPCS-9000 (ARMV4I)
+		{B5122622-F288-4008-8333-F05F5CF1E506}.Release|EPCS-9000 (ARMV4I).ActiveCfg = Release|EPCS-9000 (ARMV4I)
+		{B5122622-F288-4008-8333-F05F5CF1E506}.Release|EPCS-9000 (ARMV4I).Build.0 = Release|EPCS-9000 (ARMV4I)
+		{B5122622-F288-4008-8333-F05F5CF1E506}.Release|EPCS-9000 (ARMV4I).Deploy.0 = Release|EPCS-9000 (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

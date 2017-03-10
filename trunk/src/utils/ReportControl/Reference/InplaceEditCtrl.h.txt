@@ -1,0 +1,79 @@
+/// @file
+///
+/// @brief
+///     即时编辑控件, 提供ListBox的项标签即时编辑功能
+///
+/// Copyright (c) 2010  IUnknownBase Inc.
+/// 
+/// 作者:
+///
+///      2011.08.19
+///
+/// 修改历史:
+///
+
+#pragma once
+
+
+#define NM_LB_ENDLABELEDIT          (NM_FIRST - 61)                     ///< list项的文字被修改, 发给父窗口
+
+///
+/// @brief
+///     鼠标操作通知消息头
+///
+struct NM_LB_EDITLABELMSG
+{
+    NMHDR                   hdr;
+    int                     nEditIndex;                                 ///< 当前编辑的listbox的索引项
+    CString                 cstrNewLabel;                               ///< 用户输入的新的项文本字符串
+};
+
+
+///
+/// @brief
+///     ListBox的即时编辑Edit窗口, 提供即时编辑项文本的功能
+///
+class CListBoxInplaceEditCtrl : public CEdit
+{
+    DECLARE_DYNAMIC(CListBoxInplaceEditCtrl)
+
+    int                     m_nEditIndex;                               ///< 正在编辑的listbox的索引行
+    bool                    m_bCancel;                                  ///< 用户是否取消了修改
+
+    void  ApplyInput ();
+    void  CancelInput ();
+    
+public:
+
+
+	CListBoxInplaceEditCtrl ();
+	~CListBoxInplaceEditCtrl ();
+
+public:
+
+	void  HideWindow ();
+    void  Create (CWnd* pParent, const CRect& rect, int nEditIndex, const CString& str);
+    int  GetEditIndex () { return m_nEditIndex; }
+
+
+protected:
+
+    virtual BOOL  PreTranslateMessage (MSG* pMsg);
+
+
+protected:
+
+	DECLARE_MESSAGE_MAP()
+
+	afx_msg int  OnMouseActivate (CWnd* pDesktopWnd, UINT nHitTest, UINT message);
+	afx_msg void  OnEnKillfocus ();
+	afx_msg void  OnEnChange ();
+	afx_msg UINT  OnGetDlgCode ();
+	afx_msg void  OnKeyDown (UINT nChar, UINT nRepCnt, UINT nFlags);
+	afx_msg void  OnChar (UINT nChar, UINT nRepCnt, UINT nFlags);
+	afx_msg void  OnSysKeyDown (UINT nChar, UINT nRepCnt, UINT nFlags);
+
+};
+
+
+

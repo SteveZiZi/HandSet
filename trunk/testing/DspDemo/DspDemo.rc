@@ -1,0 +1,199 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\DspDemo.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DspDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DspDemo_DIALOG DIALOG  0, 0, 359, 200
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW | 0x80000000L
+CAPTION "DspDemo"
+FONT 9, "MS Shell Dlg"
+BEGIN
+    LTEXT           "CPU信息：",IDC_STATIC,13,19,34,8
+    LTEXT           "DSP Rate：",IDC_STATIC,13,34,39,8
+    LTEXT           "MHz",IDC_STATIC,89,33,14,8
+    EDITTEXT        IDC_EDIT1,52,16,36,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT2,52,31,35,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT5,115,16,107,176,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "DSP RUN",IDC_BUTTON1,15,52,36,10
+    GROUPBOX        "获取系统信息",IDC_STATIC,7,7,101,41
+    EDITTEXT        IDC_EDIT6,230,16,115,176,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+    GROUPBOX        "DSP返回数据",IDC_STATIC,116,7,229,185
+    PUSHBUTTON      "DSP STOP",IDC_BUTTON2,55,52,33,10
+    PUSHBUTTON      "停止刷新",IDC_BUTTON3,17,63,33,10
+    PUSHBUTTON      "开始刷新",IDC_BUTTON4,53,63,33,10
+    LTEXT           "报文差：",IDC_STATIC,15,93,28,8
+    EDITTEXT        IDC_EDIT_MSGDIF,55,90,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,55,75,30,14,ES_AUTOHSCROLL
+    LTEXT           "Smv10Calc：",IDC_STATIC,15,138,41,8
+    LTEXT           "ms",IDC_STATIC,90,138,10,8
+    EDITTEXT        IDC_EDIT_SMV10CALC,55,135,30,14,ES_AUTOHSCROLL
+    LTEXT           "SmvGen：",IDC_STATIC,15,153,34,8
+    LTEXT           "ms",IDC_STATIC,90,153,10,8
+    EDITTEXT        IDC_EDIT_SMVGEN,55,150,30,14,ES_AUTOHSCROLL
+    LTEXT           "ms",IDC_STATIC,90,168,10,8
+    EDITTEXT        IDC_EDIT_MSGDISP,55,165,30,14,ES_AUTOHSCROLL
+    LTEXT           "单报文时间：",IDC_STATIC,15,123,42,8
+    LTEXT           "ms",IDC_STATIC,90,123,10,8
+    EDITTEXT        IDC_EDIT_MSGTIME,55,120,30,14,ES_AUTOHSCROLL
+    LTEXT           "时间差：",IDC_STATIC,15,108,28,8
+    LTEXT           "ms",IDC_STATIC,90,108,10,8
+    EDITTEXT        IDC_EDIT_TIMEDIF,55,105,30,14,ES_AUTOHSCROLL
+    LTEXT           "TotalTime：",IDC_STATIC,15,183,39,8
+    LTEXT           "ms",IDC_STATIC,90,183,10,8
+    EDITTEXT        IDC_EDIT_TOTALTIME,55,178,30,14,ES_AUTOHSCROLL
+    LTEXT           "Data",IDC_STATIC,15,78,15,8
+    LTEXT           "TimeDisp：",IDC_STATIC,15,168,39,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "DspDemo.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "DspDemo.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DspDemo_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 345
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\DspDemo.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

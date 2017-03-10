@@ -1,0 +1,163 @@
+//Microsoft Visual C++ 生成的资源脚本。
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// 从 TEXTINCLUDE 2 资源生成。
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 图标
+//
+
+// ID 值最低的图标放在最前面，以确保应用程序图标
+// 在所有系统中保持一致。
+
+IDI_PROCESSLOADINGTOOL       ICON         "ProcessLoadingTool.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 菜单
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "退出(&X)",                        IDM_FILE_EXIT
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于(&A)",                       IDM_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 快捷键
+//
+
+IDC_PROCESSLOADINGTOOL ACCELERATORS
+BEGIN
+    "A",            IDM_HELP_ABOUT,         VIRTKEY, CONTROL, NOINVERT
+    "Q",            IDOK,          VIRTKEY, CONTROL, NOINVERT
+END
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 对话框
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 125, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CAPTIONOKBTN
+CAPTION "关于 ProcessLoadingTool"
+FONT 9, "MS Shell Dlg"
+BEGIN
+    ICON         IDI_PROCESSLOADINGTOOL,IDC_STATIC,11,17,20,20
+    LTEXT        "ProcessLoadingTool 1.0 版",IDC_STATIC,38,10,70,8,SS_NOPREFIX
+    LTEXT        "版权所有 (C) 2013",IDC_STATIC,38,25,70,8
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 118
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 对话框
+//
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+1 TEXTINCLUDE  
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE  
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE  
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""ProcessLoadingTool.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 字符串表
+//
+
+STRINGTABLE  
+BEGIN
+   IDC_PROCESSLOADINGTOOL   "PROCESSLOADINGTOOL"
+   IDS_APP_TITLE    "ProcessLoadingTool"
+   IDS_TOOLS "工具"
+END
+
+#endif
+/////////////////////////////////////////////////////////////////////////////
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// 从 TEXTINCLUDE 3 资源生成。
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "ProcessLoadingTool.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // 不是 APSTUDIO_INVOKED

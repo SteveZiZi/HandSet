@@ -1,0 +1,259 @@
+/** ============================================================================
+ *  @file   loop_tsk.tcf
+ *
+ *  @path   $(DSPLINK)/dsp/src/samples/loop/DspBios/5.XX/OMAP3530/
+ *
+ *  @desc   Configuration file for the LOOP sample.
+ *          This file defines platform-specific configuration details.
+ *
+ *  @ver    1.64
+ *  ============================================================================
+ *  Copyright (C) 2002-2009, Texas Instruments Incorporated -
+ *  http://www.ti.com/
+ *
+ *  Redistribution and use in source and binary forms, with or without
+ *  modification, are permitted provided that the following conditions
+ *  are met:
+ *  
+ *  *  Redistributions of source code must retain the above copyright
+ *     notice, this list of conditions and the following disclaimer.
+ *  
+ *  *  Redistributions in binary form must reproduce the above copyright
+ *     notice, this list of conditions and the following disclaimer in the
+ *     documentation and/or other materials provided with the distribution.
+ *  
+ *  *  Neither the name of Texas Instruments Incorporated nor the names of
+ *     its contributors may be used to endorse or promote products derived
+ *     from this software without specific prior written permission.
+ *  
+ *  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ *  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+ *  THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ *  PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ *  CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ *  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ *  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ *  OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ *  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ *  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+ *  EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *  ============================================================================
+ */
+
+
+/*  ============================================================================
+ *  Load generic DSP/BIOS Link configuration
+ *  ============================================================================
+ */
+utils.importFile("dsplink-omap3530-base.tci");
+utils.importFile("dsplink-iom.tci");
+utils.importFile("dsplink-zcpydata-tsk.tci");
+utils.importFile("dsplink-dio.tci");
+utils.importFile("loop.tci");
+
+/*  ============================================================================
+ *  Set all code and data sections to use DDR2
+ *  ============================================================================
+ */
+bios.setMemCodeSections(prog, DDR2) ;
+bios.setMemDataNoHeapSections(prog, DDR2) ;
+bios.setMemDataHeapSections(prog, DDR2) ;
+
+/*  ============================================================================
+ *  MEM : Global
+ *  ============================================================================
+ */
+prog.module("MEM").BIOSOBJSEG = DDR2 ;
+prog.module("MEM").MALLOCSEG  = DDR2 ;
+
+/*  ============================================================================
+ *  TSK : Global
+ *  ============================================================================
+ */
+prog.module("TSK").STACKSEG = DDR2 ;
+
+/*  ============================================================================
+ *  Generate cdb file...
+ *  ============================================================================
+ */
+if (config.hasReportedError == false) {
+
+bios.PRD.create("PRD1");
+bios.PRD.instance("PRD1").order = 1;
+bios.PRD.instance("PRD1").period = 10;
+bios.PRD.instance("PRD1").fxn = prog.extern("Post_Sem1");
+bios.SEM.create("SEM1");
+bios.SEM.create("SEM2");
+bios.PRD.instance("PWRM_slotFinalizer").order = 1;
+bios.PRD.instance("PRD1").destroy();
+bios.SEM.create("SEM0");
+bios.SEM.instance("SEM0").destroy();
+bios.SEM.create("SEM3");
+bios.SEM.create("SEM4");
+bios.SEM.create("SEM5");
+bios.SEM.create("SEM6");
+bios.SEM.create("SEM0");
+bios.GBL.ENABLEINST = 1;
+bios.STS.create("STS0");
+bios.SEM.instance("SEM6").destroy();
+bios.TSK.STACKSIZE = 4096;
+bios.TSK.create("tskRecevie");
+bios.TSK.instance("tskRecevie").order = 1;
+bios.TSK.instance("tskRecevie").priority = 15;
+bios.TSK.instance("tskRecevie").stackSize = 40960;
+bios.TSK.instance("tskRecevie").priority = 14;
+bios.TSK.create("tskCalc40ms");
+bios.TSK.instance("tskCalc40ms").order = 2;
+bios.TSK.instance("tskCalc40ms").priority = 13;
+bios.TSK.create("tskSend");
+bios.TSK.instance("tskSend").order = 3;
+bios.TSK.instance("tskSend").priority = 12;
+bios.TSK.instance("tskSend").stackSize = 40960;
+bios.TSK.instance("tskCalc40ms").stackSize = 40960;
+bios.TSK.create("tskCalc10min");
+bios.TSK.instance("tskCalc10min").order = 4;
+bios.TSK.instance("tskCalc10min").stackSize = 40960;
+bios.TSK.instance("tskCalc10min").priority = 11;
+bios.TSK.create("tskCalc200ms");
+bios.TSK.instance("tskCalc200ms").order = 5;
+bios.TSK.instance("tskCalc200ms").stackSize = 40960;
+bios.TSK.instance("tskCalc200ms").priority = 10;
+bios.TSK.create("tskCalc5120ms");
+bios.TSK.instance("tskCalc5120ms").order = 6;
+bios.TSK.instance("tskCalc5120ms").stackSize = 40960;
+bios.TSK.instance("tskCalc5120ms").priority = 9;
+bios.TSK.instance("tskCalc10min").fxn = prog.extern("tskCalc5120msTask");
+bios.TSK.instance("tskCalc10min").fxn = prog.extern("tskCalc5120ms");
+bios.TSK.instance("tskCalc200ms").fxn = prog.extern("tskCalc200ms");
+bios.TSK.instance("tskCalc40ms").fxn = prog.extern("tskCalc40ms");
+bios.TSK.instance("tskCalc5120ms").fxn = prog.extern("tskCalc5120ms");
+bios.TSK.instance("tskRecevie").fxn = prog.extern("tskRecevie");
+bios.TSK.instance("tskSend").fxn = prog.extern("tskSend");
+bios.TSK.instance("tskCalc10min").fxn = prog.extern("tskCalc5120msFun");
+bios.TSK.instance("tskCalc200ms").fxn = prog.extern("tskCalc200msFun");
+bios.TSK.instance("tskCalc40ms").fxn = prog.extern("tskCalc40msFun");
+bios.TSK.instance("tskCalc5120ms").fxn = prog.extern("tskCalc5120msFun");
+bios.TSK.instance("tskRecevie").fxn = prog.extern("tskRecevieFun");
+bios.TSK.instance("tskSend").fxn = prog.extern("tskSendFun");
+bios.TSK.instance("TSK_idle").order = 1;
+bios.TSK.instance("ZCPYLINK_TSK_OBJ").order = 2;
+bios.TSK.instance("tskCalc40ms").order = 3;
+bios.TSK.instance("tskSend").order = 4;
+bios.TSK.instance("tskCalc10min").order = 5;
+bios.TSK.instance("tskCalc200ms").order = 6;
+bios.TSK.instance("tskCalc5120ms").order = 7;
+bios.TSK.instance("tskRecevie").destroy();
+bios.TSK.create("TSK0");
+bios.TSK.instance("TSK0").order = 9;
+bios.TSK.instance("TSK0").fxn = prog.extern("tskRecevieFun");
+bios.TSK.instance("TSK0").priority = 14;
+bios.TSK.instance("TSK0").stackSize = 40960;
+bios.TSK.instance("tskSend").order = 3;
+bios.TSK.instance("tskCalc10min").order = 4;
+bios.TSK.instance("tskCalc200ms").order = 5;
+bios.TSK.instance("tskCalc5120ms").order = 6;
+bios.TSK.instance("TSK0").order = 7;
+bios.TSK.instance("tskCalc40ms").destroy();
+bios.TSK.create("TSK1");
+bios.TSK.instance("TSK1").order = 9;
+bios.TSK.instance("TSK1").fxn = prog.extern("tskCalc40msFun");
+bios.TSK.instance("TSK1").priority = 13;
+bios.TSK.instance("TSK1").stackSize = 40960;
+bios.TSK.instance("tskCalc10min").order = 3;
+bios.TSK.instance("tskCalc200ms").order = 4;
+bios.TSK.instance("tskCalc5120ms").order = 5;
+bios.TSK.instance("TSK0").order = 6;
+bios.TSK.instance("TSK1").order = 7;
+bios.TSK.instance("tskSend").destroy();
+bios.TSK.create("TSK2");
+bios.TSK.instance("TSK2").order = 9;
+bios.TSK.instance("TSK2").fxn = prog.extern("tskSendFun");
+bios.TSK.instance("TSK2").priority = 12;
+bios.TSK.instance("TSK2").stackSize = 40960;
+bios.TSK.instance("tskCalc200ms").order = 3;
+bios.TSK.instance("tskCalc5120ms").order = 4;
+bios.TSK.instance("TSK0").order = 5;
+bios.TSK.instance("TSK1").order = 6;
+bios.TSK.instance("TSK2").order = 7;
+bios.TSK.instance("tskCalc10min").destroy();
+bios.TSK.create("TSK3");
+bios.TSK.instance("TSK3").order = 9;
+bios.TSK.instance("TSK3").fxn = prog.extern("tskCalc5120msFun");
+bios.TSK.instance("TSK3").priority = 11;
+bios.TSK.instance("TSK3").stackSize = 40960;
+bios.TSK.instance("tskCalc5120ms").order = 3;
+bios.TSK.instance("TSK0").order = 4;
+bios.TSK.instance("TSK1").order = 5;
+bios.TSK.instance("TSK2").order = 6;
+bios.TSK.instance("TSK3").order = 7;
+bios.TSK.instance("tskCalc200ms").destroy();
+bios.TSK.create("TSK4");
+bios.TSK.instance("TSK4").order = 9;
+bios.TSK.instance("TSK4").fxn = prog.extern("tskCalc200msFun");
+bios.TSK.instance("TSK4").priority = 10;
+bios.TSK.instance("TSK4").stackSize = 40960;
+bios.TSK.instance("TSK0").order = 3;
+bios.TSK.instance("TSK1").order = 4;
+bios.TSK.instance("TSK2").order = 5;
+bios.TSK.instance("TSK3").order = 6;
+bios.TSK.instance("TSK4").order = 7;
+bios.TSK.instance("tskCalc5120ms").destroy();
+bios.TSK.create("TSK5");
+bios.TSK.instance("TSK5").order = 9;
+bios.TSK.instance("TSK5").fxn = prog.extern("tskCalc5120msFun");
+bios.TSK.instance("TSK5").priority = 9;
+bios.TSK.instance("TSK5").stackSize = 40960;
+bios.TSK.instance("TSK5").priority = 6;
+bios.TSK.instance("TSK4").priority = 7;
+bios.TSK.instance("TSK3").priority = 8;
+bios.TSK.instance("TSK2").priority = 9;
+bios.TSK.instance("TSK1").priority = 10;
+bios.TSK.instance("TSK0").priority = 11;
+bios.TSK.instance("TSK0").stackSize = 81920;
+bios.TSK.instance("TSK1").stackSize = 81920;
+bios.TSK.instance("TSK2").stackSize = 81920;
+bios.TSK.instance("TSK3").stackSize = 81920;
+bios.TSK.instance("TSK4").stackSize = 81920;
+bios.TSK.instance("TSK5").stackSize = 81920;
+bios.TSK.instance("TSK3").fxn = prog.extern("tskCalc10minFun");
+bios.TSK.create("TSK6");
+bios.TSK.instance("TSK6").order = 10;
+bios.TSK.instance("TSK6").stackSize = 81920;
+bios.TSK.instance("TSK6").priority = 5;
+bios.TSK.instance("TSK6").fxn = prog.extern("tskCalcPower");
+bios.TSK.instance("TSK6").fxn = prog.extern("tskCalcPowerFun");
+bios.SEM.create("SEM6");
+bios.TSK.instance("TSK5").stackSize = 81920;
+bios.TSK.instance("TSK6").order = 8;
+bios.TSK.instance("TSK5").destroy();
+bios.TSK.instance("TSK4").order = 6;
+bios.TSK.instance("TSK6").order = 7;
+bios.TSK.instance("TSK3").destroy();
+bios.TSK.instance("TSK6").destroy();
+bios.TSK.create("TSK5");
+bios.TSK.instance("TSK5").order = 7;
+bios.TSK.instance("TSK5").fxn = prog.extern("tskCalc10minFun");
+bios.TSK.instance("TSK5").stackSize = 81920;
+bios.TSK.instance("TSK5").priority = 6;
+bios.TSK.create("TSK6");
+bios.TSK.instance("TSK6").order = 8;
+bios.TSK.instance("TSK6").comment = "_tskCalc5120msFun";
+bios.TSK.instance("TSK6").stackSize = 81920;
+bios.TSK.instance("TSK5").priority = 5;
+bios.TSK.instance("TSK6").priority = 6;
+bios.TSK.instance("TSK6").fxn = prog.extern("tskCalc5120msFun");
+bios.TSK.instance("TSK6").comment = "";
+bios.TSK.instance("TSK6").comment = "<add comments here>";
+bios.TSK.instance("TSK4").allocateTaskName = 1;
+bios.TSK.instance("TSK4").allocateTaskName = 0;
+bios.TSK.instance("TSK0").priority = 12;
+bios.TSK.instance("TSK2").priority = 11;
+bios.TSK.instance("TSK4").priority = 10;
+bios.TSK.instance("TSK4").priority = 9;
+bios.TSK.instance("TSK0").priority = 13;
+bios.TSK.instance("TSK4").stackSize = 819200;
+bios.TSK.instance("TSK4").stackSize = 245760;
+bios.SEM.create("SEM7");
+// !GRAPHICAL_CONFIG_TOOL_SCRIPT_INSERT_POINT!
+
+    prog.save("D:/MyDocuments/Visual Studio 2005/Projects/DM8000/trunk/dspsrc/TEMPtcf185.cdb");}

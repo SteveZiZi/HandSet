@@ -1,0 +1,1 @@
+-i"D:/CCStudio_v3.3/C6000/csl/include" -i"D:/CCStudio_v3.3/C6000/xdais/include" -i"D:/CCStudio_v3.3/bios_5_33_06/packages/ti/bios/include" -i"D:/CCStudio_v3.3/bios_5_33_06/packages/ti/rtdx/include/c6000" -i"D:/CCStudio_v3.3/C6000/cgtools/include"

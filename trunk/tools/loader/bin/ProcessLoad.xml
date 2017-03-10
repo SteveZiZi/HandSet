@@ -1,0 +1,35 @@
+<ROOT>
+	<ProcessInfo>
+        <ProcessName>\Windows\Keyboard.exe</ProcessName>
+        <DelayTime>0</DelayTime>
+        <Protected>0</Protected>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+        <ProcessName>\Windows\recover.exe</ProcessName>
+        <ProcessParam>"\FlashDisk2\loader\BAK" "\FlashDisk2\DSTester"</ProcessParam>
+        <DelayTime>100</DelayTime>
+        <Protected>0</Protected>
+    </ProcessInfo>
+
+	<ProcessInfo>
+        <ProcessName>\Windows\xcopy.exe</ProcessName>
+        <ProcessParam>"\FlashDisk2\loader\LoadingTool.exe" "\Program Files\MemoryLoader\LoadingTool.exe"</ProcessParam>
+        <DelayTime>-1</DelayTime>
+        <Protected>0</Protected>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+        <ProcessName>\Windows\xcopy.exe</ProcessName>
+        <ProcessParam>"\FlashDisk2\loader\ProcessMemoryLoad.xml" "\Program Files\MemoryLoader\ProcessLoad.xml"</ProcessParam>
+        <DelayTime>-1</DelayTime>
+        <Protected>0</Protected>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+        <ProcessName>\Program Files\MemoryLoader\LoadingTool.exe</ProcessName>
+		<DelayTime>-1</DelayTime>
+        <Protected>0</Protected>
+    </ProcessInfo>
+	
+</ROOT>

@@ -1,0 +1,15 @@
+[http://www.xtoee.com.cn]
+$EPCS-8980I!V1.1.0%
+$EPCS-8980M!V1.1.0%
+
+$EPC-8000I!V1.3.1%
+$EPC-8000M!V1.3.1%
+
+
+^EPC-8000IV1.3.1@http://www.xtoee.com.cn/update/epcmupdate/epc-8000/V131/kernel/%
+^EPC-8000MV1.3.1@http://www.xtoee.com.cn/update/epcmupdate/epc-8000/V131/kernel/%
+
+^EPC-8980IV1.1.0@http://www.xtoee.com.cn/update/epcmupdate/epc-8980/V110/kernel/%
+^EPC-8980MV1.1.0@http://www.xtoee.com.cn/update/epcmupdate/epc-8980/V110/kernel/%
+
+|

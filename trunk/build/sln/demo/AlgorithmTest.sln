@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlgorithmTest", "..\..\..\testing\AlgorithmTest\AlgorithmTest.vcproj", "{C3EECDB9-27F7-4D37-A75D-2318BD431476}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3EECDB9-27F7-4D37-A75D-2318BD431476}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C3EECDB9-27F7-4D37-A75D-2318BD431476}.Debug|Win32.Build.0 = Debug|Win32
+		{C3EECDB9-27F7-4D37-A75D-2318BD431476}.Release|Win32.ActiveCfg = Release|Win32
+		{C3EECDB9-27F7-4D37-A75D-2318BD431476}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

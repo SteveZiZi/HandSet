@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DspLinkTest", "DspLinkTest\DspLinkTest.vcproj", "{F786AA5D-E3B3-413F-9DDC-CB962DD59BF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|EPCS-9000 (ARMV4I) = Debug|EPCS-9000 (ARMV4I)
+		Release|EPCS-9000 (ARMV4I) = Release|EPCS-9000 (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F786AA5D-E3B3-413F-9DDC-CB962DD59BF7}.Debug|EPCS-9000 (ARMV4I).ActiveCfg = Debug|EPCS-9000 (ARMV4I)
+		{F786AA5D-E3B3-413F-9DDC-CB962DD59BF7}.Debug|EPCS-9000 (ARMV4I).Build.0 = Debug|EPCS-9000 (ARMV4I)
+		{F786AA5D-E3B3-413F-9DDC-CB962DD59BF7}.Debug|EPCS-9000 (ARMV4I).Deploy.0 = Debug|EPCS-9000 (ARMV4I)
+		{F786AA5D-E3B3-413F-9DDC-CB962DD59BF7}.Release|EPCS-9000 (ARMV4I).ActiveCfg = Release|EPCS-9000 (ARMV4I)
+		{F786AA5D-E3B3-413F-9DDC-CB962DD59BF7}.Release|EPCS-9000 (ARMV4I).Build.0 = Release|EPCS-9000 (ARMV4I)
+		{F786AA5D-E3B3-413F-9DDC-CB962DD59BF7}.Release|EPCS-9000 (ARMV4I).Deploy.0 = Release|EPCS-9000 (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

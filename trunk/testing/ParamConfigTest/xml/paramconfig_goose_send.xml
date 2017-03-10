@@ -1,0 +1,2795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+<HeartbeatInterval>5000</HeartbeatInterval>
+<MinimumInterval>2</MinimumInterval>
+<GocbGroup>
+<Gocb id="1" selected="1">
+<Description>新增GOOSE发送</Description>
+<PortName>0</PortName>
+<APPID>8193</APPID>
+<SrcMAC>00-FF-FF-FF-FF-FF</SrcMAC>
+<DesMAC>FF-FF-FF-FF-FF-FF</DesMAC>
+<VLanID>0</VLanID>
+<VLanPriority>4</VLanPriority>
+<ConfigRevision>0</ConfigRevision>
+<TestFlag>0</TestFlag>
+<NeedComm>0</NeedComm>
+<GocbRef>gocbRef</GocbRef>
+<DataSet>dataSet</DataSet>
+<GoID>goID</GoID>
+<ChannelGroup>
+<Channel id="1" selected="0">
+<Description>GOOSE通道</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>GOOSE通道</Description>
+<Type>6</Type>
+<Value type="2">00</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>GOOSE通道</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="4" selected="0">
+<Description>GOOSE通道</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:42.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="5" selected="0">
+<Description>GOOSE通道</Description>
+<Type>9</Type>
+<Value type="11">3.140000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="6" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="11">0.000000</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="7" selected="0">
+<Description>GOOSE通道</Description>
+<Type>10</Type>
+<Value type="3">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="8" selected="0">
+<Description>GOOSE通道</Description>
+<Type>11</Type>
+<Value type="4">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="9" selected="0">
+<Description>GOOSE通道</Description>
+<Type>12</Type>
+<Value type="5">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="10" selected="0">
+<Description>GOOSE通道</Description>
+<Type>13</Type>
+<Value type="6">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="11" selected="0">
+<Description>GOOSE通道</Description>
+<Type>14</Type>
+<Value type="7">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="12" selected="0">
+<Description>GOOSE通道</Description>
+<Type>15</Type>
+<Value type="8">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="13" selected="0">
+<Description>GOOSE通道</Description>
+<Type>16</Type>
+<Value type="9">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="14" selected="0">
+<Description>GOOSE通道</Description>
+<Type>17</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="15" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="16" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="17" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="18" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="19" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="20" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="21" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="22" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="23" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="24" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="25" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="26" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="27" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="28" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="29" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="30" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+</ChannelGroup>
+</Gocb>
+<Gocb id="2" selected="1">
+<Description>新增GOOSE发送</Description>
+<PortName>0</PortName>
+<APPID>8194</APPID>
+<SrcMAC>00-FF-FF-FF-FF-FF</SrcMAC>
+<DesMAC>FF-FF-FF-FF-FF-FF</DesMAC>
+<VLanID>0</VLanID>
+<VLanPriority>4</VLanPriority>
+<ConfigRevision>0</ConfigRevision>
+<TestFlag>0</TestFlag>
+<NeedComm>0</NeedComm>
+<GocbRef>gocbRef</GocbRef>
+<DataSet>dataSet</DataSet>
+<GoID>goID</GoID>
+<ChannelGroup>
+<Channel id="1" selected="0">
+<Description>GOOSE通道</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>GOOSE通道</Description>
+<Type>6</Type>
+<Value type="2">00</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>GOOSE通道</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="4" selected="0">
+<Description>GOOSE通道</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:42.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="5" selected="0">
+<Description>GOOSE通道</Description>
+<Type>9</Type>
+<Value type="11">0.000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="6" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="11">0.000000</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="7" selected="0">
+<Description>GOOSE通道</Description>
+<Type>10</Type>
+<Value type="3">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="8" selected="0">
+<Description>GOOSE通道</Description>
+<Type>11</Type>
+<Value type="4">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="9" selected="0">
+<Description>GOOSE通道</Description>
+<Type>12</Type>
+<Value type="5">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="10" selected="0">
+<Description>GOOSE通道</Description>
+<Type>13</Type>
+<Value type="6">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="11" selected="0">
+<Description>GOOSE通道</Description>
+<Type>14</Type>
+<Value type="7">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="12" selected="0">
+<Description>GOOSE通道</Description>
+<Type>15</Type>
+<Value type="8">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="13" selected="0">
+<Description>GOOSE通道</Description>
+<Type>16</Type>
+<Value type="9">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="14" selected="0">
+<Description>GOOSE通道</Description>
+<Type>17</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="15" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="16" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="17" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="18" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="19" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="20" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="21" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="22" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="23" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="24" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="25" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="26" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="27" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="28" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="29" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="30" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+</ChannelGroup>
+</Gocb>
+<Gocb id="3" selected="1">
+<Description>新增GOOSE发送</Description>
+<PortName>0</PortName>
+<APPID>8195</APPID>
+<SrcMAC>00-FF-FF-FF-FF-FF</SrcMAC>
+<DesMAC>FF-FF-FF-FF-FF-FF</DesMAC>
+<VLanID>0</VLanID>
+<VLanPriority>4</VLanPriority>
+<ConfigRevision>0</ConfigRevision>
+<TestFlag>0</TestFlag>
+<NeedComm>0</NeedComm>
+<GocbRef>gocbRef</GocbRef>
+<DataSet>dataSet</DataSet>
+<GoID>goID</GoID>
+<ChannelGroup>
+<Channel id="1" selected="0">
+<Description>GOOSE通道</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>GOOSE通道</Description>
+<Type>6</Type>
+<Value type="2">00</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>GOOSE通道</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="4" selected="0">
+<Description>GOOSE通道</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:42.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="5" selected="0">
+<Description>GOOSE通道</Description>
+<Type>9</Type>
+<Value type="11">0.000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="6" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="11">0.000000</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="7" selected="0">
+<Description>GOOSE通道</Description>
+<Type>10</Type>
+<Value type="3">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="8" selected="0">
+<Description>GOOSE通道</Description>
+<Type>11</Type>
+<Value type="4">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="9" selected="0">
+<Description>GOOSE通道</Description>
+<Type>12</Type>
+<Value type="5">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="10" selected="0">
+<Description>GOOSE通道</Description>
+<Type>13</Type>
+<Value type="6">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="11" selected="0">
+<Description>GOOSE通道</Description>
+<Type>14</Type>
+<Value type="7">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="12" selected="0">
+<Description>GOOSE通道</Description>
+<Type>15</Type>
+<Value type="8">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="13" selected="0">
+<Description>GOOSE通道</Description>
+<Type>16</Type>
+<Value type="9">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="14" selected="0">
+<Description>GOOSE通道</Description>
+<Type>17</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="15" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="16" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="17" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="18" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="19" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="20" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="21" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="22" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="23" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="24" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="25" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="26" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="27" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="28" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="29" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="30" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+</ChannelGroup>
+</Gocb>
+<Gocb id="4" selected="1">
+<Description>新增GOOSE发送</Description>
+<PortName>0</PortName>
+<APPID>8196</APPID>
+<SrcMAC>00-FF-FF-FF-FF-FF</SrcMAC>
+<DesMAC>FF-FF-FF-FF-FF-FF</DesMAC>
+<VLanID>0</VLanID>
+<VLanPriority>4</VLanPriority>
+<ConfigRevision>0</ConfigRevision>
+<TestFlag>0</TestFlag>
+<NeedComm>0</NeedComm>
+<GocbRef>gocbRef</GocbRef>
+<DataSet>dataSet</DataSet>
+<GoID>goID</GoID>
+<ChannelGroup>
+<Channel id="1" selected="0">
+<Description>GOOSE通道</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>GOOSE通道</Description>
+<Type>6</Type>
+<Value type="2">00</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>GOOSE通道</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="4" selected="0">
+<Description>GOOSE通道</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:42.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="5" selected="0">
+<Description>GOOSE通道</Description>
+<Type>9</Type>
+<Value type="11">0.000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="6" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="11">0.000000</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="7" selected="0">
+<Description>GOOSE通道</Description>
+<Type>10</Type>
+<Value type="3">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="8" selected="0">
+<Description>GOOSE通道</Description>
+<Type>11</Type>
+<Value type="4">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="9" selected="0">
+<Description>GOOSE通道</Description>
+<Type>12</Type>
+<Value type="5">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="10" selected="0">
+<Description>GOOSE通道</Description>
+<Type>13</Type>
+<Value type="6">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="11" selected="0">
+<Description>GOOSE通道</Description>
+<Type>14</Type>
+<Value type="7">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="12" selected="0">
+<Description>GOOSE通道</Description>
+<Type>15</Type>
+<Value type="8">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="13" selected="0">
+<Description>GOOSE通道</Description>
+<Type>16</Type>
+<Value type="9">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="14" selected="0">
+<Description>GOOSE通道</Description>
+<Type>17</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="15" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="16" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="17" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="18" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="19" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="20" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="21" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="22" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="23" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="24" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="25" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="26" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="27" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="28" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="29" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="30" selected="0">
+<Description>GOOSE通道</Description>
+<Type>4</Type>
+<Value type="10">0</Value>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="0">
+<Description>stVal</Description>
+<Type>5</Type>
+<Value type="1">1</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description>q</Description>
+<Type>7</Type>
+<Value type="2">0000000000000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description>t</Description>
+<Type>8</Type>
+<Value type="14">2000-01-01 00:03:57.000</Value>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+</ChannelGroup>
+</Gocb>
+</GocbGroup>
+</config>

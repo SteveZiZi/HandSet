@@ -1,0 +1,19 @@
+<ROOT>
+    <ProcessInfo>
+        <ProcessName>\FlashDisk2\loader\KeyboardAux.exe</ProcessName>
+	<DelayTime>0</DelayTime>
+	<Protected>0</Protected>
+    </ProcessInfo>
+
+    <ProcessInfo>
+        <ProcessName>\FlashDisk2\loader\MemInfo.exe</ProcessName>
+	<DelayTime>3000</DelayTime>
+	<Protected>1</Protected>
+    </ProcessInfo>
+
+    <ProcessInfo>
+        <ProcessName>\FlashDisk2\loader\DM_ARMV4I.exe</ProcessName>
+	<DelayTime>5000</DelayTime>
+	<Protected>0</Protected>
+    </ProcessInfo>
+</ROOT>

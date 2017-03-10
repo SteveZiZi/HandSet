@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+<SMVType>4</SMVType>
+<SVDisplay>2</SVDisplay>
+<Frequency>1</Frequency>
+<BuadRate>2</BuadRate>
+<ASDUCount>1</ASDUCount>
+<VirtualChannelGroup>
+<VirtualChannel>
+<Name>Ia1</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Ia2</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Ib1</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Ib2</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Ic1</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Ic2</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Ix1</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Ix2</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Ua1</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Ua2</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Ub1</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Ub2</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Uc1</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Uc2</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Ux1</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+<VirtualChannel>
+<Name>Ux2</Name>
+<CurrentType>1</CurrentType>
+</VirtualChannel>
+</VirtualChannelGroup>
+<SmvCbGroup>
+<IEC61850_9_2>
+<SmvCb id="1" selected="1">
+<Description>新增SMV发送</Description>
+<PortName>0</PortName>
+<APPID>16385</APPID>
+<SrcMAC>00-FF-FF-FF-FF-FF</SrcMAC>
+<DesMAC>FF-FF-FF-FF-FF-FF</DesMAC>
+<VLanID>0</VLanID>
+<VLanPriority>4</VLanPriority>
+<ConfigRevision>0</ConfigRevision>
+<SvID>svID0</SvID>
+<DataSet>datSet0</DataSet>
+<ChannelGroup>
+<Channel id="1">
+<Description>A相保护电流</Description>
+<Type measure="0">1</Type>
+<Phase>1</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ia1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="2">
+<Description>B相保护电流</Description>
+<Type measure="0">1</Type>
+<Phase>2</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ib1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="3">
+<Description>C相保护电流</Description>
+<Type measure="0">1</Type>
+<Phase>3</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ic1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="4">
+<Description>中性点电流</Description>
+<Type measure="1">1</Type>
+<Phase>5</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ix1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="5">
+<Description>A相测量电流</Description>
+<Type measure="1">1</Type>
+<Phase>1</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ia1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="6">
+<Description>B相测量电流</Description>
+<Type measure="1">1</Type>
+<Phase>2</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ib1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="7">
+<Description>C相测量电流</Description>
+<Type measure="1">1</Type>
+<Phase>3</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ic1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="8">
+<Description>A相电压</Description>
+<Type measure="0">2</Type>
+<Phase>1</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ua1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="9">
+<Description>B相电压</Description>
+<Type measure="0">2</Type>
+<Phase>2</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ub1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="10">
+<Description>C相电压</Description>
+<Type measure="0">2</Type>
+<Phase>3</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Uc1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="11">
+<Description>中性点电压</Description>
+<Type measure="0">2</Type>
+<Phase>5</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ux1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="12">
+<Description>母线电压</Description>
+<Type measure="0">2</Type>
+<Phase>4</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ux1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+</ChannelGroup>
+</SmvCb>
+<SmvCb id="2" selected="1">
+<Description>新增SMV发送</Description>
+<PortName>0</PortName>
+<APPID>16386</APPID>
+<SrcMAC>00-FF-FF-FF-FF-FF</SrcMAC>
+<DesMAC>FF-FF-FF-FF-FF-FF</DesMAC>
+<VLanID>0</VLanID>
+<VLanPriority>4</VLanPriority>
+<ConfigRevision>0</ConfigRevision>
+<SvID>svID0</SvID>
+<DataSet>datSet0</DataSet>
+<ChannelGroup>
+<Channel id="1">
+<Description>A相保护电流</Description>
+<Type measure="0">1</Type>
+<Phase>1</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ia1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="2">
+<Description>B相保护电流</Description>
+<Type measure="0">1</Type>
+<Phase>2</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ib1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="3">
+<Description>C相保护电流</Description>
+<Type measure="0">1</Type>
+<Phase>3</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ic1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="4">
+<Description>中性点电流</Description>
+<Type measure="1">1</Type>
+<Phase>5</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ix1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="5">
+<Description>A相测量电流</Description>
+<Type measure="1">1</Type>
+<Phase>1</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ia1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="6">
+<Description>B相测量电流</Description>
+<Type measure="1">1</Type>
+<Phase>2</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ib1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="7">
+<Description>C相测量电流</Description>
+<Type measure="1">1</Type>
+<Phase>3</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ic1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="8">
+<Description>A相电压</Description>
+<Type measure="0">2</Type>
+<Phase>1</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ua1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="9">
+<Description>B相电压</Description>
+<Type measure="0">2</Type>
+<Phase>2</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ub1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="10">
+<Description>C相电压</Description>
+<Type measure="0">2</Type>
+<Phase>3</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Uc1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="11">
+<Description>中性点电压</Description>
+<Type measure="0">2</Type>
+<Phase>5</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ux1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="12">
+<Description>母线电压</Description>
+<Type measure="0">2</Type>
+<Phase>4</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ux1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+</ChannelGroup>
+</SmvCb>
+<SmvCb id="3" selected="1">
+<Description>新增SMV发送</Description>
+<PortName>0</PortName>
+<APPID>16387</APPID>
+<SrcMAC>00-FF-FF-FF-FF-FF</SrcMAC>
+<DesMAC>FF-FF-FF-FF-FF-FF</DesMAC>
+<VLanID>0</VLanID>
+<VLanPriority>4</VLanPriority>
+<ConfigRevision>0</ConfigRevision>
+<SvID>svID0</SvID>
+<DataSet>datSet0</DataSet>
+<ChannelGroup>
+<Channel id="1">
+<Description>A相保护电流</Description>
+<Type measure="0">1</Type>
+<Phase>1</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ia1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="2">
+<Description>B相保护电流</Description>
+<Type measure="0">1</Type>
+<Phase>2</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ib1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="3">
+<Description>C相保护电流</Description>
+<Type measure="0">1</Type>
+<Phase>3</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ic1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="4">
+<Description>中性点电流</Description>
+<Type measure="1">1</Type>
+<Phase>5</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ix1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="5">
+<Description>A相测量电流</Description>
+<Type measure="1">1</Type>
+<Phase>1</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ia1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="6">
+<Description>B相测量电流</Description>
+<Type measure="1">1</Type>
+<Phase>2</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ib1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="7">
+<Description>C相测量电流</Description>
+<Type measure="1">1</Type>
+<Phase>3</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ic1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="8">
+<Description>A相电压</Description>
+<Type measure="0">2</Type>
+<Phase>1</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ua1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="9">
+<Description>B相电压</Description>
+<Type measure="0">2</Type>
+<Phase>2</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ub1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="10">
+<Description>C相电压</Description>
+<Type measure="0">2</Type>
+<Phase>3</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Uc1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="11">
+<Description>中性点电压</Description>
+<Type measure="0">2</Type>
+<Phase>5</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ux1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="12">
+<Description>母线电压</Description>
+<Type measure="0">2</Type>
+<Phase>4</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ux1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+</ChannelGroup>
+</SmvCb>
+<SmvCb id="4" selected="1">
+<Description>新增SMV发送</Description>
+<PortName>0</PortName>
+<APPID>16388</APPID>
+<SrcMAC>00-FF-FF-FF-FF-FF</SrcMAC>
+<DesMAC>FF-FF-FF-FF-FF-FF</DesMAC>
+<VLanID>0</VLanID>
+<VLanPriority>4</VLanPriority>
+<ConfigRevision>0</ConfigRevision>
+<SvID>svID0</SvID>
+<DataSet>datSet0</DataSet>
+<ChannelGroup>
+<Channel id="1">
+<Description>A相保护电流</Description>
+<Type measure="0">1</Type>
+<Phase>1</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ia1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="2">
+<Description>B相保护电流</Description>
+<Type measure="0">1</Type>
+<Phase>2</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ib1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="3">
+<Description>C相保护电流</Description>
+<Type measure="0">1</Type>
+<Phase>3</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ic1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="4">
+<Description>中性点电流</Description>
+<Type measure="1">1</Type>
+<Phase>5</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ix1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="5">
+<Description>A相测量电流</Description>
+<Type measure="1">1</Type>
+<Phase>1</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ia1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="6">
+<Description>B相测量电流</Description>
+<Type measure="1">1</Type>
+<Phase>2</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ib1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="7">
+<Description>C相测量电流</Description>
+<Type measure="1">1</Type>
+<Phase>3</Phase>
+<OnceRatings>3000.000</OnceRatings>
+<SecondaryRatings>5.000</SecondaryRatings>
+<VirtualChannel>Ic1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="8">
+<Description>A相电压</Description>
+<Type measure="0">2</Type>
+<Phase>1</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ua1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="9">
+<Description>B相电压</Description>
+<Type measure="0">2</Type>
+<Phase>2</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ub1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="10">
+<Description>C相电压</Description>
+<Type measure="0">2</Type>
+<Phase>3</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Uc1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="11">
+<Description>中性点电压</Description>
+<Type measure="0">2</Type>
+<Phase>5</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ux1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+<Channel id="12">
+<Description>母线电压</Description>
+<Type measure="0">2</Type>
+<Phase>4</Phase>
+<OnceRatings>110000.000</OnceRatings>
+<SecondaryRatings>100.000</SecondaryRatings>
+<VirtualChannel>Ux1</VirtualChannel>
+<Quality>0</Quality>
+</Channel>
+</ChannelGroup>
+</SmvCb>
+</IEC61850_9_2>
+</SmvCbGroup>
+</config>

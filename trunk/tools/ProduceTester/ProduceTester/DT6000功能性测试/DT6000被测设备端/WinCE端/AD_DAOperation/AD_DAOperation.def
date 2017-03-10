@@ -1,0 +1,7 @@
+LIBRARY  AD_DAOperation
+
+EXPORTS 
+epcAdDaOpenDriver		@1
+epcAdGetSampleValue		@2
+epcDASetOutputValue     @3
+epcAdDaCloseDriver		@4

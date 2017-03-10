@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+<GocbGroup>
+<Gocb id="1" selected="1">
+<Description>新增GOOSE发送</Description>
+<PortName>0</PortName>
+<APPID>273</APPID>
+<SrcMAC>00-FF-FF-FF-FF-FF</SrcMAC>
+<DesMAC>01-0C-CD-01-01-11</DesMAC>
+<VLanID>0</VLanID>
+<VLanPriority>4</VLanPriority>
+<ConfigRevision>1</ConfigRevision>
+<TestFlag>0</TestFlag>
+<NeedComm>0</NeedComm>
+<GocbRef>PT2201AGOLD1/LLN0$GO$gocb0</GocbRef>
+<DataSet>PT2201AGOLD1/LLN0$dsGOOSE0</DataSet>
+<GoID>PT2201AGOLD1/LLN0$GO$gocb0</GoID>
+<ChannelGroup>
+<Channel id="1" selected="1">
+<Description></Description>
+<Type>6</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="1">
+<Description></Description>
+<Type>6</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="1">
+<Description></Description>
+<Type>6</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="4" selected="1">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="5" selected="1">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="6" selected="1">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="7" selected="0">
+<Description></Description>
+<Type>4</Type>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="1">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description></Description>
+<Type>7</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description></Description>
+<Type>8</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="8" selected="0">
+<Description></Description>
+<Type>4</Type>
+<VirtualChannel></VirtualChannel>
+<SubChannel>
+<Channel id="1" selected="1">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="2" selected="0">
+<Description></Description>
+<Type>7</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="3" selected="0">
+<Description></Description>
+<Type>8</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</SubChannel>
+</Channel>
+<Channel id="9" selected="0">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="10" selected="0">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="11" selected="0">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="12" selected="0">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="13" selected="0">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="14" selected="0">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="15" selected="0">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="16" selected="0">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="17" selected="0">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+<Channel id="18" selected="0">
+<Description></Description>
+<Type>5</Type>
+<VirtualChannel></VirtualChannel>
+</Channel>
+</ChannelGroup>
+</Gocb>
+</GocbGroup>
+</config>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<smv_recv_config>
+    <group name="SmvBaseConfig">
+        <SampleValueShowType value="2" />
+        <SampleRate value="1" />
+    </group>
+
+    <group  name="HarmonicShow">
+        <HarmonicTypeThd     value="true" />
+        <HarmonicTypeDc      value="true" />
+        <HarmonicTypeBaseWav value="true" />
+        <HarmonicType2       value="true" />
+        <HarmonicType3       value="true" />
+        <HarmonicType4       value="true" />
+        <HarmonicType5       value="true" />
+        <HarmonicType6       value="true" />
+        <HarmonicType7       value="true" />
+        <HarmonicType8       value="true" />
+        <HarmonicType9       value="true" />
+        <HarmonicType10      value="true" />
+        <HarmonicType11      value="true" />
+        <HarmonicType12      value="true" />
+        <HarmonicType13      value="true" />
+        <HarmonicType14      value="true" />
+        <HarmonicType15      value="true" />
+        <HarmonicType16      value="true" />
+        <HarmonicType17      value="true" />
+        <HarmonicType18      value="true" />
+        <HarmonicType19      value="true" />
+        <HarmonicType20      value="true" />
+        <HarmonicType21      value="true" />
+    </group>
+
+    <group name="PolarityCheck">
+        <TransformerType     value="2" />
+        <SillValue           value="4" />
+        <NullShiftValue      value="3" />
+    </group>
+
+    <group name="PhaseCheck">
+       <PhaseCheckAlign value="2" />
+    </group>
+</smv_recv_config>

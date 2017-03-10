@@ -1,0 +1,1978 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\Dsm.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Dsm.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DSM_DIALOG DIALOG  0, 0, 373, 198
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TOPMOST | WS_EX_APPWINDOW | 0x80000000L
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SPLASH_DLG DIALOG  0, 0, 234, 124
+STYLE DS_SETFONT | WS_POPUP
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_BASIC_CFG_DLG DIALOG  0, 0, 343, 181
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_MAIN_DLG DIALOG  0, 0, 251, 191
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_BASIC_PARAM_DLG DIALOG  0, 0, 268, 142
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_POPUP_HOME_DLG DIALOG  0, 0, 291, 137
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_FILEBROWSER_DLG DIALOG  0, 0, 304, 137
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SCAN_SMV_DLG DIALOG  0, 0, 364, 182
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_POPUP_PROGRESS_BAR_DLG DIALOG  0, 0, 471, 188
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SMV_WAVEFORM_DLG DIALOG  0, 0, 413, 213
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SMV_PHASOR_DLG DIALOG  0, 0, 213, 164
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SMV_PHASESEQU_DLG DIALOG  0, 0, 376, 200
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SMV_DUALPHASE_DLG DIALOG  0, 0, 365, 202
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SMV_MONITOR_DLG DIALOG  0, 0, 352, 212
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SMV_POWER_DLG DIALOG  0, 0, 372, 178
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SMV_CONFIG_DLG DIALOG  0, 0, 361, 208
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SMV_DUALAD_DLG DIALOG  0, 0, 335, 168
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_GOOSE_SCAN_DLG DIALOG  0, 0, 351, 178
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_POPUP_LOCK_DLG DIALOG  0, 0, 374, 147
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_POPUP_MSG_DLG DIALOG  0, 0, 352, 143
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SMV_EFFECTIVE_VALUE_DLG DIALOG  0, 0, 358, 200
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SMV_POLARITY_DLG DIALOG  0, 0, 409, 238
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SMV_HARMONIC_DLG DIALOG  0, 0, 361, 193
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_GOOSE_REALTIME_DLG DIALOG  0, 0, 396, 227
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_GOOSE_SHIFT_DLG DIALOG  0, 0, 307, 205
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_GOOSE_STATISTICS_DLG DIALOG  0, 0, 262, 148
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_GOOSE_MONITOR_DLG DIALOG  0, 0, 271, 148
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SMV_STATISTICS_DLG DIALOG  0, 0, 374, 196
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SMV_MSGMONITOR_DLG DIALOG  0, 0, 453, 216
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_BASIC_PARAM_ADD_GOOSE_FROM_SCL_DLG DIALOG  0, 0, 261, 138
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_BASIC_PARAM_ADD_GOOSE_FROM_SCAN_DLG DIALOG  0, 0, 266, 155
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_BASIC_PARAM_EDIT_GOOSE_CTRL_DLG DIALOG  0, 0, 279, 166
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_BASIC_PARAM_VIEW_GOOSE_CTRL_DLG DIALOG  0, 0, 318, 175
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_BASIC_PARAM_DI_MAP_DLG DIALOG  0, 0, 224, 148
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_BASIC_PARAM_ACDC_DLG DIALOG  0, 0, 275, 172
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_POPUP_BASE_DLG DIALOG  0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "对话框"
+FONT 9, "宋体, MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,129,7,50,16
+    PUSHBUTTON      "取消",IDCANCEL,129,26,50,16
+END
+
+IDD_SEL_SMV_FROM_SCAN_DLG DIALOG  0, 0, 266, 155
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SEL_SMV_FROM_SCL_DLG DIALOG  0, 0, 266, 155
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_EDIT_SMV_SEND_DLG DIALOG  0, 0, 282, 175
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_POPUP_PASSWORD_DLG DIALOG  0, 0, 326, 155
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+    EDITTEXT        IDC_PASSWORD_EDIT,71,58,134,14,ES_MULTILINE | NOT WS_BORDER
+END
+
+IDD_MANUAL_SMV_GOOSE_SEND_DLG DIALOG  0, 0, 272, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_MANUAL_SET_DLG DIALOG  0, 0, 272, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_MANUAL_RESULT_DI_ACTION_DLG DIALOG  0, 0, 272, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_MANUAL_RESULT_LIST_DLG DIALOG  0, 0, 272, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_MANUAL_SMV_CHAN_MAP_DLG DIALOG  0, 0, 272, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_TIME_B_DLG DIALOG  0, 0, 303, 244
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_DI_STATE_DLG DIALOG  0, 0, 317, 55
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_STATE_SEQUENCE_DLG DIALOG  0, 0, 289, 174
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_STATE_SET_DLG DIALOG  0, 0, 289, 174
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_STATE_RESULT_LIST_DLG DIALOG  0, 0, 289, 174
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_STATE_RESULT_DI_ACTION_DLG DIALOG  0, 0, 289, 174
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_STATE_SWITCH_STATUS_CONFIRM_DLG DIALOG  0, 0, 241, 113
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_MANUAL_RESULT_DETAIL_DLG DIALOG  0, 0, 272, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_LP_LIGHT_POWER_DLG DIALOG  0, 0, 272, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SMV_POLARITY_CFG_DLG DIALOG  0, 0, 278, 168
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_STATE_HARMONIC_DLG DIALOG  0, 0, 289, 174
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_STATE_FAULT_CALC_DLG DIALOG  0, 0, 289, 174
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_STATE_FAULT_IMPEDANCE_DLG DIALOG  0, 0, 289, 174
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_STATE_FAULT_COMPENSATE_DLG DIALOG  0, 0, 289, 174
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_DI_DO_STATE_DLG DIALOG  0, 0, 317, 55
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_SCAN_1588 DIALOG  0, 0, 364, 176
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_STATUS_WORD_SET_DLG DIALOG  0, 0, 318, 175
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_HELP_DLG DIALOG  0, 0, 296, 155
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_MANUAL_SMV_CTRL_LIST_DLG DIALOG  0, 0, 272, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_MANUAL_SMV_STATUS_WORD_DLG DIALOG  0, 0, 272, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_MANUAL_SMV_CHAN_QUALITY_DLG DIALOG  0, 0, 272, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_MANUAL_QUALITY_SET_DLG DIALOG  0, 0, 272, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_MANUAL_STEP_SET_DLG DIALOG  0, 0, 272, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_PCAP_BROWSER_DLG DIALOG  0, 0, 405, 231
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_PARAM_SMV_TX_DLG DIALOG  0, 0, 277, 174
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_PARAM_GOOSE_TX_DLG DIALOG  0, 0, 278, 175
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_PARAM_GOOSE_RX_DLG DIALOG  0, 0, 278, 175
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_BASIC_PARAM_ADD_GOOSE_RX_FROM_SCAN_DLG DIALOG  0, 0, 275, 176
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_BASIC_PARAM_ADD_GOOSE_RX_FROM_SCL_DLG DIALOG  0, 0, 275, 177
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_DSM_SV_GSE_DLG DIALOG  0, 0, 276, 171
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_POPUP_SHOW_DLG DIALOG  0, 0, 292, 73
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+    PUSHBUTTON      "确 定",IDC_BTN_NUM2,69,41,50,14
+    PUSHBUTTON      "取 消",IDC_BTN_NUM3,159,41,50,14
+END
+
+IDD_MAIN_SEND_DLG DIALOG  0, 0, 336, 198
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_BASIC_SETTING_DLG DIALOG  0, 0, 375, 196
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_BASIC_ABOUT_DLG DIALOG  0, 0, 353, 182
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Dsm.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "Dsm.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DSM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_SPLASH_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_BASIC_CFG_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 336
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_MAIN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+    END
+
+    IDD_BASIC_PARAM_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 261
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_POPUP_HOME_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_FILEBROWSER_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 297
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_SCAN_SMV_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 357
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_POPUP_PROGRESS_BAR_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 464
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDD_SMV_WAVEFORM_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 406
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 206
+    END
+
+    IDD_SMV_PHASOR_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 206
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_SMV_PHASESEQU_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 369
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_SMV_DUALPHASE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 358
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 195
+    END
+
+    IDD_SMV_MONITOR_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 345
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_SMV_POWER_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 365
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_SMV_CONFIG_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 354
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 201
+    END
+
+    IDD_SMV_DUALAD_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 161
+    END
+
+    IDD_GOOSE_SCAN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 344
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_POPUP_LOCK_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 367
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 140
+    END
+
+    IDD_POPUP_MSG_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 345
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_SMV_EFFECTIVE_VALUE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 351
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_SMV_POLARITY_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 402
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_SMV_HARMONIC_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 354
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+    END
+
+    IDD_GOOSE_REALTIME_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 389
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+    END
+
+    IDD_GOOSE_SHIFT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_GOOSE_STATISTICS_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 255
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_GOOSE_MONITOR_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 264
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_SMV_STATISTICS_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 367
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+
+    IDD_SMV_MSGMONITOR_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 446
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 209
+    END
+
+    IDD_BASIC_PARAM_ADD_GOOSE_FROM_SCAN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+
+    IDD_BASIC_PARAM_EDIT_GOOSE_CTRL_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_BASIC_PARAM_VIEW_GOOSE_CTRL_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 311
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_BASIC_PARAM_DI_MAP_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 217
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_BASIC_PARAM_ACDC_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 268
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 165
+    END
+
+    IDD_POPUP_BASE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_SEL_SMV_FROM_SCAN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+
+    IDD_EDIT_SMV_SEND_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_POPUP_PASSWORD_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 319
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+
+    IDD_MANUAL_SMV_GOOSE_SEND_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_MANUAL_SET_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_MANUAL_RESULT_DI_ACTION_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_MANUAL_RESULT_LIST_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_MANUAL_SMV_CHAN_MAP_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_TIME_B_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 237
+    END
+
+    IDD_STATE_SEQUENCE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_STATE_SET_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_STATE_RESULT_LIST_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_STATE_RESULT_DI_ACTION_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_MANUAL_RESULT_DETAIL_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_LP_LIGHT_POWER_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_SMV_POLARITY_CFG_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 161
+    END
+
+    IDD_STATE_HARMONIC_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_STATE_FAULT_CALC_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_STATE_FAULT_IMPEDANCE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_STATE_FAULT_COMPENSATE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_SCAN_1588, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 357
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_STATUS_WORD_SET_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 311
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_HELP_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+
+    IDD_MANUAL_SMV_CTRL_LIST_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_MANUAL_SMV_STATUS_WORD_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_MANUAL_SMV_CHAN_QUALITY_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_MANUAL_QUALITY_SET_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_MANUAL_STEP_SET_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_PCAP_BROWSER_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 398
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_PARAM_SMV_TX_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_PARAM_GOOSE_TX_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_PARAM_GOOSE_RX_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_BASIC_PARAM_ADD_GOOSE_RX_FROM_SCAN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 268
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_BASIC_PARAM_ADD_GOOSE_RX_FROM_SCL_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 268
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_DSM_SV_GSE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 269
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_POPUP_SHOW_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 285
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_MAIN_SEND_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 329
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_BASIC_SETTING_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 368
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+
+    IDD_BASIC_ABOUT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 346
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_MAIN MENU 
+BEGIN
+    MENUITEM "报文监测",                        ID_MENU_MAIN_F1
+    MENUITEM "报文发送",                        ID_MENU_MAIN_F2
+    MENUITEM "辅助测试",                        ID_MENU_MAIN_F3
+    MENUITEM "IEC 设置",                        ID_MENU_MAIN_F4
+    MENUITEM "基本设置"                        ID_MENU_MAIN_F5
+    MENUITEM "  关  于",                        ID_MENU_MAIN_F6
+END
+
+IDR_MENU_SYSTEM_CFG MENU 
+BEGIN
+    MENUITEM " ",                           IDR_MENU_SYSTEM_F1
+    MENUITEM " ",                           IDR_MENU_SYSTEM_F2
+    MENUITEM " ",                           IDR_MENU_SYSTEM_F3
+    MENUITEM " ",                           IDR_MENU_SYSTEM_F4
+    MENUITEM " ",                           IDR_MENU_SYSTEM_F5
+    MENUITEM " ",                           IDR_MENU_SYSTEM_F6
+END
+
+IDR_MENU_WIZARD MENU 
+BEGIN
+    MENUITEM " ",                           ID_33546
+    MENUITEM " ",                           ID_33550
+    MENUITEM " ",                           ID_33548
+    MENUITEM " ",                           ID_33549
+    MENUITEM " ",                           ID_33547
+    MENUITEM "完成",                        ID_MENU_WIZARD_F6
+END
+
+IDR_MENU_MSG_PARAM MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_MSG_PARAM_F1
+    MENUITEM "SV发送",                        ID_MENU_MSG_PARAM_F2
+    MENUITEM "GSE发布",                       ID_MENU_MSG_PARAM_F3
+    MENUITEM "GSE订阅",                       ID_MENU_MSG_PARAM_F4
+    MENUITEM " ",                           ID_MENU_MSG_PARAM_F5
+    MENUITEM " ",                           ID_MENU_MSG_PARAM_F6
+END
+
+IDR_MENU_SMV_SCAN MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_SCANSMV_SWITCH_9X
+    MENUITEM " ",                           ID_MENU_SCANSMV_SWITCH_FT3
+    MENUITEM " ",                           ID_MENU_SCANSMV_SWITCH_GOOSE
+    MENUITEM "进入",                          ID_MENU_SCANSMV_ENTER
+    MENUITEM "重新监测",                        ID_MENU_SCANSMV_RESCAN
+    MENUITEM " ",                           ID_MENU_SCANSMV_WAVE
+END
+
+IDR_MENU_SMV_COMMON MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "有效值",                         ID_MENU_SMV_EFFECTVAL
+        MENUITEM "波形",                          ID_MENU_SMV_WAVEFORM
+        MENUITEM "相量",                          ID_MENU_SMV_PHASOR
+        MENUITEM "序量",                          ID_MENU_SMV_PHASESEQU
+        MENUITEM "功率",                          ID_MENU_SMV_POWER
+        MENUITEM "谐波",                          ID_MENU_SMV_HARMONIC
+        MENUITEM "双AD",                         ID_MENU_SMV_DUALAD
+        MENUITEM "核相",                          ID_MENU_SMV_DUALPHASE
+        MENUITEM "极性",                          ID_MENU_SMV_POLAR
+        MENUITEM "异常统计",                        ID_MENU_SMV_STATISTICS
+        MENUITEM "报文监测",                        ID_MENU_SMV_MSGMONITOR
+    END
+    MENUITEM "控制块",                         ID_MENU_SMV_F2
+    MENUITEM " ",                           ID_MENU_SMV_F3
+    MENUITEM " ",                           ID_MENU_SMV_F4
+    MENUITEM " ",                           ID_MENU_SMV_F5
+    MENUITEM "设置",                          ID_MENU_SMV_F6
+END
+
+IDR_MENU_SMV_CONFIG MENU 
+BEGIN
+    MENUITEM " ",                           ID_SMV_CONFIG_F1
+    MENUITEM " ",                           ID_SMV_CONFIG_F2
+    MENUITEM " ",                           ID_SMV_CONFIG_F3
+    MENUITEM " ",                           ID_SMV_CONFIG_F4
+    MENUITEM " ",                           ID_SMV_CONFIG_F5
+    MENUITEM " ",                           ID_SMV_CONFIG_F6
+END
+
+IDR_MENU_GOOSE_SCAN MENU 
+BEGIN
+    MENUITEM " 9-1/9-2",                    ID_MENU_SCAN_SMV_DLG
+    MENUITEM " FT3",                        ID_MENU_SCAN_FT3_DLG
+    MENUITEM " GOOSE",                      ID_MENU_SCAN_GOOSE_DLG
+    MENUITEM "进入",                          ID_MENU_GOOSE_ENTER
+    MENUITEM "重新探测",                        ID_MENU_GOOSE_RESCAN
+    MENUITEM "录波",                          ID_MENU_GOOSE_CLSSEL
+END
+
+IDR_MENU_SMV_MONITOR MENU 
+BEGIN
+    MENUITEM " ",                           ID_SMV_MONITOR_F1
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+END
+
+IDR_MENU_GOOSE MENU 
+BEGIN
+    POPUP "实时值"
+    BEGIN
+        MENUITEM "实时值",                         ID_MENU_GOOSE_REALTIME
+        MENUITEM "变位列表",                        ID_MENU_GOOSE_SHIFT
+        MENUITEM "异常统计",                        ID_MENU_GOOSE_STATISTICS
+        MENUITEM "实时报文",                        ID_MENU_GOOSE_MONITOR
+    END
+    MENUITEM "控制块",                         ID_MENU_GOOSE_F2
+    MENUITEM " ",                           ID_MENU_GOOSE_F3
+    MENUITEM " ",                           ID_MENU_GOOSE_F4
+    MENUITEM " ",                           ID_MENU_GOOSE_F5
+    MENUITEM " ",                           ID_MENU_GOOSE_F6
+END
+
+IDR_MENU_MSG_PARAM_GOOSE_SEND MENU 
+BEGIN
+    MENUITEM "SCL导入",                       ID_MENU_PARAM_GOOSES_F1
+    MENUITEM "监听导入",                        ID_MENU_PARAM_GOOSES_F2
+    MENUITEM "手动添加",                        ID_MENU_PARAM_GOOSES_F3
+    MENUITEM "编辑",                          ID_MENU_PARAM_GOOSES_F4
+    MENUITEM "删除",                          ID_MENU_PARAM_GOOSES_F5
+    MENUITEM "清空",                          ID_MENU_PARAM_GOOSES_F6
+END
+
+IDR_MENU_EMPTY MENU 
+BEGIN
+    MENUITEM " ",                           ID_33551
+    MENUITEM " ",                           0
+    MENUITEM " ",                           ID_33552
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+END
+
+IDR_MENU_MSG_PARAM_GOOSE_REC MENU 
+BEGIN
+    MENUITEM "SCL导入",                       ID_MENU_PARAM_GOOSER_F1
+    MENUITEM "监听导入",                        ID_MENU_PARAM_GOOSER_F2
+    MENUITEM "编辑",                          ID_MENU_PARAM_GOOSER_F3
+    MENUITEM "删除",                          ID_MENU_PARAM_GOOSER_F4
+    MENUITEM "开入映射",                        ID_MENU_PARAM_GOOSER_F5
+    MENUITEM " ",                           ID_MENU_PARAM_GOOSER_F6
+END
+
+IDR_MENU_MSG_PARAM_EDIT_GOOSE_CHAN MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_PARAM_EDIT_GOOSES_CHAN_F1
+    MENUITEM " ",                           ID_MENU_PARAM_EDIT_GOOSES_CHAN_F2
+    MENUITEM "添加",                          ID_MENU_PARAM_EDIT_GOOSES_CHAN_F3
+    MENUITEM "删除",                          ID_MENU_PARAM_EDIT_GOOSES_CHAN_F4
+    POPUP "通道模板"
+    BEGIN
+        MENUITEM "DO(s,q,t)",                   ID_MENU_PARAM_EDIT_GOOSES_CHAN_DO_SQT
+        MENUITEM "DA(s,q,t)",                   ID_MENU_PARAM_EDIT_GOOSES_CHAN_DA_SQT
+        MENUITEM "DA(s,q)",                     ID_MENU_PARAM_EDIT_GOOSES_CHAN_DA_SQ
+        MENUITEM "DA(s)",                       ID_MENU_PARAM_EDIT_GOOSES_CHAN_DA_S
+        MENUITEM "DA(双点)",                      ID_MENU_PARAM_EDIT_GOOSES_CHAN_DA_DP
+    END
+    MENUITEM "清空映射",                        ID_MENU_PARAM_EDIT_GOOSES_CHAN_F6
+END
+
+IDR_MENU_MSG_PARAM_GOOSE_CTRL_BLOCK MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_PARAM_GOOSES_CTRL_F1
+    MENUITEM " ",                           ID_MENU_PARAM_GOOSES_CTRL_F2
+    MENUITEM " ",                           ID_MENU_PARAM_GOOSES_CTRL_F3
+    MENUITEM " ",                           ID_MENU_PARAM_GOOSES_CTRL_F4
+    MENUITEM " ",                           ID_MENU_PARAM_GOOSES_CTRL_F5
+    MENUITEM " ",                           ID_MENU_PARAM_GOOSES_CTRL_F6
+END
+
+IDR_MENU_INPLACEEDIT MENU 
+BEGIN
+    MENUITEM "删除",                          ID_MUNU_INPLACE_BACKSPACE
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+END
+
+IDR_MENU_MSG_PARAM_DI_MAP MENU 
+BEGIN
+    MENUITEM "清除映射",                        ID_MENU_PARAM_DI_MAP_F1
+    MENUITEM " ",                           0
+    MENUITEM " ",                           ID_33509
+    MENUITEM " ",                           ID_33508
+    MENUITEM " ",                           ID_33507
+    MENUITEM " ",                           ID_MENU_PARAM_DI_MAP_F6
+END
+
+IDR_MENU_MSG_PARAM_SMV_SEND MENU 
+BEGIN
+    MENUITEM "SCL导入",                       ID_MENU_PARAM_SMVS_F1
+    MENUITEM "监听导入",                        ID_MENU_PARAM_SMVS_F2
+    MENUITEM "手动添加",                        ID_MENU_PARAM_SMVS_F3
+    MENUITEM "编辑",                          ID_MENU_PARAM_SMVS_F4
+    MENUITEM "删除",                          ID_MENU_PARAM_SMVS_F5
+    MENUITEM "清空",                          ID_MENU_PARAM_SMVS_F6
+END
+
+IDR_MENU_EDIT_SMV_CHAN MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_EDIT_SMV_CHAN_F1
+    MENUITEM " ",                           ID_MENU_EDIT_SMV_CHAN_F2
+    MENUITEM "添加",                          ID_MENU_EDIT_SMV_CHAN_F3
+    MENUITEM "删除",                          ID_MENU_EDIT_SMV_CHAN_F4
+    MENUITEM " ",                           ID_MENU_EDIT_SMV_CHAN_F5
+    MENUITEM "清除映射",                        ID_MENU_EDIT_SMV_CHAN_F6
+END
+
+IDR_MENU_EDIT_SMV_CTRL MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_EDIT_SMV_CTRL_F1
+    MENUITEM " ",                           ID_MENU_EDIT_SMV_CTRL_F2
+    MENUITEM " ",                           ID_MENU_EDIT_SMV_CTRL_F3
+    MENUITEM " ",                           ID_MENU_EDIT_SMV_CTRL_F4
+    MENUITEM " ",                           ID_MENU_EDIT_SMV_CTRL_F5
+    MENUITEM " ",                           ID_MENU_EDIT_SMV_CTRL_F6
+END
+
+IDR_MENU_MANUAL_SMV_SEND MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_MANUAL_SHOW_GOOSE_REP
+    MENUITEM "发送SMV",                       ID_MENU_MANUAL_SEND_SMV
+    MENUITEM "加",                           ID_MENU_MANUAL_SMV_ADD
+    MENUITEM "减",                           ID_MENU_MANUAL_SMV_SUB
+    MENUITEM " ",                           ID_MENU_MANUAL_SMV_MODIFY_EFF
+    POPUP "设置"
+    BEGIN
+        MENUITEM "SV映射表",                       ID_MENU_MANUAL_SMV_MAP
+        MENUITEM "开入映射表",                       ID_MENU_MANUAL_DI_MAP
+        MENUITEM "设置",                          ID_MENU_MANUAL_SET
+        MENUITEM "试验结果",                        ID_MENU_MANUAL_RESULT
+        MENUITEM "显示开入量",                       ID_MENU_MANUAL_SHOW_DI
+    END
+END
+
+IDR_MENU_MANUAL_SMV_SEND_F6 MENU 
+BEGIN
+    POPUP "设置"
+    BEGIN
+        MENUITEM "SV映射表",                       ID_MENU_MANUAL_SMV_MAP
+        MENUITEM "开入映射表",                       ID_MENU_MANUAL_DI_MAP
+        MENUITEM "状态字",                         ID_MENU_MANUAL_STATUS_WORD_QUALITY
+        MENUITEM "设置",                          ID_MENU_MANUAL_SET
+        MENUITEM "试验结果",                        ID_MENU_MANUAL_RESULT
+        MENUITEM "显示开入量",                       ID_MENU_MANUAL_SHOW_DI
+    END
+    POPUP "扩展菜单"
+    BEGIN
+        MENUITEM "等幅值",                         ID_MENU_MANUAL_EQUAL_AMPL
+        MENUITEM "额定值",                         ID_MENU_MANUAL_RATED_AMPL
+        MENUITEM "三相平衡",                        ID_MENU_MANUAL_THREE_PHASE_BALANCE
+        MENUITEM "SV映射表",                       ID_MENU_MANUAL_SMV_MAP
+        MENUITEM "开入映射表",                       ID_MENU_MANUAL_DI_MAP
+        MENUITEM "状态字",                         ID_MENU_MANUAL_STATUS_WORD_QUALITY
+        MENUITEM "设置",                          ID_MENU_MANUAL_SET
+        MENUITEM "试验结果",                        ID_MENU_MANUAL_RESULT
+        MENUITEM "显示开入量",                       ID_MENU_MANUAL_SHOW_DI
+    END
+    POPUP "扩展菜单"
+    BEGIN
+        MENUITEM "等相角",                         ID_MENU_MANUAL_EQUAL_PHASE_ANGLE
+        MENUITEM "相角正序",                        ID_MENU_MANUAL_PHASE_ANGLE_POS_SEQ
+        MENUITEM "相角反序",                        ID_MENU_MANUAL_PHASE_ANGLE_REV_SEQ
+        MENUITEM "SV映射表",                       ID_MENU_MANUAL_SMV_MAP
+        MENUITEM "开入映射表",                       ID_MENU_MANUAL_DI_MAP
+        MENUITEM "状态字",                         ID_MENU_MANUAL_STATUS_WORD_QUALITY
+        MENUITEM "设置",                          ID_MENU_MANUAL_SET
+        MENUITEM "试验结果",                        ID_MENU_MANUAL_RESULT
+        MENUITEM "显示开入量",                       ID_MENU_MANUAL_SHOW_DI
+    END
+    POPUP "右键菜单"
+    BEGIN
+        MENUITEM "等幅值",                         ID_MENU_MANUAL_EQUAL_AMPL
+        MENUITEM "额定值",                         ID_MENU_MANUAL_RATED_AMPL
+        MENUITEM "三相平衡",                        ID_MENU_MANUAL_THREE_PHASE_BALANCE
+    END
+    POPUP "右键菜单"
+    BEGIN
+        MENUITEM "等相角",                         ID_MENU_MANUAL_EQUAL_PHASE_ANGLE
+        MENUITEM "相角正序",                        ID_MENU_MANUAL_PHASE_ANGLE_POS_SEQ
+        MENUITEM "相角反序",                        ID_MENU_MANUAL_PHASE_ANGLE_REV_SEQ
+    END
+    POPUP " "
+    BEGIN
+        MENUITEM " ",                           ID__
+    END
+END
+
+IDR_MENU_MANUAL_GOOSE_SEND MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_MANUAL_SHOW_SMV_REP
+    MENUITEM "发送GSE",                       ID_MENU_MANUAL_GOOSE_SEND_GOOSE
+    MENUITEM "控制块",                         ID_MENU_MANUAL_GOOSE_CTRL
+    MENUITEM " ",                           ID_33486
+    MENUITEM " ",                           ID_MENU_MANUAL_GSE_MODIFY_EFF
+    POPUP "设置"
+    BEGIN
+        MENUITEM "开入映射表",                       ID_MENU_MANUAL_DI_MAP
+        MENUITEM "设置",                          ID_MENU_MANUAL_SET
+        MENUITEM "试验结果",                        ID_MENU_MANUAL_RESULT
+        MENUITEM "显示开入量",                       ID_MENU_MANUAL_SHOW_DI
+    END
+END
+
+IDR_MENU_MANUAL_RESULT_LIST MENU 
+BEGIN
+    MENUITEM "查看",                          ID_MENU_MANUAL_RESULT_LIST_F1
+    MENUITEM " ",                           ID_MENU_MANUAL_RESULT_LIST_F2
+    MENUITEM " ",                           ID_MENU_MANUAL_RESULT_LIST_F3
+    MENUITEM " ",                           ID_MENU_MANUAL_RESULT_LIST_F4
+    MENUITEM " ",                           ID_MENU_MANUAL_RESULT_LIST_F5
+    MENUITEM " ",                           ID_MENU_MANUAL_RESULT_LIST_F6
+END
+
+IDR_MENU_TIMETICK MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_TIME_F1
+    MENUITEM " ",                           ID_MENU_TIME_F2
+    MENUITEM " ",                           ID_33531
+    MENUITEM " ",                           ID_33532
+    MENUITEM " ",                           ID_33533
+    MENUITEM " ",                           ID_MENU_TIME_F6
+END
+
+IDR_MENU_STATE_SEQUENCE MENU 
+BEGIN
+    MENUITEM "开始试验",                        ID_MENU_STATE_START_TEST
+    MENUITEM "添加",                          ID_MENU_STATE_ADD_STATE
+    MENUITEM "编辑",                          ID_MENU_STATE_EDIT_STATE
+    MENUITEM "删除",                          ID_MENU_STATE_DELETE_STATE
+    MENUITEM "清空",                          ID_MENU_STATE_CLEAR_STATE
+    POPUP "设置"
+    BEGIN
+        MENUITEM "SV映射表",                       ID_MENU_STATE_SHOW_SMV_REP
+        MENUITEM "开入映射表",                       ID_MENU_STATE_SHOW_DI_REP
+        MENUITEM "试验结果",                        ID_MENU_STATE_SHOW_RESULT
+        MENUITEM "显示开入量",                       ID_MENU_STATE_SHOW_DI_STATE
+    END
+END
+
+IDR_MENU_STATE_SET MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_STATE_SET_F1
+    MENUITEM " ",                           ID_MENU_STATE_SET_F2
+    MENUITEM " ",                           ID_MENU_STATE_SET_F3
+    MENUITEM " ",                           ID_MENU_STATE_SET_F4
+    MENUITEM "状态字",                         ID_MENU_STATE_SET_F5
+    MENUITEM " ",                           ID_MENU_STATE_SET_F6
+END
+
+IDR_MENU_STATE_SET_F6 MENU 
+BEGIN
+    POPUP "扩展菜单"
+    BEGIN
+        MENUITEM "状态字",                         ID_MENU_STATE_STATUS_WORD_QUALITY
+        MENUITEM "SV映射表",                       ID_MENU_STATE_EQUAL_SMV_MAP
+    END
+    POPUP "扩展菜单"
+    BEGIN
+        MENUITEM "状态字",                         ID_MENU_STATE_STATUS_WORD_QUALITY
+        MENUITEM "SV映射表",                       ID_MENU_STATE_EQUAL_SMV_MAP
+    END
+    POPUP "扩展菜单"
+    BEGIN
+        MENUITEM "状态字",                         ID_MENU_STATE_STATUS_WORD_QUALITY
+        MENUITEM "SV映射表",                       ID_MENU_STATE_EQUAL_SMV_MAP
+    END
+    POPUP "扩展菜单"
+    BEGIN
+        MENUITEM "等幅值",                         ID_MENU_STATE_EQUAL_AMPL
+        MENUITEM "额定值",                         ID_MENU_STATE_RATED_AMPL
+        MENUITEM "三相平衡",                        ID_MENU_STATE_THREE_PHASE_BALANCE
+    END
+    POPUP "扩展菜单"
+    BEGIN
+        MENUITEM "等相角",                         ID_MENU_STATE_EQUAL_PHASE_ANGLE
+        MENUITEM "相角正序",                        ID_MENU_STATE_PHASE_ANGLE_POS_SEQ
+        MENUITEM "相角反序",                        ID_MENU_STATE_PHASE_ANGLE_REV_SEQ
+    END
+    MENUITEM "扩展菜单",                        ID_33582
+END
+
+IDR_MENU_STATE_RESULT_LIST MENU 
+BEGIN
+    MENUITEM "查看",                          ID_MENU_STATE_RESULT_LIST_F1
+    MENUITEM " ",                           ID_MENU_STATE_RESULT_LIST_F2
+    MENUITEM " ",                           ID_MENU_STATE_RESULT_LIST_F3
+    MENUITEM " ",                           ID_MENU_STATE_RESULT_LIST_F4
+    MENUITEM " ",                           ID_MENU_STATE_RESULT_LIST_F5
+    MENUITEM " ",                           ID_MENU_STATE_RESULT_LIST_F6
+END
+
+IDR_MENU_RECORD MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_RECORD_F1
+    MENUITEM " ",                           ID_MENU_RECORD_F2
+    MENUITEM " ",                           ID_MENU_RECORD_F3
+    MENUITEM " ",                           ID_MENU_RECORD_F4
+    MENUITEM " ",                           ID_MENU_RECORD_F5
+    MENUITEM "停止记录",                        ID_MENU_RECORD_F6
+END
+
+IDR_MENU_GOOSE_SHIFT_DETAIL MENU 
+BEGIN
+    MENUITEM " ",                           ID_33474
+    MENUITEM " ",                           ID_33475
+    MENUITEM " ",                           ID_33476
+    MENUITEM " ",                           ID_33477
+    MENUITEM " ",                           ID_33478
+    MENUITEM " ",                           ID_MENU_GOOSE_SHIFT_DETAIL_F6
+END
+
+IDR_MENU_FRAME_VIEW MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_FRAME_VIEW_F1
+    MENUITEM " ",                           ID_MENU_FRAME_VIEW_F2
+    MENUITEM " ",                           ID_MENU_FRAME_VIEW_F3
+    MENUITEM " ",                           ID_MENU_FRAME_VIEW_F4
+    MENUITEM " ",                           ID_MENU_FRAME_VIEW_F5
+    MENUITEM "刷新",                          ID_MENU_FRAME_VIEW_F6
+END
+
+IDR_MENU_FRAME_RECORD MENU 
+BEGIN
+    MENUITEM "停止录波 ",                       ID_MENU_FRAME_RECORD_F1
+    MENUITEM " ",                           ID_MENU_FRAME_RECORD_F2
+    MENUITEM " ",                           ID_MENU_FRAME_RECORD_F3
+    MENUITEM " ",                           ID_MENU_FRAME_RECORD_F4
+    MENUITEM " ",                           ID_MENU_FRAME_RECORD_F5
+    MENUITEM " ",                           ID_MENU_FRAME_RECORD_F6
+END
+
+IDR_MENU_MSG MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_MSG_F1
+    MENUITEM " ",                           ID_MENU_MSG_F2
+    MENUITEM " ",                           ID_MENU_MSG_F3
+    MENUITEM " ",                           ID_MENU_MSG_F4
+    MENUITEM "否",                           ID_MENU_MSG_F5
+    MENUITEM "是",                           ID_MENU_MSG_F6
+END
+
+IDR_MENU_NULL MENU 
+BEGIN
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           ID_33562
+    MENUITEM " ",                           ID_33563
+    MENUITEM " ",                           0
+END
+
+IDR_MENU_STATE_SWITCH_STATUS_CONFIRM MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_STATE_SSC_F1
+    MENUITEM " ",                           ID_MENU_STATE_SSC_F2
+    MENUITEM " ",                           ID_MENU_STATE_SSC_F3
+    MENUITEM " ",                           ID_MENU_STATE_SSC_F4
+    MENUITEM " ",                           ID_MENU_STATE_SSC_F5
+    MENUITEM "下一状态",                        ID_MENU_STATE_SSC_F6
+END
+
+IDR_MENU_MANUAL_STOP_TEST_TIPS MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_MANUAL_STOP_TEST_F1
+    MENUITEM " ",                           ID_MENU_MANUAL_STOP_TEST_F2
+    MENUITEM " ",                           ID_MENU_MANUAL_STOP_TEST_F3
+    MENUITEM " ",                           ID_MENU_MANUAL_STOP_TEST_F4
+    MENUITEM " ",                           ID_MENU_MANUAL_STOP_TEST_F5
+    MENUITEM "返回",                          ID_MENU_MANUAL_STOP_TEST_F6
+END
+
+IDR_MENU_STATE_STOP_TEST_TIPS MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_STATE_STOP_TEST_F1
+    MENUITEM " ",                           ID_MENU_STATE_STOP_TEST_F2
+    MENUITEM " ",                           ID_MENU_STATE_STOP_TEST_F3
+    MENUITEM " ",                           ID_MENU_STATE_STOP_TEST_F4
+    MENUITEM " ",                           ID_MENU_STATE_STOP_TEST_F5
+    MENUITEM "返回",                          ID_MENU_STATE_STOP_TEST_F6
+END
+
+IDR_MENU_STATE_TO_NEXT MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_STATE_TO_NEXT_F1
+    MENUITEM " ",                           ID_MENU_STATE_TO_NEXT_F2
+    MENUITEM " ",                           ID_MENU_STATE_TO_NEXT_F3
+    MENUITEM " ",                           ID_MENU_STATE_TO_NEXT_F4
+    MENUITEM " ",                           ID_MENU_STATE_TO_NEXT_F5
+    MENUITEM "确认",                          ID_MENU_STATE_TO_NEXT_F6
+END
+
+IDR_MENU_MANUAL_RESULT_DETAIL MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_MANUAL_DETAIL_F1
+    MENUITEM "控制块",                         ID_MENU_MANUAL_DETAIL_F2
+    MENUITEM " ",                           ID_MENU_MANUAL_DETAIL_F3
+    MENUITEM "DI变化",                        ID_MENU_MANUAL_DETAIL_F4
+    MENUITEM "上一状态",                        ID_MENU_MANUAL_DETAIL_F5
+    MENUITEM "下一状态",                        ID_MENU_MANUAL_DETAIL_F6
+END
+
+IDR_MENU_LP_LIGHT_POWER MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_LP_LIGHT_POWER_F1
+    MENUITEM "对时",                          ID_MENU_LP_LIGHT_POWER_F2
+    MENUITEM "波形回放",                        ID_MENU_LP_LIGHT_POWER_F3
+    MENUITEM " ",                           ID_MENU_LP_LIGHT_POWER_F4
+    MENUITEM " ",                           ID_MENU_LP_LIGHT_POWER_F5
+    MENUITEM " ",                           ID_MENU_LP_LIGHT_POWER_F6
+END
+
+IDR_MENU_STATE_HARMONIC MENU 
+BEGIN
+    MENUITEM "清除",                          ID_MENU_STATE_HARMONIC_F1
+    MENUITEM "等谐波",                         ID_MENU_STATE_HARMONIC_F2
+    MENUITEM "等幅值",                         ID_MENU_STATE_HARMONIC_F3
+    MENUITEM "等相角",                         ID_MENU_STATE_HARMONIC_F4
+    POPUP "扩展菜单"
+    BEGIN
+        MENUITEM "清除",                          ID_MENU_STATE_HARMONIC_F1
+        MENUITEM "等谐波",                         ID_MENU_STATE_HARMONIC_F2
+    END
+    POPUP "扩展菜单"
+    BEGIN
+        MENUITEM "清除",                          ID_MENU_STATE_HARMONIC_F1
+        MENUITEM "等谐波",                         ID_MENU_STATE_HARMONIC_F2
+        MENUITEM "等幅值",                         ID_MENU_STATE_HARMONIC_F3
+    END
+    POPUP "扩展菜单"
+    BEGIN
+        MENUITEM "清除",                          ID_MENU_STATE_HARMONIC_F1
+        MENUITEM "等谐波",                         ID_MENU_STATE_HARMONIC_F2
+        MENUITEM "等幅值",                         ID_MENU_STATE_HARMONIC_F3
+        MENUITEM "等相角",                         ID_MENU_STATE_HARMONIC_F4
+    END
+END
+
+IDR_MENU_STATE_COMPENSATE MENU 
+BEGIN
+    MENUITEM "取消",                          ID_MENU_STATE_COMPENSATE_F1
+    MENUITEM "确定",                          ID_MENU_STATE_COMPENSATE_F2
+    MENUITEM " ",                           ID_MENU_STATE_COMPENSATE_F3
+    MENUITEM " ",                           ID_MENU_STATE_COMPENSATE_F4
+    MENUITEM " ",                           ID_MENU_STATE_COMPENSATE_F5
+    MENUITEM " ",                           ID_MENU_STATE_COMPENSATE_F6
+END
+
+IDR_MENU_STATE_IMPEDANCE MENU 
+BEGIN
+    MENUITEM "取消",                          ID_MENU_STATE_IMPEDANCE_F1
+    MENUITEM "确定",                          ID_MENU_STATE_IMPEDANCE_F2
+    MENUITEM " ",                           ID_MENU_STATE_IMPEDANCE_F3
+    MENUITEM " ",                           ID_MENU_STATE_IMPEDANCE_F4
+    MENUITEM " ",                           ID_MENU_STATE_IMPEDANCE_F5
+    MENUITEM " ",                           ID_MENU_STATE_IMPEDANCE_F6
+END
+
+IDR_MENU_STATE_FAULT_CALC_CONFIRM MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_STATE_FAULT_CALC_CONFIRM_F1
+    MENUITEM " ",                           ID_MENU_STATE_FAULT_CALC_CONFIRM_F2
+    MENUITEM " ",                           ID_MENU_STATE_FAULT_CALC_CONFIRM_F3
+    MENUITEM "1",                           ID_MENU_STATE_FAULT_CALC_CONFIRM_F4
+    MENUITEM "2",                           ID_MENU_STATE_FAULT_CALC_CONFIRM_F5
+    MENUITEM "取消",                          ID_MENU_STATE_FAULT_CALC_CONFIRM_F6
+END
+
+IDR_MENU_SCAN_1588 MENU 
+BEGIN
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM "完成",                          ID_MENU_SCAN_1588_F6
+END
+
+IDR_MENU_MAC_INPLACEEDIT MENU 
+BEGIN
+    MENUITEM "全FF",                         ID_MUNU_MAC_INPLACE_ALL_FF
+    MENUITEM "删除",                          ID_MUNU_INPLACE_BACKSPACE
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+END
+
+IDR_MENU_MANUAL_SMV_STATUS_WORD MENU 
+BEGIN
+    MENUITEM "控制块",                         ID_MUNU_MSSW_F1
+    MENUITEM " ",                           ID_33541
+    MENUITEM " ",                           ID_33542
+    MENUITEM " ",                           ID_33543
+    MENUITEM " ",                           ID_33544
+    MENUITEM "详细设置",                        ID_MUNU_MSSW_F6
+END
+
+IDR_MENU_MANUAL_SMV_CHAN_QUALITY MENU 
+BEGIN
+    MENUITEM "控制块",                         ID_MUNU_MSCQ_F1
+    MENUITEM "检修",                          ID_MUNU_MSCQ_F2
+    MENUITEM "运行",                          ID_MUNU_MSCQ_F3
+    MENUITEM "清零",                          ID_MUNU_MSCQ_F4
+    MENUITEM "具体设置",                        ID_MUNU_MSCQ_F5
+    MENUITEM " ",                           0
+END
+
+IDR_MENU_MANUAL_QUALITY_SET MENU 
+BEGIN
+    MENUITEM "设置选中",                        ID_MUNU_MQS_F1
+    MENUITEM "设置全部",                        ID_MUNU_MQS_F2
+    MENUITEM " ",                           ID_33549
+    MENUITEM " ",                           ID_33550
+    MENUITEM " ",                           ID_33547
+    MENUITEM " ",                           ID_33551
+END
+
+IDR_MENU_PCAP MENU 
+BEGIN
+    MENUITEM "控制块",                         ID_MENU_PCAP_F1
+    MENUITEM " ",                           ID_MENU_PCAP_F2
+    MENUITEM " ",                           ID_MENU_PCAP_F3
+    MENUITEM " ",                           ID_MENU_PCAP_F4
+    MENUITEM " ",                           ID_MENU_PCAP_F5
+    MENUITEM " ",                           ID_MENU_PCAP_F6
+END
+
+IDR_MENU_ANALYSIS_PCAP MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_ANALYSIS_PCAP_F1
+    MENUITEM " ",                           ID_MENU_ANALYSIS_PCAP_F2
+    MENUITEM " ",                           ID_MENU_ANALYSIS_PCAP_F3
+    MENUITEM " ",                           ID_MENU_ANALYSIS_PCAP_F4
+    MENUITEM " ",                           ID_MENU_ANALYSIS_PCAP_F5
+    MENUITEM "取消分析",                        ID_MENU_ANALYSIS_PCAP_F6
+END
+
+IDR_MENU_MANUAL_GOOSE_SEND_F6 MENU 
+BEGIN
+    POPUP "右键菜单 "
+    BEGIN
+        MENUITEM "全ON",                         ID_MENU_MANUAL_GOOSE_ALL_ON
+        MENUITEM "全OFF",                        ID_MENU_MANUAL_GOOSE_ALL_OFF
+        MENUITEM "全反",                          ID_MENU_MANUAL_GOOSE_REVERT
+    END
+    MENUITEM " ",                           ID_33486
+    MENUITEM " ",                           ID_MENU_MANUAL_GSE_MODIFY_EFF
+END
+
+IDR_MENU_FILE_LIST MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_FILE_LIST_F1
+    MENUITEM " ",                           ID_MENU_FILE_LIST_F2
+    MENUITEM " ",                           ID_33515
+    MENUITEM " ",                           ID_33516
+    MENUITEM " ",                           ID_33517
+    MENUITEM " ",                           ID_33518
+END
+
+IDR_MENU_MAIN_SEND MENU 
+BEGIN
+    MENUITEM "手动实验",                        ID_MENU_MANUAL_SEND_F1
+    MENUITEM "状态序列",                        ID_MENU_MANUAL_SEND_F2
+    MENUITEM "IEC设置",                       ID_MENU_MANUAL_SEND_F3
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+END
+
+IDR_MENU_STATE_SET1 MENU 
+BEGIN
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM "确定",                          0
+END
+
+IDR_MENU_ABOUT MENU 
+BEGIN
+    MENUITEM " ",                           ID_MENU_ABOUT_F1
+    MENUITEM " ",                           ID_MENU_ABOUT_F2
+    MENUITEM " ",                           0
+    MENUITEM " ",                           ID_33562
+    MENUITEM " ",                           ID_33563
+    MENUITEM " ",                           0
+END
+
+ID_MENU_PCAP_FRAME_DETAIL MENU 
+BEGIN
+    MENUITEM "上一帧",                         ID_MENU_PCAP_FRAME_DETAIL_F1
+    MENUITEM "下一帧",                         ID_MENU_PCAP_FRAME_DETAIL_F2
+    MENUITEM "展开 ",                         ID_MENU_PCAP_FRAME_DETAIL_F3
+    MENUITEM "收起",                          ID_MENU_PCAP_FRAME_DETAIL_F4
+    MENUITEM " ",                           ID_33563
+    MENUITEM " ",                           0
+END
+
+IDR_MENU_SMV_CHANEL_EDIT_POPMENU MENU 
+BEGIN
+    POPUP " "
+    BEGIN
+        MENUITEM "ABC",                         ID__ABC
+        MENUITEM "ABCN",                        ID__ABCN
+        MENUITEM "ABCNX",                       ID__ABCNX
+        MENUITEM "AABBCC",                      ID__AABBCC
+        MENUITEM "AABBCCNN",                    ID__AABBCCNN
+        MENUITEM "AABBCCNNXX",                  ID__AABBCCNNXX
+        MENUITEM "AAABBBCCC",                   ID__AAABBBCCC
+        MENUITEM "AAABBBCCCNNN",                ID__AAABBBCCCNNN
+    END
+    POPUP " "
+    BEGIN
+        MENUITEM "自动映射",                        ID__MAP_AUTO
+        MENUITEM "映射到第1组",                      ID__MAP_2GROUP1
+        MENUITEM "映射到第2组",                      ID__MAP_2GROUP2
+    END
+    POPUP " "
+    BEGIN
+        MENUITEM "全电流",                         ID__ALL_CURRENT
+        MENUITEM "全电压",                         ID__ALL_VOLATE
+    END
+    POPUP " "
+    BEGIN
+        MENUITEM " ",                           ID__33574
+    END
+END
+
+IDR_MENU_ParamACDC MENU 
+BEGIN
+    MENUITEM "全直流",                         ID_PARAM_ACDC_F1
+    MENUITEM "全交流",                         ID_PARAM_ACDC_F2
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+    MENUITEM " ",                           0
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\Dsm.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

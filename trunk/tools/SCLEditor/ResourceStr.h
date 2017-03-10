@@ -1,0 +1,157 @@
+/// @file
+///     ResourceStr.h
+///
+/// @brief
+///     多国语言字符串资源
+///
+/// @note
+///
+///
+/// Copyright (c) 2016 广州炫通电气科技有限公司软件部
+///
+/// 作者：
+///    chao  2013.06.03
+///
+/// 版本：
+///    1.0.x.x
+/// 
+///
+
+#ifndef RESOURCE_STR_H__
+
+#define RESOURCE_STR_H__
+
+#define RCSTR_TOOLTIP_SCL_IMPORT       1100
+#define RCSTR_TOOLTIP_SCL_SAVE         1101
+#define RCSTR_TOOLTIP_SCL_QUICK_SAVE   1102
+#define RCSTR_TOOLTIP_SMV_INFO         1103
+#define RCSTR_TOOLTIP_GOOSE_INFO       1104
+#define RCSTR_TOOLTIP_FIND_IED         1105
+
+#define RCSTR_CHECK_STATE_TRUE         1120
+#define RCSTR_CHECK_STATE_FALSE        1121
+
+#define RCSTR_APPID_SMV_RANGE_ERROR    1130
+#define RCSTR_APPID_GOOSE_RANGE_ERROR  1131
+#define RCSTR_APPID_EXISTED            1132
+#define RCSTR_MAC_SMV_ERROR            1133
+#define RCSTR_MAC_GOOSE_ERROR          1134
+#define RCSTR_SMV_CHANNEL_NUM_RANGE_ERROR 1135
+#define RCSTR_SMV_SMPRATE_RANGE_ERROR  1136
+#define RCSTR_ASDU_RANGE_ERROR         1137
+#define RCSTR_VLAN_ID_RANGE_ERROR      1138
+#define RCSTR_VLAN_PRI_RANGE_ERROR     1139
+#define RCSTR_GOOSE_CHANNEL_NUM_RANGE_ERROR      1140
+#define RCSTR_GOOSE_MIN_TIME_RANGE_ERROR         1141
+#define RCSTR_GOOSE_MAX_TIME_RANGE_ERROR         1142
+#define RCSTR_GOOSE_SUB_CHANNEL_NUM_RANGE_ERROR1 1143
+#define RCSTR_SMV_CTRL_REPORT          1144
+#define RCSTR_GOOSE_CTRL_REPORT        1145
+#define RCSTR_GOOSE_SUB_CHANNEL_NUM_RANGE_ERROR2 1146
+
+#define RCSTR_FILE_EXISTED_TIP         1180
+#define RCSTR_FILE_REPLACE_TIP         1181
+#define RCSTR_INSERT_REMOVABLE_DRIVE   1182
+
+#define RCSTR_SOFTWARE_VERSION         1190
+
+#define RCSTR_SMV_CTRL_IDX             1200
+#define RCSTR_SMV_APPID                1201
+#define RCSTR_SMV_MAC                  1202
+#define RCSTR_SMV_CHANNEL_NUM          1203
+#define RCSTR_SMV_IED                  1204
+#define RCSTR_SMV_DATASETREF           1205
+#define RCSTR_SMV_SVID                 1206
+#define RCSTR_SMV_SMPRATE              1207
+#define RCSTR_SMV_NOFASDU              1208
+#define RCSTR_SMV_VLANID               1209
+#define RCSTR_SMV_VLANPRI              1210
+#define RCSTR_SMV_MULTICAST            1211
+#define RCSTR_SMV_REFRTM_OPT           1212
+#define RCSTR_SMV_SMPRATE_OPT          1213
+#define RCSTR_SMV_DATAREF_OPT          1214
+#define RCSTR_SMV_SMPSYNC_OPT          1215
+#define RCSTR_SMV_SECURITY_OPT         1216
+#define RCSTR_SMV_DATASET_DESC         1217
+#define RCSTR_SMV_SVCBREF              1218
+#define RCSTR_SMV_CONFREV              1219
+
+#define RCSTR_SMV_CHANNEL_IDX          1220
+#define RCSTR_SMV_CHANNEL_TYPE         1221
+#define RCSTR_SMV_PHASE                1222
+#define RCSTR_SMV_LNDESC               1223
+#define RCSTR_SMV_DODESC               1224
+#define RCSTR_SMV_DUDESC               1225
+#define RCSTR_SMV_CHANNEL_REF          1226
+
+#define RCSTR_SMV_PHASE_UNKONW         1230
+#define RCSTR_SMV_PHASE_A              1231
+#define RCSTR_SMV_PHASE_B              1232
+#define RCSTR_SMV_PHASE_C              1233
+#define RCSTR_SMV_PHASE_N              1234
+#define RCSTR_SMV_PHASE_X              1235
+
+#define RCSTR_SMV_CHANNEL_UNKNOW       1240
+#define RCSTR_SMV_CHANNEL_TIME         1241
+#define RCSTR_SMV_CHANNEL_CURRENT      1242
+#define RCSTR_SMV_CHANNEL_VOLTAGE      1243
+
+#define RCSTR_GOOSE_CTRL_IDX           1300
+#define RCSTR_GOOSE_APPID              1301
+#define RCSTR_GOOSE_MAC                1302
+#define RCSTR_GOOSE_CHANNEL_NUM        1303
+#define RCSTR_GOOSE_IED                1304
+#define RCSTR_GOOSE_DATASETREF         1305
+#define RCSTR_GOOSE_GOID               1306
+#define RCSTR_GOOSE_GOCBREF            1307
+#define RCSTR_GOOSE_VLAN_ID            1308
+#define RCSTR_GOOSE_VLAN_PRI           1309
+#define RCSTR_GOOSE_MINTIME            1310
+#define RCSTR_GOOSE_MAXTIME            1311
+#define RCSTR_GOOSE_DATASET_DESC       1312
+#define RCSTR_GOOSE_CONFREV            1313
+
+#define RCSTR_GOOSE_CHANNEL_IDX        1320
+#define RCSTR_GOOSE_CHANNEL_TYPE       1321
+#define RCSTR_GOOSE_SUB_CHANNEL_NUM    1322
+#define RCSTR_GOOSE_LNDESC             1323
+#define RCSTR_GOOSE_DODESC             1324
+#define RCSTR_GOOSE_DUDESC             1325
+#define RCSTR_GOOSE_CHANNEL_REF        1326
+
+#define RCSTR_GOOSE_SUB_CHANNEL_IDX    1330
+#define RCSTR_GOOSE_SUB_CHANNEL_TYPE   1331
+#define RCSTR_GOOSE_SUB_CHANNEL_DANAME 1332
+
+#define RCSTR_GOOSE_CHANNEL_UNKNOW     1340
+#define RCSTR_GOOSE_CHANNEL_STRUCT     1341
+#define RCSTR_GOOSE_CHANNEL_POINT      1342
+#define RCSTR_GOOSE_CHANNEL_DPOINT     1343
+#define RCSTR_GOOSE_CHANNEL_QUALITY    1344
+#define RCSTR_GOOSE_CHANNEL_TIME_STAMP 1345
+#define RCSTR_GOOSE_CHANNEL_ENTRY_TIME 1346
+#define RCSTR_GOOSE_CHANNEL_INT8       1347
+#define RCSTR_GOOSE_CHANNEL_INT16      1348
+#define RCSTR_GOOSE_CHANNEL_INT24      1349
+#define RCSTR_GOOSE_CHANNEL_INT32      1350
+#define RCSTR_GOOSE_CHANNEL_INT128     1351
+#define RCSTR_GOOSE_CHANNEL_UINT8      1352
+#define RCSTR_GOOSE_CHANNEL_UINT16     1353
+#define RCSTR_GOOSE_CHANNEL_UINT24     1354
+#define RCSTR_GOOSE_CHANNEL_UINT32     1355
+#define RCSTR_GOOSE_CHANNEL_FLOAT32    1356
+#define RCSTR_GOOSE_CHANNEL_FLOAT64    1357
+#define RCSTR_GOOSE_CHANNEL_OCTET      1358
+#define RCSTR_GOOSE_CHANNEL_VISSTR     1359
+#define RCSTR_GOOSE_CHANNEL_UNICODE    1360
+
+#define RCSTR_COLUMN_SHOW_OR_HIDE      1400
+#define RCSTR_ALIGN_METHOD             1401
+#define RCSTR_TEXT_ALIGN               1402
+#define RCSTR_ICON_ALIGN               1403
+#define RCSTR_ALIGN_LEFT               1404
+#define RCSTR_ALIGN_RIGHT              1405
+#define RCSTR_ALIGN_CENTRE             1406
+#define RCSTR_BEST_FIT                 1407
+
+#endif

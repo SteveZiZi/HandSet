@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><config>
+    <product val="SG-850手持光数字测试仪"/>                 <!--  OEM 可修改  -->
+    <company val="广州炫通电气科技有限公司"/>               <!--  OEM 可修改  -->    
+    <address val="广州市番禺区大石锦昊鼎盛大厦5楼512室"/>   <!--  OEM 可修改  -->
+    <telephone val="400-004-2722"/>                          <!--  OEM 可修改  -->
+	<softwarever val="1.02.01"/>   <!-- 1:第一代   02：主板本好  01：炫通自营(OEM修改)  -->
+	<softbuild val=""/>                                      <!-- SVN仓库版本号-->
+    <screenwidth val="640"/>                                 <!--  屏幕分辨率  -->
+    <screenheight val="480"/>
+</config>

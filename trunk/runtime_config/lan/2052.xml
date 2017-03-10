@@ -1,0 +1,1234 @@
+﻿
+<strings>
+    <page val="main">
+        <str id="1100" val="主页" />
+    </page>
+    
+    <page val="basiccfg">
+        <str id="1200" val="系统设置" />
+        <str id="1201" val="初始向导" />
+        
+        <str id="1210" val="基本设置" />
+        <str id="1211" val="语言环境" />
+        <str id="1212" val="存储器" />
+        <str id="1213" val="连接管理" />
+        <str id="1214" val="还原设置" />
+        <str id="1215" val="关于" />
+        <str id="1216" val="系统设置 - 基本设置" />
+		<str id="1217" val="帮助" />
+        
+        <str id="1220" val="背光亮度" />
+        <str id="1221" val="背光时间" />
+        <str id="1222" val="日期时间" />
+        <str id="1223" val="时区设置" />
+        <str id="1224" val="同步方式" />
+        <str id="1225" val="密码设置" />
+        <str id="1226" val="输入新密码" />
+        <str id="1227" val="再次输入新密码" />
+        <str id="1228" val="请输入旧密码" />
+        
+        <str id="1230" val="1分钟" />
+        <str id="1231" val="2分钟" />
+        <str id="1234" val="5分钟" />
+        <str id="1235" val="10分钟" />
+        <str id="1236" val="30分钟" />
+        <str id="1237" val="自动同步" />
+        <str id="1238" val="手动同步" />
+        <str id="1239" val="从不" />
+
+        <str id="1250" val="恢复出厂设置" />
+        <str id="1260" val="修改密码" />
+        <str id="1270" val="开始连接" />
+        <str id="1271" val="停止连接" />
+        <str id="1272" val="设备信息" />
+        <str id="1273" val="基本信息" />
+        <str id="1274" val="硬件版本" />
+        <str id="1275" val="系统版本" />
+        <str id="1276" val="软件版本" />
+        <str id="1277" val="GPM版本" />
+        <str id="1278" val="FPGA版本" />
+        <str id="1279" val="DSP版本" />
+        <str id="1280" val="录波文件" />
+    </page>
+    
+    <page val="basicparam">
+        <str id="1300" val="IEC设置" />        
+        
+        <str id="1301" val="SCL导入" />
+        <str id="1302" val="额定频率/Hz" />
+        <str id="1303" val="额定通道类型" />
+        <str id="1304" val="电压一次额定值/kV" />
+        <str id="1305" val="电压二次额定值/V" />
+        <str id="1306" val="电流一次额定值/A" />
+        <str id="1307" val="电流二次额定值/A" />
+        <str id="1308" val="MU额定延时/μs" />
+        <str id="1309" val="对时方案" />
+        <str id="1310" val="基本参数" />
+        <str id="1311" val="SV发送" />
+        <str id="1312" val="GSE发送" />
+        <str id="1313" val="GSE接收" />
+        <str id="1314" val="清空SCL" />
+		<str id="1315" val="从SD卡导入SCL" />
+		<str id="1316" val="从U盘导入SCL" />
+        
+        <str id="1320" val="一次值" />
+        <str id="1321" val="二次值" />
+        <str id="1322" val="正向B码" />
+        <str id="1323" val="反向B码" />
+        <str id="1324" val="1588" />
+        <str id="1325" val="未加载" />
+        <str id="1326" val="同步设置" />
+		
+        <str id="1330" val="APPID" />
+        <str id="1331" val="通道数" />
+        <str id="1332" val="描述" />
+        <str id="1333" val="端口" />
+        <str id="1337" val="新增GOOSE发送" />
+        <str id="1338" val="从全站配置中选择GOOSE" />
+        <str id="1339" val="从扫描列表中选择GOOSE" />
+		
+
+        <str id="1355" val="添加" />
+        <str id="1356" val="删除" />
+        <str id="1357" val="清空映射" />
+        <str id="1361" val="开入映射" />
+        <str id="1362" val="开入通道" />
+        <str id="1363" val="通道" />
+        
+        <str id="1390" val="加载SCL文件" />
+        <str id="1391" val="正在加载SCL文件，请勿移走存储设备" />
+        <str id="1392" val="1IEC设置后台高一级 - 额定值" />
+		
+		
+    </page>
+
+    <page val="file_browser">
+        <str id="1500" val="文件名" />
+        <str id="1501" val="修改时间" />
+        <str id="1502" val="大小" />
+        <str id="1503" val="类型" />
+        <str id="1504" val="文件夹" />
+        <str id="1520" val="全站配置" />
+        
+        <str id="1560" val="文件浏览器" />
+        <str id="1561" val="<返回上级目录>" />
+    </page>
+    
+    <page val="smv_scan">
+        <str id="1600" val="报文监测" />
+        <str id="1601" val="9-1/9-2" />
+        <str id="1602" val="FT3" />
+		<str id="1603" val="GSE" />
+
+        <str id="1611" val="9-1" />
+        <str id="1612" val="9-2" />
+        <str id="1613" val="FT3-NR" />
+        <str id="1614" val="FT3-GW" />
+        <str id="1615" val="Unknown" />
+        
+        <str id="1620" val="光网口1" />
+        <str id="1621" val="光网口2" />
+        <str id="1622" val="光网口3" />
+        <str id="1623" val="FT3_RX" />
+        <str id="1624" val="FT3_RX" />
+        <str id="1625" val="FT3" />
+        <str id="1626" val="Unknown" />
+        
+        <str id="1630" val="4K" />
+        <str id="1631" val="5K" />
+        <str id="1632" val="8K" />
+        <str id="1633" val="10K" />
+        <str id="1634" val="12.8K" />
+        <str id="1635" val="Unknown" />
+        <str id="1636" val="采样频率" />
+        <str id="1637" val="自动检测" />
+        <str id="1638" val="4kHz" />
+        <str id="1639" val="12.8kHz" />
+        
+        <str id="1640" val="2.5M" />
+        <str id="1641" val="5M" />
+        <str id="1642" val="10M" />
+        <str id="1643" val="Unknown" />
+        
+        <str id="1650" val="控制块" />
+        <str id="1651" val="开始" />
+        <str id="1652" val="暂停" />
+        
+        <str id="1670" val="索引" />
+        <str id="1671" val="类型" />
+        <str id="1672" val="AppID" />
+        <str id="1673" val="端口" />
+        <str id="1674" val="描述" />
+        
+        <str id="1680" val="端口" />
+        <str id="1681" val="采样率" />
+        <str id="1682" val="波特率" />
+        <str id="1683" val="通道数" />
+        <str id="1684" val="LDName" />
+
+        <str id="1690" val="1最多只能查看 %d 个控制块" />
+        <str id="1691" val="1每个端口只能查看一个控制块" />
+        <str id="1692" val="1没有勾选查看的控制块" />
+        
+    </page>
+    
+    <page val="smv_waveform">
+        <str id="1700" val="波形" />
+
+        <str id="1721" val="有效值" />
+        <str id="1722" val="相角" />
+    </page>
+    
+    <page val="smv_phasor">
+        <str id="1800" val="相量" />
+        <!-- <str id="1810" val="通道1" /> !-->
+        
+        <str id="1810" val="通道1" />
+        <str id="1811" val="通道2" />
+        <str id="1812" val="通道3" />
+        <str id="1813" val="通道4" />
+        <str id="1814" val="通道1值" />
+        <str id="1815" val="通道2值" />
+        <str id="1816" val="通道3值" />
+        <str id="1817" val="通道4值" />
+    </page>
+    
+    <page val="smv_phase_sequ">
+        <str id="1900" val="序量" />
+        
+        <str id="1910" val="A相" />
+        <str id="1911" val="B相" />
+        <str id="1912" val="C相" />
+        <str id="1913" val="正序" />
+        <str id="1914" val="负序" />
+        <str id="1915" val="零序" />
+
+        <str id="1930" val="pos" />
+        <str id="1931" val="neg" />
+        <str id="1932" val="zero" />
+    </page>
+    
+    <page val="smv_dualphase">
+        <str id="2000" val="核相" />
+        
+        <str id="2010" val="SV1" />
+        <str id="2011" val="SV2" />
+        <str id="2012" val="A相" />
+        <str id="2013" val="B相" />
+        <str id="2014" val="C相" />
+        <str id="2015" val="a相" />
+        <str id="2016" val="b相" />
+        <str id="2017" val="c相" />
+
+        <str id="2030" val="同相相角差" />
+        <str id="2031" val="同相相量差" />
+        <str id="2032" val="相间相量差" />
+        
+        <str id="2040" val="A" />
+        <str id="2041" val="B" />
+        <str id="2042" val="C" />
+        <str id="2043" val="a" />
+        <str id="2044" val="b" />
+        <str id="2045" val="c" />
+    </page>
+    
+    <page val="smv_monitor">
+        <str id="2100" val="状态监视" />
+        
+        <str id="2120" val="有效" />
+        <str id="2121" val="无效" />
+        <str id="2122" val="MU同步：" />
+        <str id="2123" val="同步" />
+        <str id="2124" val="不同步" />
+        <str id="2125" val="运行状态：" />
+        <str id="2126" val="运行" />
+        <str id="2127" val="停止" />
+        <str id="2128" val="是" />
+        <str id="2129" val="否" />
+        
+        <str id="2140" val="索引" />
+        <str id="2141" val="通道描述" />
+        <str id="2142" val="状态" />
+        <str id="2143" val="检修" />
+        <str id="2144" val="合成量" />
+        <str id="2145" val="品质值" />
+        
+        <str id="2150" val="索引" />
+        <str id="2151" val="通道描述" />
+        <str id="2152" val="状态" />
+        
+        <str id="2160" val="MU同步" />
+        <str id="2161" val="故障报警" />
+        <str id="2162" val="检修" />
+        <str id="2163" val="唤醒接通" />
+        <str id="2164" val="同步" />
+        <str id="2165" val="不同步" />
+        <str id="2166" val="是" />
+        <str id="2167" val="否" />
+    </page>
+    
+    <page val="smv_config">
+        <str id="2200" val="SV设置" />
+        <str id="2210" val="基本设置" />
+        <str id="2211" val="通道设置" />
+        <str id="2212" val="通道模板" />
+        <str id="2220" val="索引" />
+        <str id="2221" val="通道描述" />
+        <str id="2222" val="类型" />
+        <str id="2223" val="相别" />
+        <str id="2224" val="一次额定值" />
+        <str id="2225" val="二次额定值" />
+        <str id="2230" val="采样值显示" />
+        <str id="2231" val="采样频率(Hz)" />
+        <str id="2232" val="采样点对齐方式" />
+        <str id="2240" val="一次值" />
+        <str id="2241" val="二次值" />
+        <str id="2242" val="原始值" />
+        <str id="2243" val="4000" />
+        <str id="2244" val="12800" />
+        <str id="2245" val="序号对齐" />
+        <str id="2246" val="时标对齐" />
+        <str id="2251" val="测" />
+        <str id="2252" val="测量电流" />
+        <str id="2253" val="保护电流" />
+    </page>
+    
+    <page val="smv_dualad">
+        <str id="2300" val="双AD" />
+        
+        <str id="2310" val="AD1" />
+        <str id="2311" val="AD2" />
+        <str id="2312" val="|AD1-AD2|" />
+        <str id="2313" val="|AD2|-|AD1|" />
+    </page>
+    
+    <page val="smv_power">
+        <str id="2400" val="功率" />
+
+        <str id="2411" val="A相" />
+        <str id="2412" val="B相" />
+        <str id="2413" val="C相" />
+        <str id="2414" val="总功率" />
+        <str id="2415" val="电压" />
+        <str id="2416" val="电流" />
+        <str id="2417" val="电压值/V" />
+        <str id="2418" val="电流值/A" />
+        <str id="2419" val="有功/MW" />
+        <str id="2420" val="无功/Mvar" />
+        <str id="2421" val="视在/MVA" />
+        <str id="2422" val="功率因数" />
+        <str id="2423" val="电压相位" />
+        <str id="2424" val="电流相位" />
+        <str id="2425" val="电压值/kV" />
+        <str id="2426" val="电压值" />
+        <str id="2427" val="电流值" />
+		<str id="2428" val="有功/W" />
+        <str id="2429" val="无功/var" />
+        <str id="2430" val="视在/VA" />
+    </page>
+    
+    <page val="smv_msgmonitor">
+        <str id="2500" val="报文监测" />
+        
+        <str id="2510" val="时间" />
+        <str id="2511" val="类型" />
+        <str id="2512" val="长度" />
+        <str id="2513" val="备注" />
+        
+        <str id="2520" val="实时报文" />
+        <str id="2521" val="回放" />
+        <str id="2522" val="开始记录" />
+        <str id="2523" val="停止记录" />
+        <str id="2524" val="刷新" />
+        <str id="2525" val="浏览文件" />        
+        <str id="2526" val="项目" />
+        <str id="2527" val="值" />
+        
+        <str id="2540" val="Ethernet" />
+        <str id="2541" val="Destination MAC" />
+        <str id="2542" val="Source MAC" />
+        <str id="2543" val="Ethernet Type" />
+        <str id="2544" val="VLAN_TCI" />
+        <str id="2545" val="Package Type" />
+        <str id="2546" val="SV 91" />
+        <str id="2547" val="SV 92" />
+        <str id="2548" val="PDU" />
+        <str id="2549" val="Reserved" />
+        <str id="2550" val="APPID" />
+        <str id="2551" val="Application Length" />
+        <str id="2552" val="Reserved1" />
+        <str id="2553" val="Reserved2" />
+        <str id="2555" val="PDU Length" />
+        <str id="2556" val="Number of Asdu" />
+        <str id="2557" val="Sequence of ASDU" />
+        <str id="2558" val="Length of ASDU" />
+        <str id="2559" val="LNName" />
+        <str id="2560" val="DateSet Name" />
+        <str id="2561" val="LDName" />
+        <str id="2562" val="IePhs" />
+        <str id="2563" val="IeMid" />
+        <str id="2564" val="UePhs" />
+        <str id="2565" val="DateTime Delay" />
+        <str id="2566" val="DataSet" />
+        <str id="2567" val="Status1" />
+        <str id="2568" val="Status2" />
+        <str id="2569" val="Sample Count(smpCnt)" />
+        <str id="2530" val="Sample Rate(smpRate)" />
+        <str id="2531" val="Configure Rev(confRev)" />
+        <str id="2532" val="ASDU" />
+        <str id="2533" val="Data" />
+        <str id="2534" val="SVID" />
+        <str id="2535" val="Sample Sync(smpSync)" />
+        <str id="2536" val="Sequence of Data" />
+        <str id="2537" val="datSet" />
+        <str id="2538" val="refrTm" />
+        <str id="2539" val="smpRate" />
+        <str id="2528" val="Data Channels" />
+        
+        <str id="2570" val="SV91" />
+        <str id="2571" val="SV92" />
+        <str id="2572" val="FT3 NR" />
+        <str id="2573" val="FT3 GW" />
+        <str id="2574" val="GOOSE" />
+        <str id="2575" val="Unknown" />
+        <str id="2576" val="SV91 Desc" />
+        <str id="2577" val="SV92 Desc" />
+        <str id="2578" val="FT3 NANRUI Desc" />
+        <str id="2579" val="FT3 GUOWANG Desc" />
+        <str id="2580" val="GOOSE Desc" />
+        <str id="2581" val="unknown Desc" />
+        
+        <str id="2590" val="IEC 61850采样值" />
+        
+    </page>
+    
+    <page val="smv_statistics">
+        <str id="2600" val="异常统计" />
+        <str id="2601" val="重新统计" />
+        <str id="2602" val="采样频率" />
+        
+        <str id="2610" val="报文统计" />
+        <str id="2611" val="报文离散度" />
+        <str id="2612" val="时间间隔" />
+        
+        <str id="2620" val="报文总计数" />
+        <str id="2621" val="丢点次数" />
+        <str id="2622" val="错序次数" />
+        <str id="2623" val="发送超时计数" />
+        <str id="2624" val="发送抖动计数" />
+        <str id="2625" val="重发次数" />
+        <str id="2626" val="失步计数" />
+        <str id="2627" val="品质无效计数" />
+        <str id="2628" val="检修计数" />
+    </page>
+    
+    <page val="smv_effictive_val">
+        <str id="3000" val="有效值" />
+        <str id="3010" val="通道" />
+        <str id="3011" val="有效值" />
+        <str id="3012" val="相角" />
+        <str id="3013" val="通道号" />
+        <str id="3014" val="--" />
+        <str id="3015" val="含有率" />
+        <str id="3016" val="频率" />
+    </page>
+    
+    <page val="smv_polarity">
+        <str id="3100" val="极性" />
+        <str id="3110" val="重新检测" />
+		<str id="3111" val="整定值" />
+        <str id="3120" val="极性参数" />
+        <str id="3121" val="门槛值" />
+        <str id="3122" val="零漂值" />
+    </page>
+    
+    <page val="smv_harmonic">
+        <str id="3150" val="谐波" />
+        <str id="3160" val="直流" />
+        <str id="3161" val="基波" />
+        <str id="3162" val="次" />
+        <str id="3163" val="通道" />
+        <str id="3164" val="表格|频谱" />
+        <str id="3165" val="通道号" />
+        <str id="3166" val="THD" />
+        <str id="3167" val="直流" />
+        <str id="3168" val="基波" />
+        <str id="3169" val="有效值" />
+        <str id="3170" val="相角" />
+        <str id="3170" val="频率" />
+        <str id="3171" val="频率分量" />
+    </page>
+    
+    <page val="time">
+        <str id="3900" val="对时->B码" />
+        <str id="3901" val="对时->1588" />
+        <str id="3910" val="B码" />
+        <str id="3911" val="1588" />
+        <str id="3912" val="重新扫描" />
+        <str id="3920" val="日期" />
+        <str id="3921" val="时间" />
+        <str id="3922" val="闰秒预告" />
+        <str id="3923" val="闰秒标志" />
+        <str id="3924" val="时间偏移" />
+        <str id="3925" val="时间质量" />
+        <str id="3926" val="夏时制预告" />
+        <str id="3927" val="夏时制标志" />
+        <str id="3930" val="MAC地址" />
+        <str id="3931" val="时钟ID" />
+        <str id="3932" val="项目" />
+        <str id="3933" val="值" />
+        <str id="3934" val="1588时钟源信息" />
+    </page>
+    
+    <page val="goose_scan">
+        <str id="4000" val="GSE探测" />
+        <str id="4001" val="GSE接收" />
+        
+        <str id="4010" val="" />
+        <str id="4011" val="序号" />
+        <str id="4012" val="AppID" />
+        <str id="4013" val="描述" />
+        <str id="4014" val="端口" />
+        
+        <str id="4030" val="1最多能勾选 %d 个控制块" />
+    </page>
+    
+    <page val="goose_realtime">
+        <str id="4100" val="实时值" />
+        <str id="4110" val="类型" />
+        <str id="4111" val="值" />
+        <str id="4112" val="描述" />
+        <str id="4120" val="下一个" />
+    </page>
+    
+    <page val="goose_shift">
+        <str id="4200" val="变位列表" />
+        
+        <str id="4210" val="变位时间" />
+        <str id="4211" val="变位信息" />
+        <str id="4212" val="类型" />
+        <str id="4213" val="原值" />
+        <str id="4214" val="新值" />
+        
+        <str id="4230" val="绝对时间" />
+        <str id="4231" val="相对时间" />
+        <str id="4232" val="下一个" />
+        <str id="4233" val="过滤" />
+        <str id="4234" val="全部" />
+        <str id="4235" val="变位" />
+        <str id="4240" val="通道" />
+    </page>
+    
+    <page val="goose_statistics">
+        <str id="4300" val="报文统计" />
+        <str id="4310" val="统计项目" />
+        <str id="4311" val="统计值" />
+        <str id="4320" val="报文总计数" />
+        <str id="4321" val="sqNum逆转计数" />
+        <str id="4322" val="stNum逆转计数" />
+        <str id="4323" val="丢帧次数" />
+        <str id="4324" val="错序次数" />
+        <str id="4325" val="重发次数" />
+        <str id="4326" val="StNum丢帧次数" />
+        <str id="4327" val="StNum错序次数" />
+        <str id="4328" val="报文丢失计数" />
+        <str id="4329" val="通信中断计数" />
+        <str id="4340" val="存活时间无效计数" />
+        <str id="4341" val="时钟未同步计数" />
+        <str id="4342" val="时钟故障计数" />
+        
+        <str id="4330" val="下一个" />
+        <str id="4331" val="重新统计" />
+    </page>
+    
+    <page val="goose_monitor">
+        <str id="4400" val="报文监测" />
+        
+        <str id="4410" val="时间" />
+        <str id="4411" val="类型" />
+        <str id="4412" val="长度" />
+        <str id="4413" val="备注" />
+
+        <str id="4420" val="实时报文" />
+        <str id="4421" val="下一个" />
+        <str id="4422" val="开始记录" />
+        <str id="4423" val="停止记录" />
+        <str id="4424" val="刷新" />
+        <str id="4425" val="浏览文件" />
+        
+        <str id="4430" val="项目" />
+        <str id="4431" val="值" />
+        
+        <str id="4450" val="Ethernet" />
+        <str id="4451" val="Destination MAC" />
+        <str id="4452" val="Source MAC" />
+        <str id="4453" val="Ethernet Type" />
+        <str id="4454" val="VLAN_TCI" />
+        <str id="4455" val="Package Type" />
+        
+        <str id="4456" val="IEC-GOOSE" />
+        <str id="4457" val="AppID" />
+        <str id="4458" val="Length" />
+        <str id="4459" val="Reserved1" />
+        <str id="4460" val="Reserved2" />
+        
+        <str id="4461" val="PDU" />
+        <str id="4462" val="PDU Length" />
+        <str id="4463" val="Time Allowed To Live(TTL)" />
+        <str id="4464" val="DataSet Reference(datSet)" />
+        <str id="4465" val="Application ID(gcID)" />
+        <str id="4466" val="Event Timestamp(UTC time)" />
+        <str id="4467" val="Status Change Number(stNum)" />
+        <str id="4468" val="Sequence Number(sqNum)" />
+        <str id="4469" val="Test Mode(test)" />
+        <str id="4470" val="Configure Rev(confRev)" />
+        <str id="4471" val="Needs Commissioning(ndsCom)" />
+        <str id="4472" val="Num Data Entries(entriesNum)" />
+        <str id="4473" val="DataSet" />
+        <str id="4474" val="GOOSE Control Reference(gcRef)" />
+        <str id="4475" val="Security" />
+        <str id="4480" val="BOOLEAN" />
+        <str id="4481" val="BitStr" />
+        <str id="4482" val="TIME" />
+        <str id="4483" val="INT8" />
+        <str id="4484" val="INT16" />
+        <str id="4485" val="INT24" />
+        <str id="4486" val="INT32" />
+        <str id="4487" val="UINT8" />
+        <str id="4488" val="UINT16" />
+        <str id="4489" val="UINT24" />
+        <str id="4490" val="UINT32" />
+        <str id="4491" val="FLOAT" />
+        <str id="4492" val="OctetStr" />
+        <str id="4493" val="VisibleStr" />
+        <str id="4494" val="Unknown" />
+        <str id="4495" val="Struct" />
+    </page>
+    <page val="cfg_smv_send">
+        <str id="4610" val="SV类型" />
+        <str id="4611" val="IEC 61850-9-1" />
+        <str id="4612" val="IEC 61850-9-2" />
+        <str id="4613" val="IEC 60044-7/8(FT3)" />
+        <str id="4614" val="IEC 60044-7/8(FT3)扩展" />
+        <str id="4615" val="采样值显示" />
+        <str id="4616" val="一次值" />
+        <str id="4617" val="二次值" />
+        <str id="4618" val="采样频率" />
+        <str id="4619" val="4kHz" />
+        <str id="4620" val="12.8kHz" />
+        <str id="4621" val="ASDU数目" />
+        <str id="4622" val="交直流设置" />
+        <str id="4623" val="所有通道都是交流" />
+        <str id="4624" val="所有通道都是直流" />
+        <str id="4625" val="直流通道：" />
+        <str id="4630" val="波特率" />
+        <str id="4631" val="2.5Mbps" />
+        <str id="4632" val="5Mbps" />
+        <str id="4633" val="10Mbps" />
+        <str id="4640" val="SV发送" />
+        <str id="4641" val="1SV发送(9-1 4kHz)数目已达到最大值(4)!" />
+        <str id="4642" val="1SV发送(9-1 12.8kHz)数目已达到最大值(2)!" />
+        <str id="4643" val="1SV发送(9-2 4kHz)数目已达到最大值(4)!" />
+        <str id="4644" val="1SV发送(9-2 12.8kHz)数目已达到最大值(2)!" />
+        <str id="4645" val="1SV发送(9-1)通道数目已达到最大值(12)!" />
+        <str id="4646" val="1SV发送(9-2)通道数目已达到最小值(1)!" />
+        <str id="4647" val="1SV发送(FT3标准帧)通道数目已达到最大值(12)!" />
+        <str id="4648" val="1SV发送(FT3扩展帧)通道数目已达到最大值(22)!" />
+		
+        <str id="4649" val="详细设置" />
+		
+        <str id="4650" val="交直流设置" />
+        <str id="4660" val="交流" />
+        <str id="4661" val="直流" />
+        <str id="4662" val="直流设置" />
+        <str id="4663" val="电压" />
+        <str id="4664" val="电流" />
+        <str id="4665" val="直流通道：" />
+        <str id="4666" val="所有通道都是交流" />
+        <str id="4667" val="所有通道都是直流" />
+		
+        <str id="4670" val="从全站配置中选择SV" />
+        <str id="4671" val="APPID" />
+        <str id="4672" val="通道数" />
+        <str id="4673" val="描述" />
+        <str id="4674" val="端口" />
+        <str id="4690" val="从扫描列表中选择SV" />
+        <str id="4691" val="APPID" />
+        <str id="4692" val="通道数" />
+        <str id="4693" val="描述" />
+        <str id="4694" val="端口" />
+		
+		<!-- 控制块通道编辑!-->
+		
+        <str id="4717" val="发送DatSet" />
+        <str id="4718" val="发送RefrTm" />
+        <str id="4719" val="发送SmpRate" />
+		
+        <str id="4720" val="SV控制块" />
+        <str id="4721" val="通道编辑" />
+        <str id="4725" val="控制块描述" />
+        <str id="4726" val="端口" />
+        <str id="4727" val="APPID/HEX" />
+        <str id="4728" val="MAC地址" />
+        <str id="4729" val="VLAN ID" />
+        <str id="4730" val="VLAN优先级" />
+        <str id="4731" val="配置版本号" />
+        <str id="4732" val="svID" />
+        <str id="4733" val="DatSet" />
+        <str id="4734" val="额定相电流/A" />
+        <str id="4735" val="额定中线电流/A" />
+        <str id="4736" val="额定相电压/kV" />
+        <str id="4737" val="额定延时/μs" />
+        <str id="4738" val="状态字#1/HEX" />
+        <str id="4739" val="状态字#2/HEX" />
+        <str id="4740" val="LNName/HEX" />
+        <str id="4741" val="LDName/HEX" />
+        <str id="4742" val="DSName/HEX" />
+        <str id="4743" val="光网口1" />
+        <str id="4744" val="光网口2" />
+        <str id="4745" val="FT3_TX" />
+        <str id="4746" val="新增SV发送" />
+        <str id="4747" val="通道描述" />
+        <str id="4748" val="类型" />
+        <str id="4749" val="时间" />
+        <str id="4750" val="电流" />
+        <str id="4751" val="电压" />
+        <str id="4752" val="相位" />
+        <str id="4753" val="一次额定值" />
+        <str id="4754" val="二次额定值" />
+        <str id="4755" val="映射" />
+        <str id="4756" val="A" />
+        <str id="4757" val="V" />
+        <str id="4758" val="kV" />
+        <str id="4759" val="μs" />
+        <str id="4760" val="--" />
+		
+        <str id="4761" val="12通道模板1" />
+        <str id="4762" val="12通道模板2" />
+        <str id="4763" val="12通道模板3" />
+		
+        <str id="4764" val="22通道模板1" />
+        <str id="4765" val="22通道模板2" />
+        <str id="4766" val="22通道模板3" />
+		
+        <str id="4767" val="8通道模板" />
+        <str id="4768" val="12通道模板4" />
+        <str id="4769" val="18通道模板" />
+		
+        <str id="4770" val="30通道模板" />
+        <str id="4771" val="12通道模板5" />
+        <str id="4772" val="SCL配置模板" />
+		
+        <str id="4780" val="通道模板" />
+		
+		
+		<!--修改状态字-->
+        <str id="4788" val="比特" />
+        <str id="4789" val="状态字#1设置" />
+        <str id="4790" val="状态字#2设置" />
+        <str id="4791" val="需要维护" />
+        <str id="4792" val="0:正常" />
+        <str id="4793" val="1:告警，需要维护" />
+        <str id="4794" val="模式" />
+        <str id="4795" val="0:正常进行" />
+        <str id="4796" val="1:测试" />
+        <str id="4797" val="唤醒期间指示" />
+        <str id="4798" val="0:正常，数据有效" />
+        <str id="4799" val="1:唤醒期间，数据无效" />
+        <str id="4800" val="MU同步方式" />
+        <str id="4801" val="0:不能使用插值算法同步" />
+        <str id="4802" val="1:可以使用差值算法同步" />
+        <str id="4803" val="MU同步标志" />
+        <str id="4804" val="0:采样已同步" />
+        <str id="4805" val="1:同步丢失或无效" />
+        <str id="4806" val="通道%d无效标志" />
+        <str id="4808" val="0:数据有效" />
+        <str id="4809" val="1:数据无效" />
+        <str id="4810" val="电流传感器类型" />
+        <str id="4811" val="0:电流值" />
+        <str id="4812" val="1:电流导数" />
+        <str id="4813" val="量程标志" />
+        <str id="4814" val="0:保护电流因子0x01CF" />
+        <str id="4815" val="1:保护电流因子0x00E7" />
+        <str id="4816" val="备用" />
+        <str id="4817" val="0" />
+        <str id="4818" val="1" />
+        <str id="4819" val="自定义" />
+        <str id="4820" val="0" />
+        <str id="4821" val="1" />
+
+		
+		
+		
+    </page>
+	<page val="cfg_goose_send">
+		<str id="4890" val="GSE控制块" />
+        <str id="4891" val="心跳间隔T0(ms)" />
+        <str id="4892" val="最小间隔T1(ms)" />
+        <str id="4893" val="GSE发送" />
+        <str id="4894" val="GSE接收" />
+        <str id="4895" val="1GSE发送数目已达到最大值(4)!" />
+        <str id="4896" val="GSE接收数目已达到最大值(8)!" />
+        <str id="4897" val="GSE通道数目已达到最小值(1)!" />
+	</page>	
+	<page val="cfg_goose_edit_view">
+        <str id="4901" val="通道编辑" />
+        <str id="4902" val="通道查看" />
+	    <str id="4903" val="控制块描述" />
+        <str id="4904" val="发送端口" />
+        <str id="4905" val="APPID(HEX)" />
+        <str id="4906" val="MAC 地址" />
+        <str id="4907" val="VLAN ID" />
+        <str id="4908" val="VLAN优先级" />
+        <str id="4909" val="配置版本号" />
+        <str id="4910" val="testFlag" />
+        <str id="4911" val="NeedComm" />
+        <str id="4912" val="gocbRef" />
+        <str id="4913" val="数据集" />
+        <str id="4914" val="goID" />
+        <str id="4915" val="描述" />
+        <str id="4916" val="通道类型" />
+        <str id="4917" val="映射" />
+        <str id="4918" val="光网口1" />
+        <str id="4919" val="光网口2" />
+        <str id="4920" val="--" />
+        <str id="4921" val="接收端口" />
+        <str id="4922" val="光网口1" />
+        <str id="4923" val="光网口2" />
+        <str id="4924" val="开入" />
+        <str id="4925" val="光网口3" />
+        <str id="4926" val="通道数" />
+		
+        <str id="4940" val="编辑" />
+        <str id="4941" val="查看" />
+        <str id="4942" val="删除" />
+        <str id="4943" val="清空" />
+	</page>
+	<page val="manual_smv_goose">
+        <str id="5000" val="手动试验" />
+        <str id="5001" val="发送SV" />
+        <str id="5002" val="发送GSE" />
+        <str id="5003" val="发送SV" />
+        <str id="5004" val="停发SV" />
+        <str id="5005" val="发送GSE" />
+        <str id="5006" val="停发GSE" />
+        <str id="5007" val="全部发送" />
+        <str id="5008" val="全部停止" />
+		
+        <str id="5009" val="通道" />
+        <str id="5010" val="变化项" />
+        <str id="5011" val="幅值" />
+        <str id="5012" val="相角" />
+        <str id="5013" val="频率" />
+        <str id="5014" val="步长" />
+        <str id="5015" val="通道描述" />
+        <str id="5016" val="类型" />
+        <str id="5017" val="通道值" />
+        <str id="5018" val="--" />
+        <str id="5019" val="INIT" />
+        <str id="5020" val="OFF" />
+        <str id="5021" val="ON" />
+        <str id="5022" val="BAD" />
+        <str id="5023" val="OFF" />
+        <str id="5024" val="ON" />
+        <str id="5025" val="修改生效" />
+        <str id="5026" val="" />
+        <str id="5027" val="通道品质" />
+        <str id="5028" val="加" />
+        <str id="5029" val="减" />
+		
+		<!--设置-->
+        <str id="5030" val="设置" />
+        <str id="5031" val="SV变化项" />
+        <str id="5032" val="生效方式" />
+        <str id="5033" val="即时生效" />
+        <str id="5034" val="手动生效" />
+        <str id="5035" val="开始方式" />
+        <str id="5036" val="分别开始" />
+        <str id="5037" val="同时开始" />
+		
+		<!--设置-->
+        <str id="5040" val="步长设置" />
+        <str id="5041" val="幅值步长" />
+        <str id="5042" val="相角步长" />
+		
+		<!--实验结果 -->
+        <str id="5050" val="试验结果" />
+        <str id="5051" val="变化列表" />
+        <str id="5052" val="变化时间" />
+        <str id="5053" val="变化项" />
+        <str id="5054" val="开入量动作" />
+        <str id="5055" val="开入量" />
+        <str id="5056" val="变位次数" />
+        <str id="5057" val="变位1(ms)" />
+        <str id="5058" val="变位2(ms)" />
+        <str id="5059" val="变位3(ms)" />
+        <str id="5060" val="SV通道发生变化" />
+        <str id="5061" val="GSE通道发生变化" />
+        <str id="5062" val="开始发送SV" />
+        <str id="5063" val="开始发送GSE" />
+        <str id="5064" val="试验详情" />
+        <str id="5065" val="控制块" />
+        <str id="5066" val="SV" />
+        <str id="5067" val="GSE" />
+        <str id="5068" val="变化" />
+        <str id="5069" val="DI变化" />
+        <str id="5070" val="SV通道品质发生变化" />
+        <str id="5071" val="SV状态字发送变化" />
+		
+        <str id="5080" val="SV映射表" />
+        <str id="5081" val="映射到SV" />
+        <str id="5082" val="变比" />
+		
+        <str id="5083" val="1退出前请先停止发送SV和GSE。" />
+        <str id="5084" val="1请先添加SV通道映射关系。" />
+        <str id="5085" val="1请先添加GSE发送控制块。" />
+	
+		<str id="5100" val="SV发送控制块" />
+		<str id="5101" val="" />
+		<str id="5102" val="控制块描述" />
+		
+		<str id="5105" val="状态字" />
+		<str id="5106" val="状态字#1" />
+		<str id="5107" val="状态字#2" />
+		
+		<str id="5119" val="0:正常" />
+		<str id="5120" val="通道品质设置" />
+		<str id="5121" val="比特0-1 有效性" />
+		<str id="5122" val="00:正常" />
+		<str id="5123" val="01:无效" />
+		<str id="5124" val="10:保留" />
+		<str id="5125" val="11:可疑" />
+		<str id="5126" val="溢出" />
+		<str id="5127" val="0:无溢出" />
+		<str id="5128" val="1:溢出" />
+		<str id="5129" val="超值域" />
+		<str id="5130" val="1:超值域" />
+		<str id="5131" val="坏基准值" />
+		<str id="5132" val="1:坏基准值" />
+		<str id="5133" val="抖动" />
+		<str id="5134" val="1:有抖动" />
+		<str id="5135" val="故障" />
+		<str id="5136" val="0:无故障" />
+		<str id="5137" val="1:有故障" />
+		<str id="5138" val="旧数据" />
+		<str id="5139" val="1:旧数据" />
+		<str id="5140" val="不一致" />
+		<str id="5141" val="0:一致" />
+		<str id="5142" val="1:不一致" />
+		<str id="5143" val="不精确" />
+		<str id="5144" val="0:精确" />
+		<str id="5145" val="1:不精确" />
+		<str id="5146" val="源" />
+		<str id="5147" val="0:过程" />
+		<str id="5148" val="1:被取代" />
+		<str id="5149" val="测试" />
+		<str id="5150" val="0:运行" />
+		<str id="5151" val="1:测试" />
+		<str id="5152" val="操作员闭锁" />
+		<str id="5153" val="0:不闭锁" />
+		<str id="5154" val="1:闭锁" />
+		<str id="5155" val="派生量" />
+		<str id="5156" val="0:FALSE" />
+		<str id="5157" val="1:TRUE" />
+		
+		<str id="5158" val="1发送失败，SV控制块的通道数太多或ASDU数太大。" />
+		<str id="5159" val="1发送失败，GSE控制块的通道数太多。" />
+	</page>
+    
+	<page val="state">
+		<str id="5200" val="状态序列" />
+		<str id="5210" val="状态设置" />
+		<str id="5211" val="状态数据" />
+		<str id="5212" val="--" />
+		<str id="5213" val="开始试验" />
+		<str id="5214" val="停止试验" />
+		<str id="5215" val="1状态序列最多可设置10个状态。" />
+		<str id="5216" val="1SV发送无通道映射" />
+        <str id="5217" val="1请先添加试验。" />
+		
+        <str id="5225" val="故障计算" />
+        <str id="5226" val="谐波设置" />
+		<str id="5227" val="扩展菜单" />
+		<str id="5228" val=" " />
+		<str id="5229" val="开入映射" />
+		<str id="5230" val="状态设置" />
+		<str id="5231" val="状态切换类型" />
+		<str id="5232" val="开入量切换" />
+		<str id="5233" val="限时切换" />
+		<str id="5234" val="手动切换" />
+		<str id="5240" val="开入量切换" />
+		<str id="5241" val="逻辑与" />
+		<str id="5242" val="逻辑或" />
+		<str id="5243" val="状态" />
+		<str id="5244" val="设置" />
+		<str id="5245" val="切换时间/ms" />
+		<str id="5246" val="通道" />
+		<str id="5247" val="幅值" />
+		<str id="5248" val="相角" />
+		<str id="5249" val="频率" />
+		<str id="5250" val="试验结果" />
+		<str id="5251" val="状态切换" />
+		<str id="5252" val="状态" />
+		<str id="5253" val="开始时间" />
+		<str id="5254" val="开入量动作" />
+		<str id="5260" val="开入量动作" />
+		<str id="5261" val="开入量" />
+		<str id="5262" val="变位次数" />
+		<str id="5263" val="变位1(ms)" />
+		<str id="5264" val="变位2(ms)" />
+		<str id="5265" val="变位3(ms)" />
+        <str id="5266" val="INIT" />
+        <str id="5267" val="OFF" />
+        <str id="5268" val="ON" />
+        <str id="5269" val="BAD" />
+        <str id="5270" val="OFF" />
+        <str id="5271" val="ON" />
+        <str id="5272" val="无开入量变化" />
+        <str id="5273" val="1退出前需先停止试验。" />
+        <str id="5274" val="点击&quot;确认&quot; 进入下一条状态。" />
+        <str id="5275" val="→" />
+				
+        <str id="5280" val="谐波设置" />
+        <str id="5281" val="清空" />
+        <str id="5282" val="等谐波" />
+        <str id="5283" val="等幅值" />
+        <str id="5284" val="等相角" />
+		
+        <str id="5285" val="通道" />
+        <str id="5286" val="谐波" />
+        <str id="5287" val="幅值" />
+        <str id="5288" val="相角" />
+		
+        <str id="5289" val="--" />
+        <str id="5290" val="无谐波" />
+        <str id="5291" val="直流" />
+        <str id="5292" val="次谐波" />
+		
+		
+        <str id="5300" val="故障类型" />
+        <str id="5301" val="计算模型" />
+        <str id="5302" val="方向" />
+        <str id="5303" val="额定电压/V" />
+        <str id="5304" val="负荷电流/A" />
+        <str id="5305" val="负荷功角/°" />
+        <str id="5306" val="线路阻抗Z1" />
+        <str id="5307" val="线路零序补偿系数/Kl" />
+        <str id="5308" val="系统阻抗/Zs" />
+        <str id="5309" val="系统零序补偿系数/Ks" />
+        <str id="5310" val="故障电压/V" />
+        <str id="5311" val="故障电流/A" />
+        <str id="5312" val="阻抗/Ω" />
+        <str id="5313" val="阻抗角/°" />
+        <str id="5314" val="电阻/Ω" />
+        <str id="5315" val="电抗(Ω)" />
+        <str id="5316" val="模值" />
+        <str id="5317" val="幅角" />
+        <str id="5318" val="实部" />
+        <str id="5319" val="虚部" />
+		
+        <str id="5320" val="A相接地短路" />
+        <str id="5321" val="B相接地短路" />
+        <str id="5322" val="C相接地短路" />
+        <str id="5323" val="AB相短路" />
+        <str id="5324" val="BC相短路" />
+        <str id="5325" val="AC相短路" />
+        <str id="5326" val="AB相接地短路" />
+        <str id="5327" val="BC相接地短路" />
+        <str id="5328" val="CA相接地短路" />
+        <str id="5329" val="三相短路" />
+        <str id="5330" val="单相系统" />
+        <str id="5340" val="电流不变" />
+        <str id="5341" val="电压不变" />
+        <str id="5342" val="系统阻抗不变" />
+        <str id="5350" val="正向" />
+        <str id="5351" val="反向" />
+		
+        <str id="5360" val="故障计算" />
+        <str id="5361" val="设置项" />
+        <str id="5362" val="设置值" />
+        <str id="5363" val="设置线路阻抗Z1" />
+        <str id="5364" val="设置线路零序补偿系数K1" />
+        <str id="5365" val="设置系统阻抗Zs" />
+        <str id="5366" val="设置系统零序补偿系数Ks" />
+        <str id="5367" val="请&quot;确认&quot;或&quot;取消&quot;设置线路零序补偿系数K1。" />
+        <str id="5368" val="请&quot;确认&quot;或&quot;取消&quot;设置线路阻抗Z1。" />
+        <str id="5369" val="请&quot;确认&quot;或&quot;取消&quot;设置系统零序补偿系数Ks。" />
+        <str id="5370" val="请&quot;确认&quot;或&quot;取消&quot;设置系统阻抗Zs。" />
+        <str id="5371" val="计算结果应用于：&quot;1&quot; Ua1-Uc1及Ia1-Ic1；&quot;2&quot; Ua2-Uc2及Ia2-Ic2。" />
+    </page>
+    
+    <page val="light_power">
+        <str id="5500" val="光功率" />
+        <str id="5501" val="端口" />
+        <str id="5502" val="波长" />
+        <str id="5503" val="实际值" />
+        <str id="5504" val="最小值" />
+        <str id="5505" val="最大值" />
+        <str id="5510" val="光网口1" />
+        <str id="5511" val="光网口2" />
+        <str id="5512" val="FT3_RX" />
+        <str id="5513" val="FT3_RX" />
+        <str id="5514" val="FT3_TX" />
+    </page>
+    
+    <page val="lock">
+        <str id="6000" val="您已经成功锁定设备。" />
+        <str id="6001" val="您已经成功解锁设备。" />
+    </page>
+    
+    <page val="msg">
+        <str id="6110" val="您确定关闭设备？" />
+        <str id="6111" val="正在记录数据，请勿拔出SD卡。" />
+        <str id="6112" val="正在解析报文数据，请勿拔出SD卡。" />
+    </page>
+    
+    <page val="password">
+        <str id="6200" val="密码" />
+        <str id="6210" val="输入密码：" />
+    </page>
+    
+    <page val="1588detect">
+        <str id="6300" val="1588时钟源" />
+        <str id="6310" val="MAC地址" />
+        <str id="6311" val="端口" />
+        <str id="6312" val="时钟地址" />
+        <str id="6313" val="时钟端口" />
+    </page>
+
+    <page val="pcapbrowser">
+        <str id="6400" val="报文分析" />
+        <str id="6410" val="时间" />
+        <str id="6411" val="描述" />
+        <str id="6412" val="类型" />
+        <str id="6413" val="长度" />
+        
+        <str id="6420" val="丢点" />
+        <str id="6421" val="错序" />
+        <str id="6422" val="重发" />
+        <str id="6423" val="失步" />
+        <str id="6424" val="品质无效" />
+        <str id="6425" val="检修" />
+        <str id="6426" val="sq丢失" />
+        <str id="6427" val="sq错序" />
+        <str id="6428" val="sq重发" />
+        <str id="6429" val="st丢失" />
+        <str id="6430" val="st错序" />
+        <str id="6431" val="报文丢失" />
+        <str id="6432" val="通信中断" />
+        <str id="6433" val="TTL无效" />
+        <str id="6434" val="时钟未同步" />
+        <str id="6435" val="时钟故障" />
+        <str id="6436" val="未知异常" />
+        
+        <str id="6450" val="上一个" />
+        <str id="6451" val="下一个" />
+        <str id="6452" val="报文列表" />
+        <str id="6453" val="报文统计" />
+        <str id="6454" val="波形分析" />
+        <str id="6455" val="帧内容" />
+    </page>
+
+    <page val="type_channel">
+        <str id="7000" val="--" />
+        <str id="7001" val="电流" />
+        <str id="7002" val="电压" />
+        <str id="7003" val="延时" />
+        <str id="7004" val="时间" />
+        <str id="7005" val="单点" />
+        <str id="7006" val="双点" />
+        <str id="7007" val="品质" />
+        <str id="7008" val="单精度" />
+        <str id="7009" val="结构" />
+        <str id="7010" val="INT8" />
+        <str id="7011" val="INT16" />
+        <str id="7012" val="INT24" />
+        <str id="7013" val="INT32" />
+        <str id="7014" val="UINT8" />
+        <str id="7015" val="UINT16" />
+        <str id="7016" val="UINT24" />
+        <str id="7017" val="UINT32" />
+        <str id="7020" val="电流(测)" />
+        <str id="7021" val="测量电流" />
+        <str id="7022" val="保护电流" />
+        
+        <str id="7030" val="--" />
+        <str id="7031" val="A相" />
+        <str id="7032" val="B相" />
+        <str id="7033" val="C相" />
+        <str id="7034" val="X相" />
+        <str id="7035" val="N相" />
+    </page>
+    
+    <page val="info">   
+        <str id="9000" val="0截屏文件已保存为 %s" />
+        <str id="9001" val="1创建截屏文件失败 %s" />
+        <str id="9002" val="1保存截屏文件失败 %s" />
+        <str id="9010" val="1加载SCL文件失败，文件 %s 不存在" />
+        <str id="9011" val="0加载SCL文件成功 %s" />
+        <str id="9012" val="0解析PCAP文件成功 %s" />
+        <str id="9013" val="1解析PCAP文件失败 %s" />
+        <str id="9014" val="1核相业务的控制块选择功能在业务窗口中" />
+        <str id="9015" val="1密码修改失败，两次输入的密码不相同" />
+        <str id="9016" val="密码已成功修改" />
+        <str id="9017" val="1按电源键进行屏幕解锁" />
+        <str id="9018" val="1记录失败，文件路径不存在" />
+        <str id="9019" val="1截屏失败，文件路径不存在" />
+        <str id="9020" val="1加载SCL文件失败，未插入SD卡" />
+        <str id="9021" val="1打开PCAP文件夹失败，未插入SD卡" />
+        <str id="9022" val="1打开PCAP文件夹失败，找不到文件夹" />
+        <str id="9023" val="1记录失败，未插入SD卡" />
+        <str id="9024" val="1记录失败，内部数据错误" />
+        <str id="9025" val="1截屏失败，未插入SD卡" />
+        <str id="9026" val="1打开SCL文件夹失败，未插入SD卡" />
+        <str id="9027" val="1创建SCL文件夹失败" />
+        <str id="9028" val="1加载SCL文件失败，SCL文件名为空" />
+        <str id="9029" val="1电池电量不足，请及时充电" />
+        <str id="9030" val="1该记录不是有效的变位信息，而是GOOSE通道发生变化引起的" />
+        <str id="9031" val="1是否恢复出厂设置" />
+        <str id="9032" val="1当前控制块的通道数量发生改变，请按ESC返回SV探测页面" />
+        <str id="9033" val="1记录文件的大小超过上限20M，已经自动停止记录" />
+        <str id="9034" val="1SD卡剩余空间不足" />
+        <str id="9035" val="1记录文件不存在" />
+        <str id="9037" val="1获取SD卡剩余空间失败" />
+        <str id="9038" val="1SD卡存储器剩余空间不足，需要剩余空间大于 %d M" />
+        <str id="9039" val="1记录发生未知错误" />
+        <str id="9040" val="1创建记录文件失败" />
+        <str id="9041" val="1记录文件权限错误" />
+        <str id="9042" val="1记录文件路径无效" />
+        <str id="9043" val="1记录文件句柄无效" />
+        <str id="9044" val="1记录目录文件已满" />
+        <str id="9045" val="1记录时硬件发生异常" />
+        <str id="9046" val="1SD卡尚未接入设备" />
+        <str id="9047" val="1SD卡已经弹出设备" />
+        <str id="9048" val="1设置通道模板失败" />
+        <str id="9049" val="1设置模板类型 %s 失败" />
+        <str id="9050" val="1记录失败，SD卡已被拔出" />
+        <str id="9051" val="1记录失败，线路已经断开或无数据" />
+        <str id="9052" val="1线缆尚未接入设备或者线路故障" />
+        <str id="9053" val="1电量不足，禁用报文记录功能" />
+        <str id="9054" val="1帮助" />
+        <str id="9056" val="1SD卡已经拔出" />
+        <str id="9057" val="0SD卡已经插入" />
+        <str id="9058" val="1加载SCL文件 %s 失败" />
+        <str id="9059" val="1当前页面暂停数据刷新时，不能更改通道设置" />
+        <str id="9060" val="1当前页面暂停数据刷新时，不能切换控制块" />
+        <str id="9061" val="1分析pcap文件失败" />
+        <str id="9062" val="正在进行波形分析，请勿拔出SD卡。" />
+        <str id="9063" val="0大概可以记录 %d 分 %d 秒，" />
+        <str id="9064" val="0还剩 %d 分 %d 秒。" />
+        <str id="9065" val="0取消分析pcap文件" />
+        <str id="9066" val="0大概可以记录 %d 秒，" />
+        <str id="9067" val="0还剩 %d 秒。" />
+        <str id="9068" val="1连接超时，确认接入USB线缆后再点击『开始连接』" />
+        <str id="9069" val="1控制块的通道数超过限制，当前控制块通道数最大支持 %d 个" />
+        <str id="9070" val="1控制块 %s 通道数超过限制，该控制块通道数最大支持 %d 个" />
+		<str id="9071" val="1ASDU数目设置无效" />
+		<str id="9072" val="操作指南" />
+		<str id="9073" val="1U盘已经拔出" />
+		<str id="9074" val="0U盘已经插入" />
+		<str id="9075" val="1打开SCL文件夹失败，未插入U盘" />
+		<str id="9076" val="1正在IRIG_B码授时" />
+    </page>
+    
+</strings>

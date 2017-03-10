@@ -1,0 +1,55 @@
+用法: 包含NaviToolBar.h
+
+1. 定义
+    CBitmap                 m_defMenuBkImage;
+    CNaviMenu               m_menu;
+    CNaviMenu               m_menu2;
+    CNaviToolBar            m_ctlMenu;
+
+2. ToolBar不能获得焦点, 要在ToolBar的父窗口的PreTranslateMessage中, 将消息转抛给ToolBar
+BOOL CElTestDlg::PreTranslateMessage(MSG* pMsg)
+{
+    // 传给导航菜单, 看有没有要处理的消息
+    if (m_ctlMenu.PreTranslateMessage(pMsg))
+        return TRUE;
+}
+
+3. 初始化
+void  CElTestDlg::InitMenuCtrl()
+{
+    m_ctlMenu.Create(106, 6, CRect(1, 355, 1+636, 355+36), this, EL_ID_MENU_CONTROL);
+
+    // 设置样式
+    m_ctlMenu.SetHasGridline(0, 1);
+    m_ctlMenu.SetBkColor(RGB(0x21, 0x5D, 0x84));
+    m_ctlMenu.SetTextColor(RGB(255, 255, 255));
+    m_ctlMenu.SetFont(&m_hdrFont);
+
+    // 设置菜单及命令目标窗口
+    CMenu  tempMenu;
+
+    tempMenu.LoadMenu(IDR_MENU1);
+    m_menu.LoadMenu(&tempMenu);
+    m_menu.GetSubMenu(0)->HighlightMenuItem(2, TRUE);
+    
+    tempMenu.DestroyMenu();
+    tempMenu.LoadMenu(IDR_MENU2);
+    m_menu2.LoadMenu(&tempMenu);
+
+    m_ctlMenu.SetCommandTarget(this);
+    m_ctlMenu.SetNaviMenu(&m_menu);
+    m_ctlMenu.SetDefaultItemBkImage(&m_defMenuBkImage);
+}
+
+4. 命令响应
+    ON_COMMAND(ID_BTN_SCOPE, &CElTestDlg::OnBtnScope)
+    ON_UPDATE_COMMAND_UI(ID_BTN_SCOPE, &CElTestDlg::OnUpdateBtnScope)
+
+void CElTestDlg::OnBtnScope()
+{
+    AfxMessageBox(L"hello");
+}
+void CElTestDlg::OnUpdateBtnScope(CCmdUI *pCmdUI)
+{
+    pCmdUI->Enable(1);
+}

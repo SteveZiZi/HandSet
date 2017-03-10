@@ -1,0 +1,144 @@
+﻿
+<strings>
+    <page val="ToolTip">
+        <str id="1100" val="导入配置" />
+		<str id="1101" val="导出配置" />
+        <str id="1102" val="另存为" />
+        <str id="1103" val="SMV控制块" />
+        <str id="1104" val="GOOSE控制块" />
+		<str id="1105" val="查找IED" />
+		
+		<str id="1120" val="复选状态：Checked" />
+        <str id="1121" val="复选状态：Unchecked" />
+		
+		<str id="1130" val="AppID应为0x4000~0x7FFF" />
+		<str id="1131" val="AppID应为0x0000~0x3FFF" />
+		<str id="1132" val="AppID已存在" />
+		<str id="1133" val="Mac地址前4个字节应为01-0C-CD-04" />
+		<str id="1134" val="Mac地址前4个字节应为01-0C-CD-01" />
+		<str id="1135" val="SMV通道数目应为1~32" />
+		<str id="1136" val="SMV采样率应为1~4294967295" />
+		<str id="1137" val="ASDU数目应为1~8" />
+		<str id="1138" val="Vlan ID应为0~4095" />
+		<str id="1139" val="Vlan 优先级应为0~7" />
+		<str id="1140" val="GOOSE通道数目应为1~500" />
+		<str id="1141" val="变位报文最短时间间隔应为1~4294967295" />
+		<str id="1142" val="报文心跳时间应为1~4294967295" />
+		<str id="1143" val="结构体类型的GOOSE通道的子通道数目应为1~10" />
+		<str id="1144" val="SMV控制块信息报表" />
+		<str id="1145" val="GOOSE控制块信息报表" />
+		<str id="1146" val="非结构体类型的GOOSE通道的子通道数目应为0" />
+		
+		<str id="1180" val="已存在。" />
+		<str id="1181" val="要替换它吗？" />
+		<str id="1182" val="请插入移动存储设备。" />
+		
+		<str id="1190" val="1.0.2" />
+    </page>
+    
+    <page val="SmvView">
+        <str id="1200" val="序号" />
+        <str id="1201" val="AppID" />
+		<str id="1202" val="Mac地址" />
+		<str id="1203" val="通道数目" />
+		<str id="1204" val="IED" />
+		<str id="1205" val="DataSetRef" />
+		<str id="1206" val="svID" />
+		<str id="1207" val="SmpRate" />
+		<str id="1208" val="NofASDU" />
+		<str id="1209" val="Vlan ID" />        
+        <str id="1210" val="Vlan 优先级" />
+        <str id="1211" val="组播" />
+        <str id="1212" val="发送刷新时间" />
+        <str id="1213" val="发送采样率" />
+        <str id="1214" val="发送数据集索引" />
+        <str id="1215" val="发送采样同步标志" />      
+        <str id="1216" val="发送安全性信息" />
+		<str id="1217" val="DataSet描述" />
+		<str id="1218" val="svcbRef" />
+		<str id="1219" val="版本号" />
+		
+		<str id="1220" val="序号" />
+        <str id="1221" val="通道类型" />
+        <str id="1222" val="相别" />
+        <str id="1223" val="LN描述" />
+        <str id="1224" val="DOI描述" />
+		<str id="1225" val="DU描述" />
+		<str id="1226" val="路径" />
+        
+        <str id="1230" val="--" />
+        <str id="1231" val="A相" />
+        <str id="1232" val="B相" />
+		<str id="1233" val="C相" />
+        <str id="1234" val="N相" />
+        <str id="1235" val="X相" />
+		
+		<str id="1240" val="--" />
+        <str id="1241" val="时间" />
+        <str id="1242" val="电流" />
+		<str id="1243" val="电压" />
+    </page>
+    
+    <page val="GooseView">
+        <str id="1300" val="序号" />
+        <str id="1301" val="AppID" />
+		<str id="1302" val="Mac地址" />
+		<str id="1303" val="通道数目" />
+		<str id="1304" val="IED" />
+		<str id="1305" val="DataSetRef" />
+		<str id="1306" val="goID" />
+		<str id="1307" val="gocbRef" />
+		<str id="1308" val="Vlan ID" />        
+        <str id="1309" val="Vlan 优先级" />
+        <str id="1310" val="变位报文最短时间间隔" />
+        <str id="1311" val="报文心跳时间" />
+		<str id="1312" val="DataSet描述" />
+		<str id="1313" val="版本号" />
+		
+		<str id="1320" val="序号" />
+        <str id="1321" val="通道类型" />
+        <str id="1322" val="子通道数" />
+        <str id="1323" val="LN描述" />
+        <str id="1324" val="DOI描述" />
+		<str id="1325" val="DU描述" />
+		<str id="1326" val="路径" />
+		
+		<str id="1330" val="序号" />
+        <str id="1331" val="类型" />
+        <str id="1332" val="DaName" />
+		
+		<str id="1340" val="--" />
+		<str id="1341" val="结构体" />
+        <str id="1342" val="单点" />
+        <str id="1343" val="双点" />
+        <str id="1344" val="品质" />
+		<str id="1345" val="时间标签" />
+		<str id="1346" val="条目时间" />
+		<str id="1347" val="INT8" />
+		<str id="1348" val="INT16" />
+		<str id="1349" val="INT24" />
+		<str id="1350" val="INT32" />
+		<str id="1351" val="INT128" />
+		<str id="1352" val="UINT8" />
+		<str id="1353" val="UINT16" />
+		<str id="1354" val="UINT24" />
+		<str id="1355" val="UINT32" />
+		<str id="1356" val="单精度" />
+		<str id="1357" val="双精度" />
+		<str id="1358" val="八位位组字符串" />
+		<str id="1359" val="可视字符串" />
+		<str id="1360" val="Unicode字符串" />
+    </page>
+	
+	<page val="ReportColumnRClickMenu">
+        <str id="1400" val="列显示/隐藏" />
+        <str id="1401" val="对齐方式" />
+        <str id="1402" val="文本对齐" />
+        <str id="1403" val="图标对齐" />
+        <str id="1404" val="左对齐" />
+        <str id="1405" val="右对齐" />
+        <str id="1406" val="居中" />
+        <str id="1407" val="最佳长度匹配" />
+    </page>
+    
+</strings>

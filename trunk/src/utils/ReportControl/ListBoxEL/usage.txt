@@ -1,0 +1,93 @@
+用法: 参考XP的CListBox, 包含 ListBoxEL.h
+
+重载CListBoxEL, 然后重写DrawItem和MeasureItem函数, 然后用法与CListBox一致
+
+
+1. 定义
+    CTreeBoxEL  m_ctlTree;
+    CListBoxEL  m_ctlBox;
+    CListBoxEL  m_ctlBox2;
+    CFont       m_bodyFont;
+
+2. 初始化
+    m_ctlBox.CreateEx(WS_EX_TOOLWINDOW, WS_POPUP|WS_VISIBLE|WS_BORDER, CRect(0, 0, 100, 100), this, 0);
+
+    m_ctlBox.SetFont(&m_bodyFont);
+
+    //m_ctlBox.SetMargin(5, 10, 15, 20);
+    m_ctlBox.AddString(L"aaaa");
+    m_ctlBox.AddString(L"bbbb");
+    m_ctlBox.AddString(L"cccc");
+    m_ctlBox.AddString(L"dddd");
+    m_ctlBox.AddString(L"eeee");
+    m_ctlBox.AddString(L"ffff");
+    m_ctlBox.AddString(L"gggg");
+
+
+    m_ctlTree.Create(WS_CHILD|WS_VISIBLE|WS_BORDER|WS_TABSTOP, CRect(0, 0, 200, 200), this, TREEBOX_CTRL_ID);
+    m_ctlTree.SetFont(&m_bodyFont);
+    m_ctlTree.SetHeaderFont(&m_bodyFont);
+    m_ctlTree.SetHeaderHeight(20);
+    m_ctlTree.SetTreeItemHeight(30);
+    m_ctlTree.SetTreeExpandImage(&m_bmp1, &m_bmp2);
+    m_ctlTree.SetTreeCheckImage(&m_bmp3, &m_bmp4);
+
+    m_ctlTree.InsertTreeColumn(0, L"列1", EL_LEFT, 100);
+    m_ctlTree.InsertTreeColumn(1, L"列2", EL_LEFT, 100);
+    LBT_HTREEITEM  h1 = m_ctlTree.InsertTreeItem(L"111111");
+    LBT_HTREEITEM  h11 = m_ctlTree.InsertTreeItem(L"aaaa", h1);
+    LBT_HTREEITEM  h12 = m_ctlTree.InsertTreeItem(L"bbbb", h1);
+    LBT_HTREEITEM  h13 = m_ctlTree.InsertTreeItem(L"cccc", h1);
+    LBT_HTREEITEM  h121 = m_ctlTree.InsertTreeItem(L"[[[]]]", h12);
+    m_ctlTree.InsertTreeItem(L"****", h12);
+    m_ctlTree.InsertTreeItem(L"(())))", h12);
+    m_ctlTree.SetTreeItemText(h12, 1, L"大大方方");
+    m_ctlTree.SetTreeItemText(h13, 1, L"许许多多");
+    m_ctlTree.SetTreeItemText(h121, 1, L"随时随地的");
+    m_ctlTree.SetTreeItemColor(h121, 1, RGB(255, 0, 0), RGB(255, 255, 255));
+    LBT_HTREEITEM  h2 = m_ctlTree.InsertTreeItem(L"222222");
+    LBT_HTREEITEM  h3 = m_ctlTree.InsertTreeItem(L"333333");
+    LBT_HTREEITEM  h4 = m_ctlTree.InsertTreeItem(L"444444");
+    LBT_HTREEITEM  h41 = m_ctlTree.InsertTreeItem(L"xxxxx", h4);
+    LBT_HTREEITEM  h42 = m_ctlTree.InsertTreeItem(L"zzzzz", h4);
+    m_ctlTree.InsertTreeItem(L"mm", h2);
+    m_ctlTree.SetTreeItemText(h42, 1, L"乒乒乓乓");
+
+
+3. 重载
+class CNaviPopupBar: public CListBoxEL
+{
+    virtual void  DrawItem (LPDRAWITEMSTRUCT lpDrawItemStruct);
+    virtual void  MeasureItem (LPMEASUREITEMSTRUCT lpMeasureItemStruct);
+};
+
+CNaviPopupBar  bar;
+bar.CreateEx
+bar.AddString(L"", myobj);
+
+
+4. 操作
+void CReportControlDemoDlg::OnBnClickedButton1()
+{
+    //m_ctlBox.InsertString(-1, L"zzzz");
+    m_ctlBox.InsertString(3, L"氢气球");
+}
+void CReportControlDemoDlg::OnBnClickedButton2()
+{
+    //m_ctlBox.DeleteString(m_ctlBox.GetCurSel());
+    //m_ctlBox.DeleteString(m_ctlBox.GetCount() - 1);
+    m_ctlBox.DeleteString(0);
+}
+
+
+5. 消息相应
+ON_NOTIFY(NM_RETURN, TREEBOX_CTRL_ID, OnTreeBoxClick)
+void CReportControlDemoDlg::OnTreeBoxClick(NMHDR * pNotifyStruct, LRESULT* pResult)
+{
+    LBT_HTREEITEM  hItem = m_ctlTree.GetTreeSelectedItem();
+    if (hItem)
+    {
+        m_ctlTree.SetTreeCheck(hItem, !m_ctlTree.GetTreeCheck(hItem));
+    }
+    *pResult = TRUE;
+}

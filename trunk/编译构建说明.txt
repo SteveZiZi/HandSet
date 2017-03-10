@@ -1,0 +1,87 @@
+*********************** 一般模块的工程设置选项说明 ***********************
+
+最常用DLL类型: 使用共享 MFC DLL 的规则 DLL, 或 扩展MFC DLL
+
+使用VC2005默认的工程设置, 所有debug输出的dll或lib都加 _d 后缀
+
+
+配置属性 -->
+
+  常规 -->
+
+    中间目录: 统一把编译的临时文件输出到 trunk/build/intermediate/工程名/Debug
+              或                         trunk/build/intermediate/工程名/Release
+              例子 $(ProjectDir)../../build/intermediate/$(ProjectName)/$(ConfigurationName)
+              <Debug Release 配置相同>
+
+  C/C++ -->
+
+    常规 -->
+
+      附加包含目录: 统一包含 trunk/ 目录作为包含根目录, 这样可以使用 #include "src/log/include/logger.h" 样式包含其他模块的头文件
+                    例子 $(ProjectDir)../../
+                    <Debug Release 配置相同>
+
+  链接器 -->
+
+    常规 -->
+
+      输出文件: 统一把编译出的exe或dll输出到 trunk/bin/debug_unicode/
+                或                           trunk/bin/release_unicode/
+                例子 $(ProjectDir)../../bin/debug_unicode/ccore_d.dll
+                <Debug Release 不同>
+
+      附加库目录: 统一引入 trunk/lib/ , 因为所有模块生成的lib文件都放到这里, 我们引入其他模块lib时就可以直接写上 比如 ccore_d.lib
+                  例子 $(ProjectDir)../../lib/
+                  <Debug Release 配置相同>
+
+    输入 -->
+
+      附加依赖项: 引入需要使用的外部库, 这里根据自己需要的外部库写上lib文件名
+                  例子 ccore_d.lib
+                  <Debug Release 不同>
+
+      模块定义文件: 如果不需要def定义导出函数, 则删除该项的所有内容
+                    <Debug Release 配置相同>
+
+    高级 -->
+
+      导入库: 统一导出到 trunk/lib/ ,  所有模块生成的lib文件都放到这里
+              例子 $(ProjectDir)../../lib/$(TargetName).lib
+              <Debug Release 配置相同>
+
+
+
+*********************** 手工编译构建步骤说明 ***********************
+
+工具准备: VC2005(UNICODE) + sp1 + E9000SDK
+
+1.  运行工程根文件夹下的 pre_build.bat
+
+2.  trunk/build/sln/dsm.sln, 注意: 该文件由构建工程师维护, 其他人不能提交修改
+
+3.  工程构建好后, 到trunk/setup/deploy.bat, 部署工程, 在当前目录生成 deploy_debug, deploy_release文件夹
+
+4.  按deploy部署的位置, 把文件拷贝到板子上, 即可运行, 或调试
+
+
+
+*********************** 自动编译构建步骤说明 ***********************
+
+工具准备: VC2005(UNICODE) + sp1 + E9000SDK + python2.7 + pysvn
+
+1.  运行工程build文件夹下的 run.cmd
+
+2.  到setup文件夹下的***_pkg文件下获得压缩包
+
+
+
+*********************** 部署步骤说明 ***********************
+
+1. 把setup下的部署文件夹下的文件直接拷贝到设备上, 比如把trunk\setup\deploy_release\FlashDisk2 的内容拷贝到设备的\FlashDisk2 
+
+2. 修改注册表init的launch50 指向  \FlashDisk2\loader\ProcessLoadingTool.exe
+
+3. 导入DeviceUpdater 下的reg
+
+

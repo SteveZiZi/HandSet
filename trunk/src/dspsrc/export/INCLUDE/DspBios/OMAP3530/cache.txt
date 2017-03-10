@@ -1,0 +1,10 @@
+·Åµ½ export\INCLUDE\DspBios\OMAP3530
+
+#include <hal/hal_cache.h>
+
+
+buf32 = (Int32*)g_RecvBuf;
+sendBuf32 = (Int32*)g_SendBuf;
+HAL_cacheInv ((Ptr) buf32, LOOP_SIZE) ;
+memcpy(sendBuf32, buf32, LOOP_SIZE);
+HAL_cacheWbInv ((Ptr)sendBuf32, LOOP_SIZE) ;

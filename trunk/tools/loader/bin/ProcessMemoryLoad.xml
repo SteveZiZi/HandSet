@@ -1,0 +1,24 @@
+<ROOT>
+
+    <Logo>\FlashDisk2\DSTester\bmp\splash.bmp</Logo>
+
+	<ProcessInfo>
+        <ProcessName>\Windows\Update.exe</ProcessName>
+        <DelayTime>-1</DelayTime>
+        <Protected>0</Protected>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+        <ProcessName>\FlashDisk2\DSTester\DSTester.exe</ProcessName>
+        <DelayTime>-1</DelayTime>
+        <Protected>0</Protected>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+        <ProcessName>\Windows\explorer.exe</ProcessName>
+        <DelayTime>-1</DelayTime>
+        <Protected>0</Protected>
+    </ProcessInfo>
+
+    
+</ROOT>

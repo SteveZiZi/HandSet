@@ -1,0 +1,5 @@
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\DrvDemo]
+	"Index"=dword:1
+	"Prefix"="DRV"
+	"Dll"="\\DrvDemo.dll"
+	"Order"=dword:0

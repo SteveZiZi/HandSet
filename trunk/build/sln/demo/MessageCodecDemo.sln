@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MessageCodecDemo", "..\..\..\testing\MessageCodecDemo\WinCETest.vcproj", "{C1BA5C06-FA89-4EA5-99FE-0C530145F5EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|CHSINT SDK For WinCE 6.0 (ARMV4I) = Debug|CHSINT SDK For WinCE 6.0 (ARMV4I)
+		Debug|EPCS-9000 (ARMV4I) = Debug|EPCS-9000 (ARMV4I)
+		Release|CHSINT SDK For WinCE 6.0 (ARMV4I) = Release|CHSINT SDK For WinCE 6.0 (ARMV4I)
+		Release|EPCS-9000 (ARMV4I) = Release|EPCS-9000 (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1BA5C06-FA89-4EA5-99FE-0C530145F5EE}.Debug|CHSINT SDK For WinCE 6.0 (ARMV4I).ActiveCfg = Debug|CHSINT SDK For WinCE 6.0 (ARMV4I)
+		{C1BA5C06-FA89-4EA5-99FE-0C530145F5EE}.Debug|CHSINT SDK For WinCE 6.0 (ARMV4I).Build.0 = Debug|CHSINT SDK For WinCE 6.0 (ARMV4I)
+		{C1BA5C06-FA89-4EA5-99FE-0C530145F5EE}.Debug|CHSINT SDK For WinCE 6.0 (ARMV4I).Deploy.0 = Debug|CHSINT SDK For WinCE 6.0 (ARMV4I)
+		{C1BA5C06-FA89-4EA5-99FE-0C530145F5EE}.Debug|EPCS-9000 (ARMV4I).ActiveCfg = Debug|EPCS-9000 (ARMV4I)
+		{C1BA5C06-FA89-4EA5-99FE-0C530145F5EE}.Debug|EPCS-9000 (ARMV4I).Build.0 = Debug|EPCS-9000 (ARMV4I)
+		{C1BA5C06-FA89-4EA5-99FE-0C530145F5EE}.Debug|EPCS-9000 (ARMV4I).Deploy.0 = Debug|EPCS-9000 (ARMV4I)
+		{C1BA5C06-FA89-4EA5-99FE-0C530145F5EE}.Release|CHSINT SDK For WinCE 6.0 (ARMV4I).ActiveCfg = Release|CHSINT SDK For WinCE 6.0 (ARMV4I)
+		{C1BA5C06-FA89-4EA5-99FE-0C530145F5EE}.Release|CHSINT SDK For WinCE 6.0 (ARMV4I).Build.0 = Release|CHSINT SDK For WinCE 6.0 (ARMV4I)
+		{C1BA5C06-FA89-4EA5-99FE-0C530145F5EE}.Release|CHSINT SDK For WinCE 6.0 (ARMV4I).Deploy.0 = Release|CHSINT SDK For WinCE 6.0 (ARMV4I)
+		{C1BA5C06-FA89-4EA5-99FE-0C530145F5EE}.Release|EPCS-9000 (ARMV4I).ActiveCfg = Release|EPCS-9000 (ARMV4I)
+		{C1BA5C06-FA89-4EA5-99FE-0C530145F5EE}.Release|EPCS-9000 (ARMV4I).Build.0 = Release|EPCS-9000 (ARMV4I)
+		{C1BA5C06-FA89-4EA5-99FE-0C530145F5EE}.Release|EPCS-9000 (ARMV4I).Deploy.0 = Release|EPCS-9000 (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

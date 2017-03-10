@@ -1,0 +1,219 @@
+用法: 参考CListCtrl, 包含 ListCtrlEL.h
+
+1.  定义
+    CListCtrlEL             m_ctlListEL;
+    CFont                   m_hdrFont;
+    CFont                   m_bodyFont;
+    CImageList              m_hdrImageList;
+    CImageList              m_bodyImageList;
+
+2. 初始化
+void  CElTestDlg::InitReportCtrl ()
+{
+    // 创建窗口对象
+    m_ctlListEL.Create(
+        WS_VISIBLE|WS_CHILD|WS_TABSTOP|LVS_REPORT|LVS_SINGLESEL|LVS_SHOWSELALWAYS,
+        CRect(5, 5, 605, 355), this, EL_ID_REPORT_CONTROL);
+
+
+    // 设置表头样式
+    m_ctlListEL.SetHeaderHeight(40);                                    // 设置头部高度
+    m_ctlListEL.SetHeaderGridlineColor(RGB(127, 127, 127));
+    m_ctlListEL.SetHeaderBkColor(RGB(0, 0, 0));                         // 设置头部背景色
+    m_ctlListEL.SetHeaderTextColor(RGB(0, 255, 0));                     // 设置头部字体颜色
+
+
+    // 设置表体样式
+    m_ctlListEL.SetRowHeight(30);
+    m_ctlListEL.SetHasGridline(TRUE, TRUE);
+    m_ctlListEL.SetBkColor(RGB(50, 10, 10));                            // 设置背景色
+    m_ctlListEL.SetTextColor(RGB(0, 255, 255));                         // 设置文本颜色
+    m_ctlListEL.SetSelectionRowHighlightColor(RGB(0, 255, 0));          // 设置选择高亮
+    m_ctlListEL.SetSelectionRowLowlightColor(RGB(255, 0, 255));         // 设置丢焦点时选择行低亮颜色
+    m_ctlListEL.SetFocusedSubItemHighlightColor(RGB(0, 0, 255));        // 设置item焦点颜色
+
+    // 设置字体
+    m_ctlListEL.SetFont (&m_bodyFont);
+    m_ctlListEL.SetHeaderFont (&m_hdrFont);                             // 必须在SetFont后面, 否则被覆盖
+    ASSERT(m_ctlListEL.GetFont() == &m_bodyFont);
+    ASSERT(m_ctlListEL.GetHeaderFont() == &m_hdrFont);
+
+    // 设置imagelist
+    m_hdrImageList.Create(32, 32, ILC_COLOR24|ILC_MASK, 0, 1);
+    m_bodyImageList.Create(32, 32, ILC_COLOR24|ILC_MASK, 0, 1);
+    m_ctlListEL.SetImageList(&m_bodyImageList);
+    m_ctlListEL.SetHeaderImageList(&m_hdrImageList);
+    ASSERT(m_ctlListEL.GetImageList() == &m_bodyImageList);
+    ASSERT(m_ctlListEL.GetHeaderImageList() == &m_hdrImageList);
+
+    // 设置inplace控件颜色
+    m_ctlListEL.GetInplaceEdit()->SetBkColor(RGB(0, 255, 255));
+    m_ctlListEL.GetInplaceEdit()->SetTextColor(RGB(255, 0, 0));
+    m_ctlListEL.GetInplaceList()->SetBkColor(RGB(255, 255, 0));
+    m_ctlListEL.GetInplaceList()->SetTextColor(RGB(0, 0, 255));
+
+
+    // 插入列元素
+    m_ctlListEL.InsertColumn(0,_T("名字"), EL_CENTER, 55);
+    m_ctlListEL.InsertColumn(1,_T("身高"), EL_LEFT, 60);
+    int  col2 = m_ctlListEL.InsertColumn(2,_T("体重"), EL_CENTER, 60);
+    int  col3 = m_ctlListEL.InsertColumn(3,_T("测量时间"), EL_LEFT, 180, FALSE, EL_CENTER);
+
+
+    // 设置选择焦点样式
+    m_ctlListEL.SetFreezeSelectionVisible(0);
+    m_ctlListEL.SetFreezeColumnsCount(2);
+    m_ctlListEL.SetSubItemFocusEnable(1);
+    m_ctlListEL.SetRowSelectionVisible(TRUE);
+    m_ctlListEL.SetRowFocusEnable(TRUE);
+
+
+
+    // 插入数据
+    for (int i = 0; i < 20; i++)
+    {
+        CString  str;
+        str.Format(L"%d", i);
+        int  nItem = m_ctlListEL.InsertRecordRow(i, str);
+        m_ctlListEL.SetRowItemText(nItem, 1, L"178CM");
+        m_ctlListEL.SetRowItemText(nItem, 2, L"70KG");
+        m_ctlListEL.SetRowItemText(nItem, 3, L"2009年1月15日23时40分");
+
+        // 禁止行被焦点
+        if (i >=5 && i<=11)
+        {
+            m_ctlListEL.GetRecordRow(i)->SetFocusable(FALSE);
+        }
+    }
+
+    // 添加自定义的item
+    CELRecord*  rec1 = new CELRecord();
+    rec1->AddItem(new CELRecordItemText(L"人和"));
+    rec1->AddItem(new CELRecordItemText(L"天人"));
+    rec1->AddItem(new CELRecordItemNumber(12.4, L"ky=%f"));
+    rec1->AddItem(new CELRecordItemText(L"毛毛虫"))->SetFormatString(L"my=%s");
+    int  customRow = m_ctlListEL.InsertRecordRow(m_ctlListEL.GetRecordRowCount(), rec1);
+
+
+
+    // 禁止某个item被焦点
+    m_ctlListEL.GetRecordRow(3)->GetItem(2)->SetFocusable(FALSE);
+
+    // checkbox测试, item必须editable
+    m_ctlListEL.GetRecordRow(2)->GetItem(3)->SetEditable(1);
+    m_ctlListEL.GetRecordRow(2)->GetItem(3)->HasCheckbox(1);
+
+    m_ctlListEL.GetRecordRow(4)->GetItem(2)->SetEditable(1);
+    m_ctlListEL.GetRecordRow(4)->GetItem(2)->HasCheckbox(1);
+
+    m_ctlListEL.GetRecordRow(4)->GetItem(0)->SetEditable(1);
+    m_ctlListEL.GetRecordRow(4)->GetItem(0)->HasCheckbox(1);
+
+    // inplace-edit测试
+    m_ctlListEL.GetColumnExAttr(2)->GetEditOptions()->SetAllowEdit(1);
+    m_ctlListEL.GetColumnExAttr(3)->GetEditOptions()->SetAllowEdit(1);
+    m_ctlListEL.GetRecordRow(0)->GetItem(3)->SetEditable(1);
+    m_ctlListEL.GetRecordRow(customRow)->GetItem(2)->SetEditable(1);
+
+    // 添加inplece按钮(扩展)
+    m_ctlListEL.GetColumnExAttr(col2)->GetEditOptions()->AddExpandButton();
+    m_ctlListEL.GetColumnExAttr(col3)->GetEditOptions()->AddComboButton();
+    m_ctlListEL.GetRecordRow(1)->GetItem(3)->GetEditOptions(NULL)->AddExpandButton();  // 一旦给item单独设置EditOptions, 该item就不服从col的EditOptions
+    m_ctlListEL.GetRecordRow(1)->GetItem(3)->SetEditable(1);
+
+    // 添加inplace combo 按钮
+    m_ctlListEL.GetRecordRow(3)->GetItem(3)->GetEditOptions(NULL)->SetAllowEdit(0);  // 一旦给item单独设置EditOptions, 该item就不服从col的EditOptions
+    m_ctlListEL.GetRecordRow(3)->GetItem(3)->GetEditOptions(NULL)->AddComboButton();
+    m_ctlListEL.GetRecordRow(3)->GetItem(3)->SetEditable(1);
+    m_ctlListEL.GetRecordRow(3)->GetItem(3)->GetEditOptions(NULL)->AddConstraint(L"aaaa", 1);
+    m_ctlListEL.GetRecordRow(3)->GetItem(3)->GetEditOptions(NULL)->AddConstraint(L"bbbb", 2);
+    m_ctlListEL.GetRecordRow(3)->GetItem(3)->GetEditOptions(NULL)->AddConstraint(L"ccc", 3);
+
+    m_ctlListEL.GetRecordRow(12)->GetItem(3)->GetEditOptions(NULL)->SetAllowEdit(0);  // 一旦给item单独设置EditOptions, 该item就不服从col的EditOptions
+    m_ctlListEL.GetRecordRow(12)->GetItem(3)->GetEditOptions(NULL)->AddComboButton();
+    m_ctlListEL.GetRecordRow(12)->GetItem(3)->SetEditable(1);
+    m_ctlListEL.GetRecordRow(12)->GetItem(3)->GetEditOptions(NULL)->AddConstraint(L"我等", 1);
+    m_ctlListEL.GetRecordRow(12)->GetItem(3)->GetEditOptions(NULL)->AddConstraint(L"玩儿", 2);
+    m_ctlListEL.GetRecordRow(12)->GetItem(3)->GetEditOptions(NULL)->AddConstraint(L"中华魂", 3);
+    m_ctlListEL.GetRecordRow(12)->GetItem(3)->GetEditOptions(NULL)->AddConstraint(L"中华魂", 3);
+}
+
+3. 修改项目值
+void CElTestDlg::OnTimer(UINT_PTR nIDEvent)
+{
+    static int  counter = 0;
+    CString  str1;
+    CString  str2;
+    str1.Format(L"%d.%d", counter, counter);
+    str2.Format(L"%d.%d", counter+1, counter+2);
+
+    //m_ctlListEL.SetRedraw(FALSE);               // 减少刷新
+    for (int i = 0; i < 10 ; i++)
+    {
+        m_ctlListEL.SetRowItemText(i, 1, str1);
+        m_ctlListEL.SetRowItemText(i, 3, str2);
+    }
+    //m_ctlListEL.SetRedraw(TRUE);
+    counter++;
+    CDialog::OnTimer(nIDEvent);
+}
+
+
+4. 消息响应
+    ON_NOTIFY(ELNM_INPLACEBUTTONDOWN, EL_ID_REPORT_CONTROL, OnInplaceButtonClick)
+    ON_NOTIFY(ELNM_ITEM_AFTERLISTDROPDOWN, EL_ID_REPORT_CONTROL, OnInplaceListAction)
+    ON_NOTIFY(ELNM_ITEM_CONSTRAINTCHANGED, EL_ID_REPORT_CONTROL, OnInplaceListAction)
+void CElTestDlg::OnInplaceButtonClick(NMHDR * pNotifyStruct, LRESULT* pResult)
+{
+    ELNM_INPLACEBUTTON_ARGS*  pItemNotify = (ELNM_INPLACEBUTTON_ARGS*) pNotifyStruct;
+    ASSERT(pItemNotify->pButton);
+
+    // 弹出模态窗口滚动调整item数值, 用左右按键
+    if (pItemNotify->pButton->GetID() == EL_BTNTYPE_EXPANDBUTTON && pItemNotify->rowIndex < 10)
+    {
+        CString  str = m_ctlListEL.GetRowItemText(pItemNotify->rowIndex, pItemNotify->colIndex);
+
+        int  retval;
+        int  val;
+        swscanf(str, L"%d", &val);
+        int  dlgret = DoModal_ProgressSlider(retval, 
+            m_ctlListEL.GetRowItemRect(pItemNotify->rowIndex, pItemNotify->colIndex), &m_ctlListEL, 
+            val, 0, 100);
+        if (dlgret == IDOK)
+        {
+            str.Format(L"%d", retval);
+            m_ctlListEL.SetRowItemText(pItemNotify->rowIndex, pItemNotify->colIndex, str);
+        }
+
+        *pResult = TRUE;  // 告诉控件我已经处理了该消息
+        return;
+    }
+    
+    *pResult = FALSE;  // 告诉控件我还没有处理该消息
+}
+
+void CElTestDlg::OnInplaceListAction(NMHDR * pNotifyStruct, LRESULT* pResult)
+{
+    ELNM_INPLACELIST_ARGS*  pItemNotify = (ELNM_INPLACELIST_ARGS*) pNotifyStruct;
+
+    if (pItemNotify->hdr.code == ELNM_ITEM_AFTERLISTDROPDOWN)
+    {
+        ASSERT(pItemNotify->pInplaceList);
+        int  sel = pItemNotify->pInplaceList->GetCurSel();
+        if (sel != LB_ERR)
+        {
+            CString  str;
+            pItemNotify->pInplaceList->GetText(sel, str);
+            EL_DEBUGLOG(L"ELNM_ITEM_AFTERLISTDROPDOWN sel=%s\n", str);
+        }
+    }
+    else if (pItemNotify->hdr.code == ELNM_ITEM_CONSTRAINTCHANGED)
+    {
+        if (pItemNotify->pConstraint)
+        {
+            EL_DEBUGLOG(L"ELNM_ITEM_CONSTRAINTCHANGED sel=%s\n", 
+                pItemNotify->pConstraint->GetConstraintCaption());
+            
+        }
+    }
+}
